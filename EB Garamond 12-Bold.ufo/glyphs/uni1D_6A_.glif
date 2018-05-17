@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D6A" format="1">
+  <advance width="388"/>
+  <outline>
+    <component base="x.subs"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-17 07:42:36 +0000</string>
+    </dict>
+  </lib>
+</glyph>

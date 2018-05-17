@@ -2459,10 +2459,12 @@
 	</array>
 	<key>@MMK_R_five</key>
 	<array>
+		<string>five</string>
 		<string>five.osf</string>
 	</array>
 	<key>@MMK_R_four</key>
 	<array>
+		<string>four</string>
 		<string>four.osf</string>
 	</array>
 	<key>@MMK_R_g</key>
@@ -2823,6 +2825,7 @@
 	</array>
 	<key>@MMK_R_nine</key>
 	<array>
+		<string>nine</string>
 		<string>nine.osf</string>
 	</array>
 	<key>@MMK_R_o</key>
@@ -3016,6 +3019,7 @@
 	</array>
 	<key>@MMK_R_one</key>
 	<array>
+		<string>one</string>
 		<string>one.osf</string>
 	</array>
 	<key>@MMK_R_parenright</key>
@@ -3114,6 +3118,7 @@
 	</array>
 	<key>@MMK_R_three</key>
 	<array>
+		<string>three</string>
 		<string>three.osf</string>
 	</array>
 	<key>@MMK_R_turnedr</key>
@@ -3124,6 +3129,7 @@
 	</array>
 	<key>@MMK_R_two</key>
 	<array>
+		<string>two</string>
 		<string>two.osf</string>
 	</array>
 	<key>@MMK_R_u</key>
