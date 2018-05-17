@@ -1,0 +1,2584 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green161\blue230;\red204\green204\blue204;\red0\green0\blue0;
+\red67\green67\blue67;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c63000\c90000;\csgray\c83742;\csgray\c0;
+\csgray\c33333;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 NOTAS \
+(Atencion, cuando los reinstales empieza por el ultimo, porque si no estaran todo descuadrados, ya que el numero de linea va cambiando)\
+ \
+Este bloque empieza en la linea 2038\
+\pard\pardeftab529\li794\fi-795\sa40\pardirnatural\partightenfactor0
+
+\f1\b\fs22 \cf2 lookup
+\f2\b0 \cf3  \cf4 liga_f\cf3  \cf4 \{\cf3 \
+  
+\f1\b \cf2 lookupflag
+\f2\b0 \cf3  \cf2 0\cf4 ;\cf3 \
+    
+\f1\b \cf2 ignore
+\f2\b0 \cf3  
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f._f\cf3  \cf4 ]\cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]\cf3  \cf4 ;\cf3 \
+    
+\f1\b \cf2 ignore
+\f2\b0 \cf3  
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 \\longs._longs\cf3   \cf4 \\longs'\cf3  \cf4 \\longs\cf3   \cf4 ;\cf3 \
+    
+\f1\b \cf2 ignore
+\f2\b0 \cf3  
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\uni200C\cf3  \cf4 ]\cf3  \cf4 ;\cf3 \
+    
+\f1\b \cf2 ignore
+\f2\b0 \cf3  
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 \\uni200C\cf3   \cf4 \\t'\cf3   \cf4 ;\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._f\cf3  \cf4 \\f._f\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]\cf3  \cf4 [\\t\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\t.f_\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\i\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 \\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\j\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\j\cf3  \cf4 ]\cf3  \cf4 [\\o\cf3  \cf4 ]\cf3  \cf4 [\\r\cf3  \cf4 ]\cf3  \cf4 [\\d\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\j\cf3  \cf4 ]\cf3  \cf4 [\\e\cf3  \cf4 ]\cf3  \cf4 [\\l\cf3  \cf4 ]\cf3  \cf4 [\\l\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3   \cf4 \\f.DEU'\cf3  \cf4 \\l\cf3    
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 \\f._asc;\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ]\cf3  \cf4 [\\i\cf3  \cf4 \\j\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\i.dotless\cf3  \cf4 \\j.dotless\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\thorn\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 \\longs._asc\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\K\cf3  \cf4 \\k\cf3  \cf4 ]\cf3  \cf4 [\\a\cf3  \cf4 ]\cf3  \cf4 [\\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\k\cf3  \cf4 ]\cf3  \cf4 [\\a\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 \\longs._asc\cf3  \cf4 ]\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\thorn\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\b.f_\cf3  \cf4 \\h.f_\cf3  \cf4 \\k.f_\cf3  \cf4 \\l.f_\cf3  \cf4 \\thorn.f_\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3   \cf4 \\longs'\cf3  \cf4 \\longs\cf3    
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 \\longs._longs;\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._f\cf3  \cf4 \\f._f\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 ]\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\t\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\t.f_\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\i\cf3  \cf4 \\j\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 \\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f.DEU\cf3  \cf4 ]'\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\l\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ]\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\i\cf3  \cf4 \\j\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\i.dotless\cf3  \cf4 \\j.dotless\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\longs\cf3  \cf4 ]'\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\thorn\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 \\longs._asc\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f._asc\cf3  \cf4 \\longs._asc\cf3  \cf4 ]\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\thorn\cf3  \cf4 ]'\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\b.f_\cf3  \cf4 \\h.f_\cf3  \cf4 \\k.f_\cf3  \cf4 \\l.f_\cf3  \cf4 \\thorn.f_\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\longs\cf3  \cf4 ]'\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \
+	\cf4 \\acutecomb.flat\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\uni0302.stack\cf3  \cf4 \\tildecomb.stack\cf3  \
+	\cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \cf4 \\hookabovecomb.stack\cf3  \
+	\cf4 \\uni030A.stack\cf3  \cf4 \\uni030C.stack\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\uni0316\cf3  \
+	\cf4 \\uni0317\cf3  \cf4 \\uni0318\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni0320\cf3  \
+	\cf4 \\uni0323\cf3  \cf4 \\uni0324\cf3  \cf4 \\uni0325\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0327\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni0332\cf3  \
+	\cf4 \\uni0333\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni037A\cf3  \cf4 ]\cf3  \cf4 [\\longs\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\longs._longs\cf3  \cf4 ];\cf3 \
+\cf4 \}\cf3  \cf4 liga_f;\
+\
+Esta linea empieza en el 2252\
+
+\f1\b \cf2 lookup
+\f2\b0 \cf3  \cf4 f_long1\cf3  \cf4 \{\cf3 \
+  
+\f1\b \cf2 lookupflag
+\f2\b0 \cf3  \cf2 0\cf4 ;\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f_f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\uni1E1F\cf3  \cf4 ]'\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\i\cf3  \cf4 \\j\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\agrave\cf3  \cf4 \\adieresis\cf3  \cf4 \\aring\cf3  \cf4 \\uni01CE\cf3  \cf4 \\abreve\cf3  \cf4 \\egrave\cf3  \cf4 \\edieresis\cf3  \
+	\cf4 \\ecaron\cf3  \cf4 \\ebreve\cf3  \cf4 \\igrave\cf3  \cf4 \\iacute\cf3  \cf4 \\icircumflex\cf3  \cf4 \\itilde\cf3  \cf4 \\idieresis\cf3  \
+	\cf4 \\uni01D0\cf3  \cf4 \\imacron\cf3  \cf4 \\ibreve\cf3  \cf4 \\iogonek\cf3  \cf4 \\eth\cf3  \cf4 \\ograve\cf3  \cf4 \\ugrave\cf3  \cf4 \\ygrave\cf3  \cf4 \\thorn\cf3  \
+	\cf4 \\germandbls\cf3  \cf4 \\ccaron\cf3  \cf4 \\gcaron\cf3  \cf4 \\gbreve\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\hbar\cf3  \cf4 \\dotlessi\cf3  \cf4 \\ij\cf3  \
+	\cf4 \\jcircumflex\cf3  \cf4 \\uni01F0\cf3  \cf4 \\uni0137\cf3  \cf4 \\lacute\cf3  \cf4 \\uni013C\cf3  \cf4 \\lcaron\cf3  \cf4 \\ldot\cf3  \cf4 \\lslash\cf3  \
+	\cf4 \\rcaron\cf3  \cf4 \\scircumflex\cf3  \cf4 \\scaron\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\zcaron\cf3  \cf4 \\longs\cf3  \
+	\cf4 \\uni1E03\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E17\cf3  \cf4 \\uni1E1D\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E23\cf3  \
+	\cf4 \\uni1E25\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2D\cf3  \cf4 \\uni1E2F\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E33\cf3  \
+	\cf4 \\uni1E35\cf3  \cf4 \\uni1E37\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3D\cf3  \cf4 \\uni1E4F\cf3  \cf4 \\uni1E51\cf3  \cf4 \\uni1E65\cf3  \
+	\cf4 \\uni1E67\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\uni1E96\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E9A\cf3  \cf4 \\uni1E9B\cf3  \
+	\cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EA3\cf3  \cf4 \\uni1EA5\cf3  \cf4 \\uni1EA6\cf3  \cf4 \\uni1EA7\cf3  \cf4 \\uni1EA8\cf3  \
+	\cf4 \\uni1EA9\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EAD\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB1\cf3  \cf4 \\uni1EB3\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB7\cf3  \
+	\cf4 \\uni1EBB\cf3  \cf4 \\uni1EC1\cf3  \cf4 \\uni1EC5\cf3  \cf4 \\uni1EC9\cf3  \cf4 \\uni1ECB\cf3  \cf4 \\uni1ECF\cf3  \cf4 \\uni1ED3\cf3  \cf4 \\uni1ED7\cf3  \
+	\cf4 \\uni1EDD\cf3  \cf4 \\uni1EDF\cf3  \cf4 \\uni1EE7\cf3  \cf4 \\uni1EEB\cf3  \cf4 \\uni1EED\cf3  \cf4 \\uni1EF3\cf3  \cf4 \\uni1EF7\cf3  \cf4 \\uni1EFB\cf3  \
+	\cf4 \\i.TRK\cf3  \cf4 \\exclam\cf3  \cf4 \\quotedbl\cf3  \cf4 \\dollar\cf3  \cf4 \\percent\cf3  \cf4 \\quotesingle\cf3  \cf4 \\parenleft\cf3  \
+	\cf4 \\parenright\cf3  \cf4 \\asterisk\cf3  \cf4 \\question\cf3  \cf4 \\bracketleft\cf3  \cf4 \\backslash\cf3  \cf4 \\bracketright\cf3  \
+	\cf4 \\braceleft\cf3  \cf4 \\bar\cf3  \cf4 \\braceright\cf3  \cf4 \\registered\cf3  \cf4 \\quoteleft\cf3  \cf4 \\quoteright\cf3  \
+	\cf4 \\quotedblleft\cf3  \cf4 \\quotedblright\cf3  \cf4 \\minute\cf3  \cf4 \\second\cf3  \cf4 \\uni2034\cf3  \cf4 \\exclamdbl\cf3  \
+	\cf4 \\uni203D\cf3  \cf4 \\uni2047\cf3  \cf4 \\uni2048\cf3  \cf4 \\uni2049\cf3  \cf4 \\exclam.ordn\cf3  \cf4 \\quotedbl.ordn\cf3  \
+	\cf4 \\numbersign.ordn\cf3  \cf4 \\dollar.ordn\cf3  \cf4 \\percent.ordn\cf3  \cf4 \\ampersand.ordn\cf3  \
+	\cf4 \\quotesingle.ordn\cf3  \cf4 \\parenleft.ordn\cf3  \cf4 \\parenright.ordn\cf3  \cf4 \\asterisk.ordn\cf3  \
+	\cf4 \\plus.ordn\cf3  \cf4 \\comma.ordn\cf3  \cf4 \\hyphen.ordn\cf3  \cf4 \\period.ordn\cf3  \cf4 \\slash.ordn\cf3  \
+	\cf4 \\zero.ordn\cf3  \cf4 \\one.ordn\cf3  \cf4 \\two.ordn\cf3  \cf4 \\three.ordn\cf3  \cf4 \\four.ordn\cf3  \cf4 \\five.ordn\cf3  \
+	\cf4 \\six.ordn\cf3  \cf4 \\seven.ordn\cf3  \cf4 \\eight.ordn\cf3  \cf4 \\nine.ordn\cf3  \cf4 \\colon.ordn\cf3  \
+	\cf4 \\semicolon.ordn\cf3  \cf4 \\less.ordn\cf3  \cf4 \\equal.ordn\cf3  \cf4 \\greater.ordn\cf3  \cf4 \\question.ordn\cf3  \
+	\cf4 \\at.ordn\cf3  \cf4 \\A.ordn\cf3  \cf4 \\B.ordn\cf3  \cf4 \\C.ordn\cf3  \cf4 \\D.ordn\cf3  \cf4 \\E.ordn\cf3  \cf4 \\F.ordn\cf3  \cf4 \\G.ordn\cf3  \cf4 \\H.ordn\cf3  \
+	\cf4 \\I.ordn\cf3  \cf4 \\J.ordn\cf3  \cf4 \\K.ordn\cf3  \cf4 \\L.ordn\cf3  \cf4 \\M.ordn\cf3  \cf4 \\N.ordn\cf3  \cf4 \\O.ordn\cf3  \cf4 \\P.ordn\cf3  \cf4 \\Q.ordn\cf3  \
+	\cf4 \\R.ordn\cf3  \cf4 \\S.ordn\cf3  \cf4 \\T.ordn\cf3  \cf4 \\U.ordn\cf3  \cf4 \\V.ordn\cf3  \cf4 \\W.ordn\cf3  \cf4 \\X.ordn\cf3  \cf4 \\Y.ordn\cf3  \cf4 \\Z.ordn\cf3  \
+	\cf4 \\bracketleft.ordn\cf3  \cf4 \\backslash.ordn\cf3  \cf4 \\bracketright.ordn\cf3  \
+	\cf4 \\asciicircum.ordn\cf3  \cf4 \\underscore.ordn\cf3  \cf4 \\grave.ordn\cf3  \cf4 \\a.ordn\cf3  \cf4 \\b.ordn\cf3  \
+	\cf4 \\c.ordn\cf3  \cf4 \\d.ordn\cf3  \cf4 \\e.ordn\cf3  \cf4 \\f.ordn\cf3  \cf4 \\g.ordn\cf3  \cf4 \\h.ordn\cf3  \cf4 \\i.ordn\cf3  \cf4 \\j.ordn\cf3  \cf4 \\k.ordn\cf3  \
+	\cf4 \\l.ordn\cf3  \cf4 \\m.ordn\cf3  \cf4 \\n.ordn\cf3  \cf4 \\o.ordn\cf3  \cf4 \\p.ordn\cf3  \cf4 \\q.ordn\cf3  \cf4 \\r.ordn\cf3  \cf4 \\s.ordn\cf3  \cf4 \\t.ordn\cf3  \
+	\cf4 \\u.ordn\cf3  \cf4 \\v.ordn\cf3  \cf4 \\w.ordn\cf3  \cf4 \\x.ordn\cf3  \cf4 \\y.ordn\cf3  \cf4 \\z.ordn\cf3  \cf4 \\braceleft.ordn\cf3  \
+	\cf4 \\bar.ordn\cf3  \cf4 \\braceright.ordn\cf3  \cf4 \\asciitilde.ordn\cf3  \cf4 \\brokenbar.ordn\cf3  \
+	\cf4 \\section.ordn\cf3  \cf4 \\paragraph.ordn\cf3  \cf4 \\egrave.ordn\cf3  \cf4 \\uni2016.ordn\cf3  \
+	\cf4 \\dagger.ordn\cf3  \cf4 \\daggerdbl.ordn\cf3  \cf4 \\f.ordn\cf3  \cf4 \\i.ordn\cf3  \cf4 \\exclam.sups\cf3  \
+	\cf4 \\quotedbl.sups\cf3  \cf4 \\numbersign.sups\cf3  \cf4 \\dollar.sups\cf3  \cf4 \\percent.sups\cf3  \
+	\cf4 \\ampersand.sups\cf3  \cf4 \\quotesingle.sups\cf3  \cf4 \\parenleft.sups\cf3  \cf4 \\parenright.sups\cf3  \
+	\cf4 \\asterisk.sups\cf3  \cf4 \\plus.sups\cf3  \cf4 \\comma.sups\cf3  \cf4 \\hyphen.sups\cf3  \cf4 \\period.sups\cf3  \
+	\cf4 \\slash.sups\cf3  \cf4 \\zero.sups\cf3  \cf4 \\one.sups\cf3  \cf4 \\two.sups\cf3  \cf4 \\three.sups\cf3  \cf4 \\four.sups\cf3  \
+	\cf4 \\five.sups\cf3  \cf4 \\six.sups\cf3  \cf4 \\seven.sups\cf3  \cf4 \\eight.sups\cf3  \cf4 \\nine.sups\cf3  \cf4 \\colon.sups\cf3  \
+	\cf4 \\semicolon.sups\cf3  \cf4 \\less.sups\cf3  \cf4 \\equal.sups\cf3  \cf4 \\greater.sups\cf3  \cf4 \\question.sups\cf3  \
+	\cf4 \\at.sups\cf3  \cf4 \\A.sups\cf3  \cf4 \\B.sups\cf3  \cf4 \\C.sups\cf3  \cf4 \\D.sups\cf3  \cf4 \\E.sups\cf3  \cf4 \\F.sups\cf3  \cf4 \\G.sups\cf3  \cf4 \\H.sups\cf3  \
+	\cf4 \\I.sups\cf3  \cf4 \\J.sups\cf3  \cf4 \\K.sups\cf3  \cf4 \\L.sups\cf3  \cf4 \\M.sups\cf3  \cf4 \\N.sups\cf3  \cf4 \\O.sups\cf3  \cf4 \\P.sups\cf3  \cf4 \\Q.sups\cf3  \
+	\cf4 \\R.sups\cf3  \cf4 \\S.sups\cf3  \cf4 \\T.sups\cf3  \cf4 \\U.sups\cf3  \cf4 \\V.sups\cf3  \cf4 \\W.sups\cf3  \cf4 \\X.sups\cf3  \cf4 \\Y.sups\cf3  \cf4 \\Z.sups\cf3  \
+	\cf4 \\bracketleft.sups\cf3  \cf4 \\backslash.sups\cf3  \cf4 \\bracketright.sups\cf3  \
+	\cf4 \\asciicircum.sups\cf3  \cf4 \\underscore.sups\cf3  \cf4 \\grave.sups\cf3  \cf4 \\a.sups\cf3  \cf4 \\b.sups\cf3  \
+	\cf4 \\c.sups\cf3  \cf4 \\d.sups\cf3  \cf4 \\e.sups\cf3  \cf4 \\f.sups\cf3  \cf4 \\g.sups\cf3  \cf4 \\h.sups\cf3  \cf4 \\i.sups\cf3  \cf4 \\j.sups\cf3  \cf4 \\k.sups\cf3  \
+	\cf4 \\l.sups\cf3  \cf4 \\m.sups\cf3  \cf4 \\n.sups\cf3  \cf4 \\o.sups\cf3  \cf4 \\p.sups\cf3  \cf4 \\q.sups\cf3  \cf4 \\r.sups\cf3  \cf4 \\s.sups\cf3  \cf4 \\t.sups\cf3  \
+	\cf4 \\u.sups\cf3  \cf4 \\v.sups\cf3  \cf4 \\w.sups\cf3  \cf4 \\x.sups\cf3  \cf4 \\y.sups\cf3  \cf4 \\z.sups\cf3  \cf4 \\braceleft.sups\cf3  \
+	\cf4 \\bar.sups\cf3  \cf4 \\braceright.sups\cf3  \cf4 \\asciitilde.sups\cf3  \cf4 \\brokenbar.sups\cf3  \
+	\cf4 \\section.sups\cf3  \cf4 \\paragraph.sups\cf3  \cf4 \\egrave.sups\cf3  \cf4 \\uni2016.sups\cf3  \
+	\cf4 \\dagger.sups\cf3  \cf4 \\daggerdbl.sups\cf3  \cf4 \\f.sups\cf3  \cf4 \\i.sups\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f.short\cf3  \cf4 \\f_f.short\cf3  \cf4 \\f.short\cf3  \cf4 \\uni1E1F.short\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f_f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\uni1E1F\cf3  \cf4 ]'\cf3  \cf4 [\\uni200C\cf3  \cf4 ]\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\i\cf3  \cf4 \\j\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\agrave\cf3  \cf4 \\adieresis\cf3  \cf4 \\aring\cf3  \cf4 \\uni01CE\cf3  \cf4 \\abreve\cf3  \cf4 \\egrave\cf3  \cf4 \\edieresis\cf3  \
+	\cf4 \\ecaron\cf3  \cf4 \\ebreve\cf3  \cf4 \\igrave\cf3  \cf4 \\iacute\cf3  \cf4 \\icircumflex\cf3  \cf4 \\itilde\cf3  \cf4 \\idieresis\cf3  \
+	\cf4 \\uni01D0\cf3  \cf4 \\imacron\cf3  \cf4 \\ibreve\cf3  \cf4 \\iogonek\cf3  \cf4 \\eth\cf3  \cf4 \\ograve\cf3  \cf4 \\ugrave\cf3  \cf4 \\ygrave\cf3  \cf4 \\thorn\cf3  \
+	\cf4 \\germandbls\cf3  \cf4 \\ccaron\cf3  \cf4 \\gcaron\cf3  \cf4 \\gbreve\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\hbar\cf3  \cf4 \\dotlessi\cf3  \cf4 \\ij\cf3  \
+	\cf4 \\jcircumflex\cf3  \cf4 \\uni01F0\cf3  \cf4 \\uni0137\cf3  \cf4 \\lacute\cf3  \cf4 \\uni013C\cf3  \cf4 \\lcaron\cf3  \cf4 \\ldot\cf3  \cf4 \\lslash\cf3  \
+	\cf4 \\rcaron\cf3  \cf4 \\scircumflex\cf3  \cf4 \\scaron\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\zcaron\cf3  \cf4 \\longs\cf3  \
+	\cf4 \\uni1E03\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E17\cf3  \cf4 \\uni1E1D\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E23\cf3  \
+	\cf4 \\uni1E25\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2D\cf3  \cf4 \\uni1E2F\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E33\cf3  \
+	\cf4 \\uni1E35\cf3  \cf4 \\uni1E37\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3D\cf3  \cf4 \\uni1E4F\cf3  \cf4 \\uni1E51\cf3  \cf4 \\uni1E65\cf3  \
+	\cf4 \\uni1E67\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\uni1E96\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E9A\cf3  \cf4 \\uni1E9B\cf3  \
+	\cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EA3\cf3  \cf4 \\uni1EA5\cf3  \cf4 \\uni1EA6\cf3  \cf4 \\uni1EA7\cf3  \cf4 \\uni1EA8\cf3  \
+	\cf4 \\uni1EA9\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EAD\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB1\cf3  \cf4 \\uni1EB3\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB7\cf3  \
+	\cf4 \\uni1EBB\cf3  \cf4 \\uni1EC1\cf3  \cf4 \\uni1EC5\cf3  \cf4 \\uni1EC9\cf3  \cf4 \\uni1ECB\cf3  \cf4 \\uni1ECF\cf3  \cf4 \\uni1ED3\cf3  \cf4 \\uni1ED7\cf3  \
+	\cf4 \\uni1EDD\cf3  \cf4 \\uni1EDF\cf3  \cf4 \\uni1EE7\cf3  \cf4 \\uni1EEB\cf3  \cf4 \\uni1EED\cf3  \cf4 \\uni1EF3\cf3  \cf4 \\uni1EF7\cf3  \cf4 \\uni1EFB\cf3  \
+	\cf4 \\i.TRK\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f.short\cf3  \cf4 \\f_f.short\cf3  \cf4 \\f.short\cf3  \cf4 \\uni1E1F.short\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\f\cf3  \cf4 \\f_f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\uni1E1F\cf3  \cf4 ]'\cf3  \cf4 [\\a\cf3  \cf4 \\c\cf3  \cf4 \\e\cf3  \cf4 \\g\cf3  \cf4 \\n\cf3  \cf4 \\r\cf3  \cf4 \\s\cf3  \cf4 \\v\cf3  \cf4 \\x\cf3  \cf4 \\z\cf3  \cf4 \\ccedilla\cf3  \cf4 \\aogonek\cf3  \cf4 \\eogonek\cf3  \cf4 \\dotlessi\cf3  \cf4 \\eng\cf3  \cf4 \\uni0157\cf3  \
+	\cf4 \\scedilla\cf3  \cf4 \\uni01DD\cf3  \cf4 \\uni01E5\cf3  \cf4 \\uni0219\cf3  \cf4 \\uni0229\cf3  \cf4 \\uni0237\cf3  \cf4 \\v.LAT\cf3  \cf4 ]\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\f.short\cf3  \cf4 \\f_f.short\cf3  \cf4 \\f.short\cf3  \cf4 \\uni1E1F.short\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\longs\cf3  \cf4 \\longs_longs\cf3  \cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 ]'\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\i\cf3  \cf4 \\j\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\agrave\cf3  \cf4 \\aacute\cf3  \cf4 \\acircumflex\cf3  \cf4 \\atilde\cf3  \cf4 \\adieresis\cf3  \cf4 \\aring\cf3  \cf4 \\egrave\cf3  \
+	\cf4 \\eacute\cf3  \cf4 \\ecircumflex\cf3  \cf4 \\edieresis\cf3  \cf4 \\igrave\cf3  \cf4 \\iacute\cf3  \cf4 \\icircumflex\cf3  \
+	\cf4 \\idieresis\cf3  \cf4 \\eth\cf3  \cf4 \\ntilde\cf3  \cf4 \\ograve\cf3  \cf4 \\oacute\cf3  \cf4 \\ocircumflex\cf3  \cf4 \\otilde\cf3  \cf4 \\odieresis\cf3  \
+	\cf4 \\ugrave\cf3  \cf4 \\uacute\cf3  \cf4 \\ucircumflex\cf3  \cf4 \\udieresis\cf3  \cf4 \\yacute\cf3  \cf4 \\thorn\cf3  \cf4 \\amacron\cf3  \cf4 \\abreve\cf3  \
+	\cf4 \\cacute\cf3  \cf4 \\ccircumflex\cf3  \cf4 \\ccaron\cf3  \cf4 \\emacron\cf3  \cf4 \\ebreve\cf3  \cf4 \\ecaron\cf3  \cf4 \\gcircumflex\cf3  \
+	\cf4 \\gbreve\cf3  \cf4 \\uni0123\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\hbar\cf3  \cf4 \\itilde\cf3  \cf4 \\imacron\cf3  \cf4 \\ibreve\cf3  \cf4 \\iogonek\cf3  \
+	\cf4 \\dotlessi\cf3  \cf4 \\ij\cf3  \cf4 \\jcircumflex\cf3  \cf4 \\uni0137\cf3  \cf4 \\lacute\cf3  \cf4 \\uni013C\cf3  \cf4 \\lcaron\cf3  \cf4 \\ldot\cf3  \
+	\cf4 \\lslash\cf3  \cf4 \\nacute\cf3  \cf4 \\ncaron\cf3  \cf4 \\omacron\cf3  \cf4 \\obreve\cf3  \cf4 \\ohungarumlaut\cf3  \cf4 \\racute\cf3  \cf4 \\rcaron\cf3  \
+	\cf4 \\sacute\cf3  \cf4 \\scircumflex\cf3  \cf4 \\scaron\cf3  \cf4 \\utilde\cf3  \cf4 \\umacron\cf3  \cf4 \\ubreve\cf3  \cf4 \\uring\cf3  \
+	\cf4 \\uhungarumlaut\cf3  \cf4 \\wcircumflex\cf3  \cf4 \\ycircumflex\cf3  \cf4 \\ydieresis\cf3  \cf4 \\zacute\cf3  \
+	\cf4 \\zdotaccent\cf3  \cf4 \\zcaron\cf3  \cf4 \\uni1E03\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E17\cf3  \
+	\cf4 \\uni1E1D\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E23\cf3  \cf4 \\uni1E25\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2D\cf3  \
+	\cf4 \\uni1E2F\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E33\cf3  \cf4 \\uni1E35\cf3  \cf4 \\uni1E37\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3D\cf3  \
+	\cf4 \\uni1E4F\cf3  \cf4 \\uni1E51\cf3  \cf4 \\uni1E65\cf3  \cf4 \\uni1E67\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\uni1E96\cf3  \
+	\cf4 \\uni1E97\cf3  \cf4 \\uni1E9A\cf3  \cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EA3\cf3  \cf4 \\uni1EA5\cf3  \
+	\cf4 \\uni1EA6\cf3  \cf4 \\uni1EA7\cf3  \cf4 \\uni1EA8\cf3  \cf4 \\uni1EA9\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EAD\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB1\cf3  \
+	\cf4 \\uni1EB3\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB7\cf3  \cf4 \\uni1EBB\cf3  \cf4 \\uni1EC1\cf3  \cf4 \\uni1EC5\cf3  \cf4 \\uni1EC9\cf3  \cf4 \\uni1ECB\cf3  \
+	\cf4 \\uni1ECF\cf3  \cf4 \\uni1ED3\cf3  \cf4 \\uni1ED7\cf3  \cf4 \\uni1EDD\cf3  \cf4 \\uni1EDF\cf3  \cf4 \\uni1EE7\cf3  \cf4 \\uni1EEB\cf3  \cf4 \\uni1EED\cf3  \
+	\cf4 \\uni1EF3\cf3  \cf4 \\uni1EF7\cf3  \cf4 \\uni1EFB\cf3  \cf4 \\i.TRK\cf3  \cf4 \\exclam\cf3  \cf4 \\quotedbl\cf3  \cf4 \\dollar\cf3  \cf4 \\percent\cf3  \
+	\cf4 \\quotesingle\cf3  \cf4 \\parenleft\cf3  \cf4 \\parenright\cf3  \cf4 \\asterisk\cf3  \cf4 \\question\cf3  \cf4 \\bracketleft\cf3  \
+	\cf4 \\backslash\cf3  \cf4 \\bracketright\cf3  \cf4 \\braceleft\cf3  \cf4 \\bar\cf3  \cf4 \\braceright\cf3  \cf4 \\registered\cf3  \
+	\cf4 \\quoteleft\cf3  \cf4 \\quoteright\cf3  \cf4 \\quotedblleft\cf3  \cf4 \\quotedblright\cf3  \cf4 \\minute\cf3  \cf4 \\second\cf3  \
+	\cf4 \\uni2034\cf3  \cf4 \\exclamdbl\cf3  \cf4 \\uni203D\cf3  \cf4 \\uni2047\cf3  \cf4 \\uni2048\cf3  \cf4 \\uni2049\cf3  \cf4 \\exclam.ordn\cf3  \
+	\cf4 \\quotedbl.ordn\cf3  \cf4 \\numbersign.ordn\cf3  \cf4 \\dollar.ordn\cf3  \cf4 \\percent.ordn\cf3  \
+	\cf4 \\ampersand.ordn\cf3  \cf4 \\quotesingle.ordn\cf3  \cf4 \\parenleft.ordn\cf3  \cf4 \\parenright.ordn\cf3  \
+	\cf4 \\asterisk.ordn\cf3  \cf4 \\plus.ordn\cf3  \cf4 \\comma.ordn\cf3  \cf4 \\hyphen.ordn\cf3  \cf4 \\period.ordn\cf3  \
+	\cf4 \\slash.ordn\cf3  \cf4 \\zero.ordn\cf3  \cf4 \\one.ordn\cf3  \cf4 \\two.ordn\cf3  \cf4 \\three.ordn\cf3  \cf4 \\four.ordn\cf3  \
+	\cf4 \\five.ordn\cf3  \cf4 \\six.ordn\cf3  \cf4 \\seven.ordn\cf3  \cf4 \\eight.ordn\cf3  \cf4 \\nine.ordn\cf3  \cf4 \\colon.ordn\cf3  \
+	\cf4 \\semicolon.ordn\cf3  \cf4 \\less.ordn\cf3  \cf4 \\equal.ordn\cf3  \cf4 \\greater.ordn\cf3  \cf4 \\question.ordn\cf3  \
+	\cf4 \\at.ordn\cf3  \cf4 \\A.ordn\cf3  \cf4 \\B.ordn\cf3  \cf4 \\C.ordn\cf3  \cf4 \\D.ordn\cf3  \cf4 \\E.ordn\cf3  \cf4 \\F.ordn\cf3  \cf4 \\G.ordn\cf3  \cf4 \\H.ordn\cf3  \
+	\cf4 \\I.ordn\cf3  \cf4 \\J.ordn\cf3  \cf4 \\K.ordn\cf3  \cf4 \\L.ordn\cf3  \cf4 \\M.ordn\cf3  \cf4 \\N.ordn\cf3  \cf4 \\O.ordn\cf3  \cf4 \\P.ordn\cf3  \cf4 \\Q.ordn\cf3  \
+	\cf4 \\R.ordn\cf3  \cf4 \\S.ordn\cf3  \cf4 \\T.ordn\cf3  \cf4 \\U.ordn\cf3  \cf4 \\V.ordn\cf3  \cf4 \\W.ordn\cf3  \cf4 \\X.ordn\cf3  \cf4 \\Y.ordn\cf3  \cf4 \\Z.ordn\cf3  \
+	\cf4 \\bracketleft.ordn\cf3  \cf4 \\backslash.ordn\cf3  \cf4 \\bracketright.ordn\cf3  \
+	\cf4 \\asciicircum.ordn\cf3  \cf4 \\underscore.ordn\cf3  \cf4 \\grave.ordn\cf3  \cf4 \\a.ordn\cf3  \cf4 \\b.ordn\cf3  \
+	\cf4 \\c.ordn\cf3  \cf4 \\d.ordn\cf3  \cf4 \\e.ordn\cf3  \cf4 \\f.ordn\cf3  \cf4 \\g.ordn\cf3  \cf4 \\h.ordn\cf3  \cf4 \\i.ordn\cf3  \cf4 \\j.ordn\cf3  \cf4 \\k.ordn\cf3  \
+	\cf4 \\l.ordn\cf3  \cf4 \\m.ordn\cf3  \cf4 \\n.ordn\cf3  \cf4 \\o.ordn\cf3  \cf4 \\p.ordn\cf3  \cf4 \\q.ordn\cf3  \cf4 \\r.ordn\cf3  \cf4 \\s.ordn\cf3  \cf4 \\t.ordn\cf3  \
+	\cf4 \\u.ordn\cf3  \cf4 \\v.ordn\cf3  \cf4 \\w.ordn\cf3  \cf4 \\x.ordn\cf3  \cf4 \\y.ordn\cf3  \cf4 \\z.ordn\cf3  \cf4 \\braceleft.ordn\cf3  \
+	\cf4 \\bar.ordn\cf3  \cf4 \\braceright.ordn\cf3  \cf4 \\asciitilde.ordn\cf3  \cf4 \\brokenbar.ordn\cf3  \
+	\cf4 \\section.ordn\cf3  \cf4 \\paragraph.ordn\cf3  \cf4 \\egrave.ordn\cf3  \cf4 \\uni2016.ordn\cf3  \
+	\cf4 \\dagger.ordn\cf3  \cf4 \\daggerdbl.ordn\cf3  \cf4 \\f.ordn\cf3  \cf4 \\i.ordn\cf3  \cf4 \\exclam.sups\cf3  \
+	\cf4 \\quotedbl.sups\cf3  \cf4 \\numbersign.sups\cf3  \cf4 \\dollar.sups\cf3  \cf4 \\percent.sups\cf3  \
+	\cf4 \\ampersand.sups\cf3  \cf4 \\quotesingle.sups\cf3  \cf4 \\parenleft.sups\cf3  \cf4 \\parenright.sups\cf3  \
+	\cf4 \\asterisk.sups\cf3  \cf4 \\plus.sups\cf3  \cf4 \\comma.sups\cf3  \cf4 \\hyphen.sups\cf3  \cf4 \\period.sups\cf3  \
+	\cf4 \\slash.sups\cf3  \cf4 \\zero.sups\cf3  \cf4 \\one.sups\cf3  \cf4 \\two.sups\cf3  \cf4 \\three.sups\cf3  \cf4 \\four.sups\cf3  \
+	\cf4 \\five.sups\cf3  \cf4 \\six.sups\cf3  \cf4 \\seven.sups\cf3  \cf4 \\eight.sups\cf3  \cf4 \\nine.sups\cf3  \cf4 \\colon.sups\cf3  \
+	\cf4 \\semicolon.sups\cf3  \cf4 \\less.sups\cf3  \cf4 \\equal.sups\cf3  \cf4 \\greater.sups\cf3  \cf4 \\question.sups\cf3  \
+	\cf4 \\at.sups\cf3  \cf4 \\A.sups\cf3  \cf4 \\B.sups\cf3  \cf4 \\C.sups\cf3  \cf4 \\D.sups\cf3  \cf4 \\E.sups\cf3  \cf4 \\F.sups\cf3  \cf4 \\G.sups\cf3  \cf4 \\H.sups\cf3  \
+	\cf4 \\I.sups\cf3  \cf4 \\J.sups\cf3  \cf4 \\K.sups\cf3  \cf4 \\L.sups\cf3  \cf4 \\M.sups\cf3  \cf4 \\N.sups\cf3  \cf4 \\O.sups\cf3  \cf4 \\P.sups\cf3  \cf4 \\Q.sups\cf3  \
+	\cf4 \\R.sups\cf3  \cf4 \\S.sups\cf3  \cf4 \\T.sups\cf3  \cf4 \\U.sups\cf3  \cf4 \\V.sups\cf3  \cf4 \\W.sups\cf3  \cf4 \\X.sups\cf3  \cf4 \\Y.sups\cf3  \cf4 \\Z.sups\cf3  \
+	\cf4 \\bracketleft.sups\cf3  \cf4 \\backslash.sups\cf3  \cf4 \\bracketright.sups\cf3  \
+	\cf4 \\asciicircum.sups\cf3  \cf4 \\underscore.sups\cf3  \cf4 \\grave.sups\cf3  \cf4 \\a.sups\cf3  \cf4 \\b.sups\cf3  \
+	\cf4 \\c.sups\cf3  \cf4 \\d.sups\cf3  \cf4 \\e.sups\cf3  \cf4 \\f.sups\cf3  \cf4 \\g.sups\cf3  \cf4 \\h.sups\cf3  \cf4 \\i.sups\cf3  \cf4 \\j.sups\cf3  \cf4 \\k.sups\cf3  \
+	\cf4 \\l.sups\cf3  \cf4 \\m.sups\cf3  \cf4 \\n.sups\cf3  \cf4 \\o.sups\cf3  \cf4 \\p.sups\cf3  \cf4 \\q.sups\cf3  \cf4 \\r.sups\cf3  \cf4 \\s.sups\cf3  \cf4 \\t.sups\cf3  \
+	\cf4 \\u.sups\cf3  \cf4 \\v.sups\cf3  \cf4 \\w.sups\cf3  \cf4 \\x.sups\cf3  \cf4 \\y.sups\cf3  \cf4 \\z.sups\cf3  \cf4 \\braceleft.sups\cf3  \
+	\cf4 \\bar.sups\cf3  \cf4 \\braceright.sups\cf3  \cf4 \\asciitilde.sups\cf3  \cf4 \\brokenbar.sups\cf3  \
+	\cf4 \\section.sups\cf3  \cf4 \\paragraph.sups\cf3  \cf4 \\egrave.sups\cf3  \cf4 \\uni2016.sups\cf3  \
+	\cf4 \\dagger.sups\cf3  \cf4 \\daggerdbl.sups\cf3  \cf4 \\f.sups\cf3  \cf4 \\i.sups\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\longs.short\cf3  \cf4 \\longs_longs.short\cf3  \
+	\cf4 \\uni1E9B.short\cf3  \cf4 \\uni1E9C.short\cf3  \cf4 \\uni1E9D.short\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\longs\cf3  \cf4 \\longs_longs\cf3  \cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 ]'\cf3  \cf4 [\\uni200C\cf3  \cf4 ]\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\i\cf3  \cf4 \\j\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\agrave\cf3  \cf4 \\aacute\cf3  \cf4 \\acircumflex\cf3  \cf4 \\atilde\cf3  \cf4 \\adieresis\cf3  \cf4 \\aring\cf3  \cf4 \\egrave\cf3  \
+	\cf4 \\eacute\cf3  \cf4 \\ecircumflex\cf3  \cf4 \\edieresis\cf3  \cf4 \\igrave\cf3  \cf4 \\iacute\cf3  \cf4 \\icircumflex\cf3  \
+	\cf4 \\idieresis\cf3  \cf4 \\eth\cf3  \cf4 \\ntilde\cf3  \cf4 \\ograve\cf3  \cf4 \\oacute\cf3  \cf4 \\ocircumflex\cf3  \cf4 \\otilde\cf3  \cf4 \\odieresis\cf3  \
+	\cf4 \\ugrave\cf3  \cf4 \\uacute\cf3  \cf4 \\ucircumflex\cf3  \cf4 \\udieresis\cf3  \cf4 \\yacute\cf3  \cf4 \\thorn\cf3  \cf4 \\amacron\cf3  \cf4 \\abreve\cf3  \
+	\cf4 \\cacute\cf3  \cf4 \\ccircumflex\cf3  \cf4 \\ccaron\cf3  \cf4 \\emacron\cf3  \cf4 \\ebreve\cf3  \cf4 \\ecaron\cf3  \cf4 \\gcircumflex\cf3  \
+	\cf4 \\gbreve\cf3  \cf4 \\uni0123\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\hbar\cf3  \cf4 \\itilde\cf3  \cf4 \\imacron\cf3  \cf4 \\ibreve\cf3  \cf4 \\iogonek\cf3  \
+	\cf4 \\dotlessi\cf3  \cf4 \\ij\cf3  \cf4 \\jcircumflex\cf3  \cf4 \\uni0137\cf3  \cf4 \\lacute\cf3  \cf4 \\uni013C\cf3  \cf4 \\lcaron\cf3  \cf4 \\ldot\cf3  \
+	\cf4 \\lslash\cf3  \cf4 \\nacute\cf3  \cf4 \\ncaron\cf3  \cf4 \\omacron\cf3  \cf4 \\obreve\cf3  \cf4 \\ohungarumlaut\cf3  \cf4 \\racute\cf3  \cf4 \\rcaron\cf3  \
+	\cf4 \\sacute\cf3  \cf4 \\scircumflex\cf3  \cf4 \\scaron\cf3  \cf4 \\utilde\cf3  \cf4 \\umacron\cf3  \cf4 \\ubreve\cf3  \cf4 \\uring\cf3  \
+	\cf4 \\uhungarumlaut\cf3  \cf4 \\wcircumflex\cf3  \cf4 \\ycircumflex\cf3  \cf4 \\ydieresis\cf3  \cf4 \\zacute\cf3  \
+	\cf4 \\zdotaccent\cf3  \cf4 \\zcaron\cf3  \cf4 \\uni1E03\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E17\cf3  \
+	\cf4 \\uni1E1D\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E23\cf3  \cf4 \\uni1E25\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2D\cf3  \
+	\cf4 \\uni1E2F\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E33\cf3  \cf4 \\uni1E35\cf3  \cf4 \\uni1E37\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3D\cf3  \
+	\cf4 \\uni1E4F\cf3  \cf4 \\uni1E51\cf3  \cf4 \\uni1E65\cf3  \cf4 \\uni1E67\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\uni1E96\cf3  \
+	\cf4 \\uni1E97\cf3  \cf4 \\uni1E9A\cf3  \cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EA3\cf3  \cf4 \\uni1EA5\cf3  \
+	\cf4 \\uni1EA6\cf3  \cf4 \\uni1EA7\cf3  \cf4 \\uni1EA8\cf3  \cf4 \\uni1EA9\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EAD\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB1\cf3  \
+	\cf4 \\uni1EB3\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB7\cf3  \cf4 \\uni1EBB\cf3  \cf4 \\uni1EC1\cf3  \cf4 \\uni1EC5\cf3  \cf4 \\uni1EC9\cf3  \cf4 \\uni1ECB\cf3  \
+	\cf4 \\uni1ECF\cf3  \cf4 \\uni1ED3\cf3  \cf4 \\uni1ED7\cf3  \cf4 \\uni1EDD\cf3  \cf4 \\uni1EDF\cf3  \cf4 \\uni1EE7\cf3  \cf4 \\uni1EEB\cf3  \cf4 \\uni1EED\cf3  \
+	\cf4 \\uni1EF3\cf3  \cf4 \\uni1EF7\cf3  \cf4 \\uni1EFB\cf3  \cf4 \\i.TRK\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\longs.short\cf3  \cf4 \\longs_longs.short\cf3  \
+	\cf4 \\uni1E9B.short\cf3  \cf4 \\uni1E9C.short\cf3  \cf4 \\uni1E9D.short\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 sub
+\f2\b0 \cf3  \cf4 [\\longs\cf3  \cf4 \\longs_longs\cf3  \cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 ]'\cf3  \cf4 [\\a\cf3  \cf4 \\c\cf3  \cf4 \\e\cf3  \cf4 \\g\cf3  \cf4 \\n\cf3  \cf4 \\r\cf3  \cf4 \\s\cf3  \cf4 \\v\cf3  \cf4 \\x\cf3  \cf4 \\z\cf3  \cf4 \\ccedilla\cf3  \cf4 \\aogonek\cf3  \cf4 \\eogonek\cf3  \cf4 \\dotlessi\cf3  \cf4 \\eng\cf3  \cf4 \\uni0157\cf3  \
+	\cf4 \\scedilla\cf3  \cf4 \\uni01DD\cf3  \cf4 \\uni01E5\cf3  \cf4 \\uni0219\cf3  \cf4 \\uni0229\cf3  \cf4 \\uni0237\cf3  \cf4 \\v.LAT\cf3  \cf4 ]\cf3  \cf4 [\\gravecomb\cf3  \cf4 \\acutecomb\cf3  \cf4 \\uni0302\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0304\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \
+	\cf4 \\uni0308\cf3  \cf4 \\hookabovecomb\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \cf4 \\uni030C\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni030E\cf3  \
+	\cf4 \\uni030F\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni033D\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni0340\cf3  \cf4 \\uni0341\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0364\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni0306.cyr\cf3  \cf4 ]\cf3   
+\f1\b \cf2 by
+\f2\b0 \cf3  \cf4 [\\longs.short\cf3  \cf4 \\longs_longs.short\cf3  \
+	\cf4 \\uni1E9B.short\cf3  \cf4 \\uni1E9C.short\cf3  \cf4 \\uni1E9D.short\cf3  \cf4 ];\cf3 \
+\cf4 \}\cf3  \cf4 f_long1;\
+\
+Linea 2328\
+\pard\pardeftab529\li794\fi-795\sa40\pardirnatural\partightenfactor0
+
+\f3\i \cf5 # GPOS 
+\f2\i0 \cf3 \
+\pard\pardeftab529\li794\fi-795\sa40\pardirnatural\partightenfactor0
+
+\f1\b \cf2 lookup
+\f2\b0 \cf3  \cf4 kern\cf3  \cf4 \{\cf3 \
+  
+\f1\b \cf2 lookupflag
+\f2\b0 \cf3  \cf2 0\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 \\g\cf3  \cf4 \\j\cf3  \cf2 25\cf4 ;\cf3 \
+  \cf4 subtable;\cf3 \
+    \cf4 @kc169_first_1\cf3  \cf4 =\cf3  \cf4 [\\A\cf3  \cf4 \\Aacute\cf3  \cf4 \\Abreve\cf3  \cf4 \\Acircumflex\cf3  \cf4 \\Adieresis\cf3  \cf4 \\Agrave\cf3  \cf4 \\Amacron\cf3  \cf4 \\Aogonek\cf3  \cf4 \\Aring\cf3  \
+	\cf4 \\Atilde\cf3  \cf4 \\uni0245\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_2\cf3  \cf4 =\cf3  \cf4 [\\A.sc\cf3  \cf4 \\Aacute.sc\cf3  \cf4 \\Aacute.sc\cf3  \cf4 \\Abreve.sc\cf3  \cf4 \\Abreve.sc\cf3  \cf4 \\Acircumflex.sc\cf3  \
+	\cf4 \\Acircumflex.sc\cf3  \cf4 \\Adieresis.sc\cf3  \cf4 \\Adieresis.sc\cf3  \cf4 \\Agrave.sc\cf3  \cf4 \\Agrave.sc\cf3  \
+	\cf4 \\Amacron.sc\cf3  \cf4 \\Amacron.sc\cf3  \cf4 \\Aring.sc\cf3  \cf4 \\Aring.sc\cf3  \cf4 \\Atilde.sc\cf3  \cf4 \\Atilde.sc\cf3  \
+	\cf4 \\a.sc\cf3  \cf4 \\aacute.sc\cf3  \cf4 \\aacute.sc\cf3  \cf4 \\abreve.sc\cf3  \cf4 \\abreve.sc\cf3  \cf4 \\acircumflex.sc\cf3  \
+	\cf4 \\acircumflex.sc\cf3  \cf4 \\adieresis.sc\cf3  \cf4 \\adieresis.sc\cf3  \cf4 \\agrave.sc\cf3  \cf4 \\agrave.sc\cf3  \
+	\cf4 \\amacron.sc\cf3  \cf4 \\amacron.sc\cf3  \cf4 \\aring.sc\cf3  \cf4 \\aring.sc\cf3  \cf4 \\atilde.sc\cf3  \cf4 \\atilde.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_3\cf3  \cf4 =\cf3  \cf4 [\\C.sc\cf3  \cf4 \\c.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_4\cf3  \cf4 =\cf3  \cf4 [\\D\cf3  \cf4 \\Eth\cf3  \cf4 \\O\cf3  \cf4 \\uni0186\cf3  \cf4 \\uni018F\cf3  \cf4 \\uni019F\cf3  \cf4 \\uni01B2\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_5\cf3  \cf4 =\cf3  \cf4 [\\D.sc\cf3  \cf4 \\Eth.sc\cf3  \cf4 \\O.sc\cf3  \cf4 \\d.sc\cf3  \cf4 \\eth.sc\cf3  \cf4 \\o.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_6\cf3  \cf4 =\cf3  \cf4 [\\E\cf3  \cf4 \\Eacute\cf3  \cf4 \\Ebreve\cf3  \cf4 \\Ecaron\cf3  \cf4 \\Ecircumflex\cf3  \cf4 \\Edieresis\cf3  \cf4 \\Edotaccent\cf3  \cf4 \\Egrave\cf3  \cf4 \\Emacron\cf3  \
+	\cf4 \\Eogonek\cf3  \cf4 \\uni0246\cf3  \cf4 \\uni1EBC\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_7\cf3  \cf4 =\cf3  \cf4 [\\F\cf3  \cf4 \\uni0191\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_8\cf3  \cf4 =\cf3  \cf4 [\\F.sc\cf3  \cf4 \\f.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_9\cf3  \cf4 =\cf3  \cf4 [\\L\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_10\cf3  \cf4 =\cf3  \cf4 [\\L.sc\cf3  \cf4 \\l.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_11\cf3  \cf4 =\cf3  \cf4 [\\M\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_12\cf3  \cf4 =\cf3  \cf4 [\\P\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_13\cf3  \cf4 =\cf3  \cf4 [\\R\cf3  \cf4 \\Racute\cf3  \cf4 \\Rcaron\cf3  \cf4 \\uni0156\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_14\cf3  \cf4 =\cf3  \cf4 [\\R.sc\cf3  \cf4 \\r.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_15\cf3  \cf4 =\cf3  \cf4 [\\T\cf3  \cf4 \\Tbar\cf3  \cf4 \\Tcaron\cf3  \cf4 \\uni0162\cf3  \cf4 \\uni01AC\cf3  \cf4 \\uni01AE\cf3  \cf4 \\uni023E\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_16\cf3  \cf4 =\cf3  \cf4 [\\T.sc\cf3  \cf4 \\t.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_17\cf3  \cf4 =\cf3  \cf4 [\\U.sc\cf3  \cf4 \\u.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_18\cf3  \cf4 =\cf3  \cf4 [\\V\cf3  \cf4 \\W\cf3  \cf4 \\uni0194\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_19\cf3  \cf4 =\cf3  \cf4 [\\V.sc\cf3  \cf4 \\W.sc\cf3  \cf4 \\v.sc\cf3  \cf4 \\w.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_20\cf3  \cf4 =\cf3  \cf4 [\\Y\cf3  \cf4 \\uni01B3\cf3  \cf4 \\uni024E\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_21\cf3  \cf4 =\cf3  \cf4 [\\Y.sc\cf3  \cf4 \\y.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_22\cf3  \cf4 =\cf3  \cf4 [\\a\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_23\cf3  \cf4 =\cf3  \cf4 [\\ae\cf3  \cf4 \\b\cf3  \cf4 \\b.f_\cf3  \cf4 \\c\cf3  \cf4 \\e\cf3  \cf4 \\o\cf3  \cf4 \\oe\cf3  \cf4 \\p\cf3  \cf4 \\thorn\cf3  \cf4 \\thorn.f_\cf3  \cf4 \\uni0252\cf3  \cf4 \\uni0253\cf3  \cf4 \\uni0254\cf3  \cf4 \\uni0255\cf3  \
+	\cf4 \\uni0258\cf3  \cf4 \\uni0259\cf3  \cf4 \\uni025A\cf3  \cf4 \\uni025B\cf3  \cf4 \\uni025C\cf3  \cf4 \\uni025D\cf3  \cf4 \\uni025E\cf3  \cf4 \\uni0275\cf3  \
+	\cf4 \\uni0277\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_24\cf3  \cf4 =\cf3  \cf4 [\\comma\cf3  \cf4 \\period\cf3  \cf4 \\quotedblbase\cf3  \cf4 \\quotesinglbase\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_25\cf3  \cf4 =\cf3  \cf4 [\\d\cf3  \cf4 \\l\cf3  \cf4 \\l.f_\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_26\cf3  \cf4 =\cf3  \cf4 [\\f\cf3  \cf4 \\f.DEU\cf3  \cf4 \\f.long\cf3  \cf4 \\f_f\cf3  \cf4 \\f_f.long\cf3  \cf4 \\florin\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_27\cf3  \cf4 =\cf3  \cf4 [\\f._i\cf3  \cf4 \\longs._i\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_28\cf3  \cf4 =\cf3  \cf4 [\\f.short\cf3  \cf4 \\f_f.short\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_29\cf3  \cf4 =\cf3  \cf4 [\\h\cf3  \cf4 \\h.f_\cf3  \cf4 \\m\cf3  \cf4 \\n\cf3  \cf4 \\uni0271\cf3  \cf4 \\uni0272\cf3  \cf4 \\uni0273\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_30\cf3  \cf4 =\cf3  \cf4 [\\longs\cf3  \cf4 \\longs.long\cf3  \cf4 \\longs_longs\cf3  \cf4 \\longs_longs.long\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_31\cf3  \cf4 =\cf3  \cf4 [\\longs.short\cf3  \cf4 \\longs_longs.short\cf3  \cf4 \\uni1E9B.short\cf3  \cf4 \\uni1E9C.short\cf3  \cf4 \\uni1E9D.short\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_32\cf3  \cf4 =\cf3  \cf4 [\\quotedblleft\cf3  \cf4 \\quoteleft\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_33\cf3  \cf4 =\cf3  \cf4 [\\quotedblright\cf3  \cf4 \\quoteright\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_34\cf3  \cf4 =\cf3  \cf4 [\\s\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_35\cf3  \cf4 =\cf3  \cf4 [\\slash\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_36\cf3  \cf4 =\cf3  \cf4 [\\uni01B4\cf3  \cf4 \\uni0240\cf3  \cf4 \\uni024F\cf3  \cf4 \\uni0263\cf3  \cf4 \\v\cf3  \cf4 \\w\cf3  \cf4 \\y\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_37\cf3  \cf4 =\cf3  \cf4 [\\uni0283\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_first_38\cf3  \cf4 =\cf3  \cf4 [\\uni02BE\cf3  \cf4 \\uni02BF\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_1\cf3  \cf4 =\cf3  \cf4 [\\A\cf3  \cf4 \\Aacute\cf3  \cf4 \\Abreve\cf3  \cf4 \\Acircumflex\cf3  \cf4 \\Adieresis\cf3  \cf4 \\Agrave\cf3  \cf4 \\Amacron\cf3  \cf4 \\Aogonek\cf3  \cf4 \\Aring\cf3  \
+	\cf4 \\Atilde\cf3  \cf4 \\uni0245\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_2\cf3  \cf4 =\cf3  \cf4 [\\Aacute.sc\cf3  \cf4 \\Aacute.sc\cf3  \cf4 \\Abreve.sc\cf3  \cf4 \\Abreve.sc\cf3  \cf4 \\Acircumflex.sc\cf3  \cf4 \\Acircumflex.sc\cf3  \
+	\cf4 \\Adieresis.sc\cf3  \cf4 \\Adieresis.sc\cf3  \cf4 \\Agrave.sc\cf3  \cf4 \\Agrave.sc\cf3  \cf4 \\Amacron.sc\cf3  \
+	\cf4 \\Amacron.sc\cf3  \cf4 \\Aring.sc\cf3  \cf4 \\Aring.sc\cf3  \cf4 \\Atilde.sc\cf3  \cf4 \\Atilde.sc\cf3  \cf4 \\aacute.sc\cf3  \
+	\cf4 \\aacute.sc\cf3  \cf4 \\abreve.sc\cf3  \cf4 \\abreve.sc\cf3  \cf4 \\acircumflex.sc\cf3  \cf4 \\acircumflex.sc\cf3  \
+	\cf4 \\adieresis.sc\cf3  \cf4 \\adieresis.sc\cf3  \cf4 \\agrave.sc\cf3  \cf4 \\agrave.sc\cf3  \cf4 \\amacron.sc\cf3  \
+	\cf4 \\amacron.sc\cf3  \cf4 \\aring.sc\cf3  \cf4 \\aring.sc\cf3  \cf4 \\atilde.sc\cf3  \cf4 \\atilde.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_3\cf3  \cf4 =\cf3  \cf4 [\\B\cf3  \cf4 \\D\cf3  \cf4 \\Dcaron\cf3  \cf4 \\Dcroat\cf3  \cf4 \\E\cf3  \cf4 \\Eacute\cf3  \cf4 \\Ebreve\cf3  \cf4 \\Ecaron\cf3  \cf4 \\Ecircumflex\cf3  \cf4 \\Edieresis\cf3  \
+	\cf4 \\Edotaccent\cf3  \cf4 \\Egrave\cf3  \cf4 \\Emacron\cf3  \cf4 \\Eng\cf3  \cf4 \\Eogonek\cf3  \cf4 \\Eth\cf3  \cf4 \\F\cf3  \cf4 \\H\cf3  \cf4 \\Hbar\cf3  \cf4 \\Hcircumflex\cf3  \
+	\cf4 \\I\cf3  \cf4 \\IJ\cf3  \cf4 \\Iacute\cf3  \cf4 \\Ibreve\cf3  \cf4 \\Icircumflex\cf3  \cf4 \\Idieresis\cf3  \cf4 \\Idotaccent\cf3  \cf4 \\Igrave\cf3  \
+	\cf4 \\Imacron\cf3  \cf4 \\Iogonek\cf3  \cf4 \\Itilde\cf3  \cf4 \\J\cf3  \cf4 \\Jcircumflex\cf3  \cf4 \\K\cf3  \cf4 \\L\cf3  \cf4 \\Lacute\cf3  \cf4 \\Lcaron\cf3  \cf4 \\Ldot\cf3  \
+	\cf4 \\Lslash\cf3  \cf4 \\M\cf3  \cf4 \\N\cf3  \cf4 \\Nacute\cf3  \cf4 \\Ncaron\cf3  \cf4 \\Ntilde\cf3  \cf4 \\P\cf3  \cf4 \\R\cf3  \cf4 \\Racute\cf3  \cf4 \\Rcaron\cf3  \cf4 \\uni0136\cf3  \
+	\cf4 \\uni013B\cf3  \cf4 \\uni0145\cf3  \cf4 \\uni0156\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_4\cf3  \cf4 =\cf3  \cf4 [\\B.sc\cf3  \cf4 \\D.sc\cf3  \cf4 \\E.sc\cf3  \cf4 \\F.sc\cf3  \cf4 \\H.sc\cf3  \cf4 \\I.sc\cf3  \cf4 \\K.sc\cf3  \cf4 \\L.sc\cf3  \cf4 \\M.sc\cf3  \cf4 \\N.sc\cf3  \cf4 \\P.sc\cf3  \cf4 \\R.sc\cf3  \cf4 \\b.sc\cf3  \cf4 \\d.sc\cf3  \
+	\cf4 \\dotlessi.sc\cf3  \cf4 \\e.sc\cf3  \cf4 \\f.sc\cf3  \cf4 \\h.sc\cf3  \cf4 \\i.sc\cf3  \cf4 \\k.sc\cf3  \cf4 \\l.sc\cf3  \cf4 \\m.sc\cf3  \cf4 \\n.sc\cf3  \cf4 \\p.sc\cf3  \cf4 \\r.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_5\cf3  \cf4 =\cf3  \cf4 [\\C\cf3  \cf4 \\G\cf3  \cf4 \\O\cf3  \cf4 \\Ohorn\cf3  \cf4 \\Q\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_6\cf3  \cf4 =\cf3  \cf4 [\\C.sc\cf3  \cf4 \\G.sc\cf3  \cf4 \\O.sc\cf3  \cf4 \\Q.sc\cf3  \cf4 \\S.sc\cf3  \cf4 \\c.sc\cf3  \cf4 \\g.sc\cf3  \cf4 \\o.sc\cf3  \cf4 \\q.sc\cf3  \cf4 \\s.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_7\cf3  \cf4 =\cf3  \cf4 [\\T\cf3  \cf4 \\Tbar\cf3  \cf4 \\Tcaron\cf3  \cf4 \\uni0162\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_8\cf3  \cf4 =\cf3  \cf4 [\\T.sc\cf3  \cf4 \\t.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_9\cf3  \cf4 =\cf3  \cf4 [\\V\cf3  \cf4 \\W\cf3  \cf4 \\uni0194\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_10\cf3  \cf4 =\cf3  \cf4 [\\V.sc\cf3  \cf4 \\W.sc\cf3  \cf4 \\v.sc\cf3  \cf4 \\w.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_11\cf3  \cf4 =\cf3  \cf4 [\\X.sc\cf3  \cf4 \\x.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_12\cf3  \cf4 =\cf3  \cf4 [\\Y\cf3  \cf4 \\uni01B3\cf3  \cf4 \\uni024E\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_13\cf3  \cf4 =\cf3  \cf4 [\\Y.sc\cf3  \cf4 \\y.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_14\cf3  \cf4 =\cf3  \cf4 [\\a\cf3  \cf4 \\aogonek\cf3  \cf4 \\c\cf3  \cf4 \\ccedilla\cf3  \cf4 \\d\cf3  \cf4 \\e\cf3  \cf4 \\eogonek\cf3  \cf4 \\g\cf3  \cf4 \\s\cf3  \cf4 \\scedilla\cf3  \cf4 \\uni01C6\cf3  \cf4 \\uni01F3\cf3  \cf4 \\uni0238\cf3  \
+	\cf4 \\uni0247\cf3  \cf4 \\uni0254\cf3  \cf4 \\uni0255\cf3  \cf4 \\uni0256\cf3  \cf4 \\uni0257\cf3  \cf4 \\uni0258\cf3  \cf4 \\uni0259\cf3  \cf4 \\uni025A\cf3  \
+	\cf4 \\uni025B\cf3  \cf4 \\uni025C\cf3  \cf4 \\uni025D\cf3  \cf4 \\uni025E\cf3  \cf4 \\uni0260\cf3  \cf4 \\uni1EB9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_15\cf3  \cf4 =\cf3  \cf4 [\\aacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_16\cf3  \cf4 =\cf3  \cf4 [\\agrave\cf3  \cf4 \\germandbls\cf3  \cf4 \\hbar\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\lacute\cf3  \cf4 \\lcaron\cf3  \cf4 \\ldot\cf3  \cf4 \\longs\cf3  \cf4 \\lslash\cf3  \
+	\cf4 \\scaron\cf3  \cf4 \\uni0137\cf3  \cf4 \\uni013C\cf3  \cf4 \\uni1E03\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E17\cf3  \
+	\cf4 \\uni1E1D\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E23\cf3  \cf4 \\uni1E25\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2D\cf3  \
+	\cf4 \\uni1E2F\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E33\cf3  \cf4 \\uni1E35\cf3  \cf4 \\uni1E37\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3D\cf3  \
+	\cf4 \\uni1E4F\cf3  \cf4 \\uni1E51\cf3  \cf4 \\uni1E65\cf3  \cf4 \\uni1E67\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E96\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E9A\cf3  \
+	\cf4 \\uni1E9B\cf3  \cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EA6\cf3  \cf4 \\uni1EA8\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EC5\cf3  \
+	\cf4 \\uni1EC9\cf3  \cf4 \\uni1ECB\cf3  \cf4 \\uni1EF3\cf3  \cf4 \\uni1EFB\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_17\cf3  \cf4 =\cf3  \cf4 [\\acircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_18\cf3  \cf4 =\cf3  \cf4 [\\adieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_19\cf3  \cf4 =\cf3  \cf4 [\\ae\cf3  \cf4 \\o\cf3  \cf4 \\oe\cf3  \cf4 \\ohorn\cf3  \cf4 \\q\cf3  \cf4 \\uni01EB\cf3  \cf4 \\uni024B\cf3  \cf4 \\uni0251\cf3  \cf4 \\uni0261\cf3  \cf4 \\uni0275\cf3  \cf4 \\uni1EE3\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_20\cf3  \cf4 =\cf3  \cf4 [\\amacron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_21\cf3  \cf4 =\cf3  \cf4 [\\asterisk\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_22\cf3  \cf4 =\cf3  \cf4 [\\atilde\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_23\cf3  \cf4 =\cf3  \cf4 [\\b\cf3  \cf4 \\h\cf3  \cf4 \\k\cf3  \cf4 \\l\cf3  \cf4 \\thorn\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_24\cf3  \cf4 =\cf3  \cf4 [\\braceright\cf3  \cf4 \\bracketright\cf3  \cf4 \\parenright\cf3  \cf4 \\uni2E29\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_25\cf3  \cf4 =\cf3  \cf4 [\\cacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_26\cf3  \cf4 =\cf3  \cf4 [\\ccircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_27\cf3  \cf4 =\cf3  \cf4 [\\cdotaccent\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_28\cf3  \cf4 =\cf3  \cf4 [\\colon\cf3  \cf4 \\semicolon\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_29\cf3  \cf4 =\cf3  \cf4 [\\comma\cf3  \cf4 \\period\cf3  \cf4 \\quotedblbase\cf3  \cf4 \\quotesinglbase\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_30\cf3  \cf4 =\cf3  \cf4 [\\eacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_31\cf3  \cf4 =\cf3  \cf4 [\\ecircumflex\cf3  \cf4 \\uni1EBF\cf3  \cf4 \\uni1EC3\cf3  \cf4 \\uni1EC7\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_32\cf3  \cf4 =\cf3  \cf4 [\\edotaccent\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_33\cf3  \cf4 =\cf3  \cf4 [\\emacron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_34\cf3  \cf4 =\cf3  \cf4 [\\exclam\cf3  \cf4 \\exclamdbl\cf3  \cf4 \\uni2049\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_35\cf3  \cf4 =\cf3  \cf4 [\\five\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_36\cf3  \cf4 =\cf3  \cf4 [\\four\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_37\cf3  \cf4 =\cf3  \cf4 [\\gcaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_38\cf3  \cf4 =\cf3  \cf4 [\\gcircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_39\cf3  \cf4 =\cf3  \cf4 [\\gdotaccent\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_40\cf3  \cf4 =\cf3  \cf4 [\\i\cf3  \cf4 \\i.TRK\cf3  \cf4 \\ij\cf3  \cf4 \\iogonek\cf3  \cf4 \\j\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_41\cf3  \cf4 =\cf3  \cf4 [\\ncaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_42\cf3  \cf4 =\cf3  \cf4 [\\nine\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_43\cf3  \cf4 =\cf3  \cf4 [\\ntilde\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_44\cf3  \cf4 =\cf3  \cf4 [\\oacute\cf3  \cf4 \\uni1EDB\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_45\cf3  \cf4 =\cf3  \cf4 [\\obreve\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_46\cf3  \cf4 =\cf3  \cf4 [\\ocircumflex\cf3  \cf4 \\uni1ED1\cf3  \cf4 \\uni1ED5\cf3  \cf4 \\uni1ED9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_47\cf3  \cf4 =\cf3  \cf4 [\\odieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_48\cf3  \cf4 =\cf3  \cf4 [\\ohungarumlaut\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_49\cf3  \cf4 =\cf3  \cf4 [\\omacron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_50\cf3  \cf4 =\cf3  \cf4 [\\one\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_51\cf3  \cf4 =\cf3  \cf4 [\\otilde\cf3  \cf4 \\uni1EE1\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_52\cf3  \cf4 =\cf3  \cf4 [\\question\cf3  \cf4 \\uni203D\cf3  \cf4 \\uni2047\cf3  \cf4 \\uni2048\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_53\cf3  \cf4 =\cf3  \cf4 [\\quotedblleft\cf3  \cf4 \\quoteleft\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_54\cf3  \cf4 =\cf3  \cf4 [\\quotedblright\cf3  \cf4 \\quoteright\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_55\cf3  \cf4 =\cf3  \cf4 [\\sacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_56\cf3  \cf4 =\cf3  \cf4 [\\slash\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_57\cf3  \cf4 =\cf3  \cf4 [\\t\cf3  \cf4 \\tcaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_58\cf3  \cf4 =\cf3  \cf4 [\\three\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_59\cf3  \cf4 =\cf3  \cf4 [\\two\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_60\cf3  \cf4 =\cf3  \cf4 [\\uacute\cf3  \cf4 \\uni1EE9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_61\cf3  \cf4 =\cf3  \cf4 [\\ubreve\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_62\cf3  \cf4 =\cf3  \cf4 [\\ucircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_63\cf3  \cf4 =\cf3  \cf4 [\\udieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_64\cf3  \cf4 =\cf3  \cf4 [\\uhungarumlaut\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_65\cf3  \cf4 =\cf3  \cf4 [\\umacron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_66\cf3  \cf4 =\cf3  \cf4 [\\uni0123\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_67\cf3  \cf4 =\cf3  \cf4 [\\uni01B4\cf3  \cf4 \\uni024F\cf3  \cf4 \\uni0263\cf3  \cf4 \\y\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_68\cf3  \cf4 =\cf3  \cf4 [\\uni01D2\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_69\cf3  \cf4 =\cf3  \cf4 [\\uni01D4\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_70\cf3  \cf4 =\cf3  \cf4 [\\uni01F0\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_71\cf3  \cf4 =\cf3  \cf4 [\\uni01F5\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_72\cf3  \cf4 =\cf3  \cf4 [\\uni01F9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_73\cf3  \cf4 =\cf3  \cf4 [\\uni0227\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_74\cf3  \cf4 =\cf3  \cf4 [\\uni022F\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_75\cf3  \cf4 =\cf3  \cf4 [\\uni0233\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_76\cf3  \cf4 =\cf3  \cf4 [\\uni02BE\cf3  \cf4 \\uni02BF\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_77\cf3  \cf4 =\cf3  \cf4 [\\uni1E21\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_78\cf3  \cf4 =\cf3  \cf4 [\\uni1E59\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_79\cf3  \cf4 =\cf3  \cf4 [\\uni1E61\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_80\cf3  \cf4 =\cf3  \cf4 [\\uni1E7D\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_81\cf3  \cf4 =\cf3  \cf4 [\\uni1E87\cf3  \cf4 \\uni1E89\cf3  \cf4 \\v\cf3  \cf4 \\w\cf3  \cf4 \\wacute\cf3  \cf4 \\wcircumflex\cf3  \cf4 \\wdieresis\cf3  \cf4 \\wgrave\cf3  \cf4 \\x\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_82\cf3  \cf4 =\cf3  \cf4 [\\uni1E8B\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_83\cf3  \cf4 =\cf3  \cf4 [\\uni1E8F\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_84\cf3  \cf4 =\cf3  \cf4 [\\uni1E91\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_85\cf3  \cf4 =\cf3  \cf4 [\\uni1E99\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_86\cf3  \cf4 =\cf3  \cf4 [\\uni1EBD\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_87\cf3  \cf4 =\cf3  \cf4 [\\uni1EEF\cf3  \cf4 \\utilde\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_88\cf3  \cf4 =\cf3  \cf4 [\\uni1EF9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_89\cf3  \cf4 =\cf3  \cf4 [\\uring\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_90\cf3  \cf4 =\cf3  \cf4 [\\yacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_91\cf3  \cf4 =\cf3  \cf4 [\\ycircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_92\cf3  \cf4 =\cf3  \cf4 [\\ydieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_93\cf3  \cf4 =\cf3  \cf4 [\\ygrave\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_94\cf3  \cf4 =\cf3  \cf4 [\\zacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_95\cf3  \cf4 =\cf3  \cf4 [\\zdotaccent\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_96\cf3  \cf4 =\cf3  \cf4 [\\A.sc\cf3  \cf4 \\a.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_97\cf3  \cf4 =\cf3  \cf4 [\\U.sc\cf3  \cf4 \\u.sc\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_98\cf3  \cf4 =\cf3  \cf4 [\\abreve\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB1\cf3  \cf4 \\uni1EB3\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB7\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_99\cf3  \cf4 =\cf3  \cf4 [\\uni1EA5\cf3  \cf4 \\uni1EA9\cf3  \cf4 \\uni1EAD\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_100\cf3  \cf4 =\cf3  \cf4 [\\aring\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_101\cf3  \cf4 =\cf3  \cf4 [\\ccaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_102\cf3  \cf4 =\cf3  \cf4 [\\ebreve\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_103\cf3  \cf4 =\cf3  \cf4 [\\ecaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_104\cf3  \cf4 =\cf3  \cf4 [\\edieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_105\cf3  \cf4 =\cf3  \cf4 [\\egrave\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_106\cf3  \cf4 =\cf3  \cf4 [\\eth\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_107\cf3  \cf4 =\cf3  \cf4 [\\gbreve\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_108\cf3  \cf4 =\cf3  \cf4 [\\iacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_109\cf3  \cf4 =\cf3  \cf4 [\\ibreve\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_110\cf3  \cf4 =\cf3  \cf4 [\\icircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_111\cf3  \cf4 =\cf3  \cf4 [\\idieresis\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_112\cf3  \cf4 =\cf3  \cf4 [\\imacron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_113\cf3  \cf4 =\cf3  \cf4 [\\itilde\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_114\cf3  \cf4 =\cf3  \cf4 [\\jcircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_115\cf3  \cf4 =\cf3  \cf4 [\\ograve\cf3  \cf4 \\uni1EDD\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_116\cf3  \cf4 =\cf3  \cf4 [\\rcaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_117\cf3  \cf4 =\cf3  \cf4 [\\scircumflex\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_118\cf3  \cf4 =\cf3  \cf4 [\\ugrave\cf3  \cf4 \\uni1EEB\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_119\cf3  \cf4 =\cf3  \cf4 [\\uni1E6B\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_120\cf3  \cf4 =\cf3  \cf4 [\\uni1E8D\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_121\cf3  \cf4 =\cf3  \cf4 [\\uni1EA3\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_122\cf3  \cf4 =\cf3  \cf4 [\\uni1EA7\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_123\cf3  \cf4 =\cf3  \cf4 [\\uni1EBB\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_124\cf3  \cf4 =\cf3  \cf4 [\\uni1EC1\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_125\cf3  \cf4 =\cf3  \cf4 [\\uni1ECF\cf3  \cf4 \\uni1EDF\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_126\cf3  \cf4 =\cf3  \cf4 [\\uni1ED3\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_127\cf3  \cf4 =\cf3  \cf4 [\\uni1ED7\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_128\cf3  \cf4 =\cf3  \cf4 [\\uni1EE7\cf3  \cf4 \\uni1EED\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_129\cf3  \cf4 =\cf3  \cf4 [\\uni1EF7\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_130\cf3  \cf4 =\cf3  \cf4 [\\zcaron\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_131\cf3  \cf4 =\cf3  \cf4 [\\dotlessi\cf3  \cf4 \\eng\cf3  \cf4 \\i.dotless\cf3  \cf4 \\m\cf3  \cf4 \\n\cf3  \cf4 \\p\cf3  \cf4 \\r\cf3  \cf4 \\u\cf3  \cf4 \\uhorn\cf3  \cf4 \\uni0146\cf3  \cf4 \\uni01B6\cf3  \cf4 \\uni01BA\cf3  \cf4 \\uni01BF\cf3  \
+	\cf4 \\uni021D\cf3  \cf4 \\uni024D\cf3  \cf4 \\uni0250\cf3  \cf4 \\uni0252\cf3  \cf4 \\uni025F\cf3  \cf4 \\uni0269\cf3  \cf4 \\uni026A\cf3  \cf4 \\uni026F\cf3  \
+	\cf4 \\uni0270\cf3  \cf4 \\uni0271\cf3  \cf4 \\uni0272\cf3  \cf4 \\uni0273\cf3  \cf4 \\uni0274\cf3  \cf4 \\uni1E3F\cf3  \cf4 \\uni1E41\cf3  \cf4 \\uni1E43\cf3  \
+	\cf4 \\uni1E47\cf3  \cf4 \\uni1E49\cf3  \cf4 \\uni1E4B\cf3  \cf4 \\uni1EE5\cf3  \cf4 \\uni1EF1\cf3  \cf4 \\uogonek\cf3  \cf4 \\z\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_132\cf3  \cf4 =\cf3  \cf4 [\\nacute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_133\cf3  \cf4 =\cf3  \cf4 [\\racute\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_134\cf3  \cf4 =\cf3  \cf4 [\\uni1E45\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_135\cf3  \cf4 =\cf3  \cf4 [\\uni1E55\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_136\cf3  \cf4 =\cf3  \cf4 [\\uni1E57\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_137\cf3  \cf4 =\cf3  \cf4 [\\uni01D0\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_138\cf3  \cf4 =\cf3  \cf4 [\\igrave\cf3  \cf4 ];\cf3 \
+    \cf4 @kc169_second_139\cf3  \cf4 =\cf3  \cf4 [\\j.dotless\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_5\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_7\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_8\cf3  \cf2 -35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_9\cf3  \cf2 -160\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_10\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_12\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_54\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_67\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_76\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_1\cf3  \cf4 @kc169_second_81\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_2\cf3  \cf4 @kc169_second_6\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_2\cf3  \cf4 @kc169_second_8\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_2\cf3  \cf4 @kc169_second_10\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_2\cf3  \cf4 @kc169_second_54\cf3  \cf2 -35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_2\cf3  \cf4 @kc169_second_97\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_3\cf3  \cf4 @kc169_second_6\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_1\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_7\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_9\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_12\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_14\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_19\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_4\cf3  \cf4 @kc169_second_106\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_5\cf3  \cf4 @kc169_second_2\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_5\cf3  \cf4 @kc169_second_10\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_5\cf3  \cf4 @kc169_second_13\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_5\cf3  \cf4 @kc169_second_96\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_14\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_19\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_57\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_67\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_81\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_106\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_131\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_6\cf3  \cf4 @kc169_second_139\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_1\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_2\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_14\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_19\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_57\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_67\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_81\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_96\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_106\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_131\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_7\cf3  \cf4 @kc169_second_139\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_8\cf3  \cf4 @kc169_second_2\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_8\cf3  \cf4 @kc169_second_96\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_9\cf3  \cf4 @kc169_second_7\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_9\cf3  \cf4 @kc169_second_54\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_9\cf3  \cf4 @kc169_second_67\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_9\cf3  \cf4 @kc169_second_81\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_10\cf3  \cf4 @kc169_second_8\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_10\cf3  \cf4 @kc169_second_10\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_10\cf3  \cf4 @kc169_second_13\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_10\cf3  \cf4 @kc169_second_54\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_14\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_19\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_57\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_67\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_81\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_106\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_131\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_11\cf3  \cf4 @kc169_second_139\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_1\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_2\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_6\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_14\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_19\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_29\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_96\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_12\cf3  \cf4 @kc169_second_106\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_13\cf3  \cf4 @kc169_second_1\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_13\cf3  \cf4 @kc169_second_5\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_13\cf3  \cf4 @kc169_second_7\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_13\cf3  \cf4 @kc169_second_9\cf3  \cf2 -115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_13\cf3  \cf4 @kc169_second_12\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_2\cf3  \cf2 30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_6\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_8\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_10\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_13\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_14\cf3  \cf4 @kc169_second_96\cf3  \cf2 30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_1\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_4\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_5\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_6\cf3  \cf2 -135\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_9\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_14\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_15\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_17\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_19\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_22\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_25\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_26\cf3  \cf2 -59\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_27\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_28\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_29\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_30\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_31\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_32\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_33\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_37\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_38\cf3  \cf2 -35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_39\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_41\cf3  \cf2 -77\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_43\cf3  \cf2 -77\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_44\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_45\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_46\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_47\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_48\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_49\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_51\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_55\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_57\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_60\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_61\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_62\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_63\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_64\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_65\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_66\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_67\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_68\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_69\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_71\cf3  \cf2 -5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_72\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_73\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_74\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_75\cf3  \cf2 -33\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_77\cf3  \cf2 -5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_78\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_79\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_80\cf3  \cf2 -37\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_81\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_82\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_83\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_84\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_85\cf3  \cf2 -73\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_86\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_87\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_88\cf3  \cf2 -53\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_89\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_91\cf3  \cf2 -43\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_92\cf3  \cf2 -33\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_93\cf3  \cf2 -33\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_94\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_95\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_96\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_97\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_98\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_99\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_100\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_101\cf3  \cf2 -49\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_102\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_103\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_104\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_105\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_106\cf3  \cf2 -5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_107\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_108\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_109\cf3  \cf2 50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_110\cf3  \cf2 35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_111\cf3  \cf2 65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_112\cf3  \cf2 60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_113\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_114\cf3  \cf2 50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_115\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_116\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_117\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_118\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_119\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_120\cf3  \cf2 -34\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_121\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_122\cf3  \cf2 35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_123\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_124\cf3  \cf2 35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_125\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_126\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_127\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_128\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_130\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_131\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_132\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_133\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_134\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_135\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_136\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_137\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_138\cf3  \cf2 65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_15\cf3  \cf4 @kc169_second_139\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_16\cf3  \cf4 @kc169_second_2\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_16\cf3  \cf4 @kc169_second_6\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_16\cf3  \cf4 @kc169_second_29\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_16\cf3  \cf4 @kc169_second_96\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_17\cf3  \cf4 @kc169_second_2\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_17\cf3  \cf4 @kc169_second_96\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_1\cf3  \cf2 -150\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_4\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_5\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_6\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_8\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_10\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_11\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_13\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_14\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_15\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_17\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_18\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_19\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_20\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_22\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_25\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_26\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_27\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_28\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_29\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_30\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_31\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_32\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_33\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_37\cf3  \cf2 -20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_38\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_39\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_41\cf3  \cf2 -72\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_43\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_44\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_45\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_46\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_47\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_48\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_49\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_51\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_55\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_56\cf3  \cf2 -115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_57\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_60\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_61\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_62\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_63\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_64\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_65\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_66\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_67\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_68\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_69\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_70\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_71\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_72\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_73\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_74\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_75\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_77\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_78\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_79\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_80\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_81\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_82\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_83\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_84\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_85\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_86\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_87\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_88\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_89\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_90\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_91\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_92\cf3  \cf2 -63\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_93\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_94\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_95\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_96\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_97\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_99\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_100\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_101\cf3  \cf2 -44\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_102\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_103\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_104\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_106\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_107\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_108\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_109\cf3  \cf2 50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_111\cf3  \cf2 25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_115\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_117\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_118\cf3  \cf2 -35\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_119\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_120\cf3  \cf2 -64\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_121\cf3  \cf2 -5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_122\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_123\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_124\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_125\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_126\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_127\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_128\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_129\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_130\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_131\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_132\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_133\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_134\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_135\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_136\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_137\cf3  \cf2 55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_138\cf3  \cf2 65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_18\cf3  \cf4 @kc169_second_139\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_19\cf3  \cf4 @kc169_second_2\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_19\cf3  \cf4 @kc169_second_6\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_19\cf3  \cf4 @kc169_second_29\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_19\cf3  \cf4 @kc169_second_96\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_1\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_3\cf3  \cf2 60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_4\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_5\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_6\cf3  \cf2 -85\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_7\cf3  \cf2 40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_8\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_10\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_14\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_19\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_28\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_29\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_57\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_67\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_81\cf3  \cf2 -80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_96\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_97\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_106\cf3  \cf2 -5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_131\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_20\cf3  \cf4 @kc169_second_139\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_21\cf3  \cf4 @kc169_second_6\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_22\cf3  \cf4 @kc169_second_7\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_22\cf3  \cf4 @kc169_second_67\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_22\cf3  \cf4 @kc169_second_76\cf3  \cf2 -45\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_22\cf3  \cf4 @kc169_second_81\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_23\cf3  \cf4 @kc169_second_7\cf3  \cf2 -140\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_23\cf3  \cf4 @kc169_second_9\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_23\cf3  \cf4 @kc169_second_12\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_23\cf3  \cf4 @kc169_second_67\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_23\cf3  \cf4 @kc169_second_81\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_7\cf3  \cf2 -75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_8\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_9\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_12\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_67\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_24\cf3  \cf4 @kc169_second_81\cf3  \cf2 -60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_25\cf3  \cf4 @kc169_second_54\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_14\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_15\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_16\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_19\cf3  \cf2 -25\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_23\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_40\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_41\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_66\cf3  \cf2 15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_68\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_76\cf3  \cf2 120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_98\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_99\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_100\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_101\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_102\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_103\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_104\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_105\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_106\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_107\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_108\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_109\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_110\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_111\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_112\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_113\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_114\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_115\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_116\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_117\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_118\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_119\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_120\cf3  \cf2 20\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_121\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_122\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_123\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_124\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_125\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_126\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_127\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_128\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_129\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_130\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_26\cf3  \cf4 @kc169_second_138\cf3  \cf2 70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_27\cf3  \cf4 @kc169_second_139\cf3  \cf2 19\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_28\cf3  \cf4 @kc169_second_18\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_28\cf3  \cf4 @kc169_second_70\cf3  \cf2 75\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_28\cf3  \cf4 @kc169_second_108\cf3  \cf2 16\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_28\cf3  \cf4 @kc169_second_137\cf3  \cf2 60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_28\cf3  \cf4 @kc169_second_138\cf3  \cf2 60\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_29\cf3  \cf4 @kc169_second_67\cf3  \cf2 -16\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_29\cf3  \cf4 @kc169_second_81\cf3  \cf2 -16\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_21\cf3  \cf2 165\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_24\cf3  \cf2 195\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_34\cf3  \cf2 135\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_52\cf3  \cf2 140\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_53\cf3  \cf2 160\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_30\cf3  \cf4 @kc169_second_54\cf3  \cf2 165\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_21\cf3  \cf2 125\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_24\cf3  \cf2 150\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_34\cf3  \cf4 9\cf2 5\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_52\cf3  \cf4 9\cf2 0\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_53\cf3  \cf2 110\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_31\cf3  \cf4 @kc169_second_54\cf3  \cf2 115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_32\cf3  \cf4 @kc169_second_1\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_1\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_2\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_6\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_14\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_19\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_96\cf3  \cf2 -120\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_131\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_33\cf3  \cf4 @kc169_second_139\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_34\cf3  \cf4 @kc169_second_54\cf3  \cf2 -15\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_1\cf3  \cf2 -110\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_35\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_36\cf3  \cf2 -115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_42\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_50\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_58\cf3  \cf2 -40\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_35\cf3  \cf4 @kc169_second_59\cf3  \cf2 -30\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_36\cf3  \cf4 @kc169_second_1\cf3  \cf2 -50\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_36\cf3  \cf4 @kc169_second_14\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_36\cf3  \cf4 @kc169_second_19\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_36\cf3  \cf4 @kc169_second_29\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_36\cf3  \cf4 @kc169_second_106\cf3  \cf2 -10\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_16\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_23\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_40\cf3  \cf2 55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_98\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_99\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_100\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_101\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_102\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_103\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_104\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_105\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_106\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_107\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_108\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_109\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_110\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_111\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_112\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_113\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_114\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_115\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_116\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_117\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_118\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_119\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_120\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_121\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_122\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_123\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_124\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_125\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_126\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_127\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_128\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_129\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_130\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_37\cf3  \cf4 @kc169_second_138\cf3  \cf2 80\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_38\cf3  \cf4 @kc169_second_1\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_38\cf3  \cf4 @kc169_second_14\cf3  \cf2 -55\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc169_first_38\cf3  \cf4 @kc169_second_19\cf3  \cf2 -55\cf4 ;\cf3 \
+  \cf4 subtable;\cf3 \
+    \cf4 @kc170_first_1\cf3  \cf4 =\cf3  \cf4 [\\uni0413\cf3  \cf4 \\uni0490\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_first_2\cf3  \cf4 =\cf3  \cf4 [\\uni0422\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_1\cf3  \cf4 =\cf3  \cf4 [\\uni0430\cf3  \cf4 \\uni0435\cf3  \cf4 \\uni0437\cf3  \cf4 \\uni043E\cf3  \cf4 \\uni0441\cf3  \cf4 \\uni044D\cf3  \cf4 \\uni044F\cf3  \cf4 \\uni0454\cf3  \cf4 \\uni0455\cf3  \
+	\cf4 \\uni04E9\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_2\cf3  \cf4 =\cf3  \cf4 [\\uni0432\cf3  \cf4 \\uni0433\cf3  \cf4 \\uni0434.alt\cf3  \cf4 \\uni0438\cf3  \cf4 \\uni043A\cf3  \cf4 \\uni043B.alt\cf3  \cf4 \\uni043C\cf3  \cf4 \\uni043D\cf3  \
+	\cf4 \\uni043F\cf3  \cf4 \\uni0446\cf3  \cf4 \\uni0448\cf3  \cf4 \\uni0449\cf3  \cf4 \\uni044B\cf3  \cf4 \\uni044C\cf3  \cf4 \\uni044E\cf3  \
+	\cf4 \\uni0459.alt\cf3  \cf4 \\uni045A\cf3  \cf4 \\uni045F\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_3\cf3  \cf4 =\cf3  \cf4 [\\uni0434\cf3  \cf4 \\uni043B\cf3  \cf4 \\uni0459\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_4\cf3  \cf4 =\cf3  \cf4 [\\uni0436\cf3  \cf4 \\uni0445\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_5\cf3  \cf4 =\cf3  \cf4 [\\uni0442\cf3  \cf4 \\uni044A\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_6\cf3  \cf4 =\cf3  \cf4 [\\uni0443\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_7\cf3  \cf4 =\cf3  \cf4 [\\uni0444\cf3  \cf4 ];\cf3 \
+    \cf4 @kc170_second_8\cf3  \cf4 =\cf3  \cf4 [\\uni0447\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_1\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_2\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_3\cf3  \cf2 -140\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_4\cf3  \cf2 -105\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_5\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_6\cf3  \cf2 -115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_7\cf3  \cf2 -70\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_1\cf3  \cf4 @kc170_second_8\cf3  \cf2 -115\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_1\cf3  \cf2 -125\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_2\cf3  \cf2 -95\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_3\cf3  \cf2 -135\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_4\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_5\cf3  \cf2 -130\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_6\cf3  \cf2 -110\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_7\cf3  \cf2 -65\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc170_first_2\cf3  \cf4 @kc170_second_8\cf3  \cf2 -110\cf4 ;\cf3 \
+  \cf4 subtable;\cf3 \
+    \cf4 @kc171_first_1\cf3  \cf4 =\cf3  \cf4 [\\Gamma\cf3  \cf4 ];\cf3 \
+    \cf4 @kc171_first_2\cf3  \cf4 =\cf3  \cf4 [\\Tau\cf3  \cf4 ];\cf3 \
+    \cf4 @kc171_first_3\cf3  \cf4 =\cf3  \cf4 [\\Upsilon\cf3  \cf4 \\Upsilondieresis\cf3  \cf4 \\Upsilontonos\cf3  \cf4 \\uni1F59\cf3  \cf4 \\uni1F5B\cf3  \cf4 \\uni1F5D\cf3  \cf4 \\uni1F5F\cf3  \cf4 ];\cf3 \
+    \cf4 @kc171_second_1\cf3  \cf4 =\cf3  \cf4 [\\alpha\cf3  \cf4 \\chi\cf3  \cf4 \\epsilon\cf3  \cf4 \\eta\cf3  \cf4 \\gamma\cf3  \cf4 \\iota\cf3  \cf4 \\kappa\cf3  \cf4 \\mu\cf3  \cf4 \\nu\cf3  \cf4 \\omega\cf3  \cf4 \\omicron\cf3  \cf4 \\pi\cf3  \cf4 \\rho\cf3  \cf4 \\sigma\cf3  \
+	\cf4 \\sigma1\cf3  \cf4 \\tau\cf3  \cf4 \\uni1FB3\cf3  \cf4 \\uni1FC3\cf3  \cf4 \\uni1FF3\cf3  \cf4 \\upsilon\cf3  \cf4 ];\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc171_first_1\cf3  \cf4 @kc171_second_1\cf3  \cf2 -100\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc171_first_2\cf3  \cf4 @kc171_second_1\cf3  \cf2 -90\cf4 ;\cf3 \
+    
+\f1\b \cf2 pos
+\f2\b0 \cf3  \cf4 @kc171_first_3\cf3  \cf4 @kc171_second_1\cf3  \cf2 -50\cf4 ;\cf3 \
+\cf4 \}\cf3  \cf4 kern;\
+\
+Linea 3132\
+@GDEF_Simple\cf3  \cf4 =\cf3  \cf4 [\\a\cf3  \cf4 \\t\cf3  \cf4 \\l\cf3  \cf4 \\o\cf3  \cf4 \\h\cf3  \cf4 \\i\cf3  \cf4 \\n\cf3  \cf4 \\m\cf3  \cf4 \\p\cf3  \cf4 \\b\cf3  \cf4 \\q\cf3  \cf4 \\d\cf3  \cf4 \\r\cf3  \cf4 \\e\cf3  \cf4 \\c\cf3  \cf4 \\u\cf3  \cf4 \\j\cf3  \cf4 \\s\cf3  \cf4 \\f\cf3  \cf4 \\longs\cf3  \cf4 \\space\cf3  \
+	\cf4 \\germandbls\cf3  \cf4 \\v\cf3  \cf4 \\w\cf3  \cf4 \\y\cf3  \cf4 \\g\cf3  \cf4 \\P\cf3  \cf4 \\M\cf3  \cf4 \\N\cf3  \cf4 \\R\cf3  \cf4 \\B\cf3  \cf4 \\A\cf3  \cf4 \\C\cf3  \cf4 \\I\cf3  \cf4 \\T\cf3  \cf4 \\E\cf3  \cf4 \\L\cf3  \cf4 \\V\cf3  \cf4 \\W\cf3  \cf4 \\period\cf3  \cf4 \\G\cf3  \cf4 \\F\cf3  \cf4 \\J\cf3  \cf4 \\D\cf3  \cf4 \\Q\cf3  \cf4 \\S\cf3  \cf4 \\O\cf3  \cf4 \\H\cf3  \cf4 \\U\cf3  \cf4 \\Y\cf3  \
+	\cf4 \\one\cf3  \cf4 \\bracketleft\cf3  \cf4 \\bracketright\cf3  \cf4 \\x\cf3  \cf4 \\comma\cf3  \cf4 \\quotedblbase\cf3  \cf4 \\quotesinglbase\cf3  \
+	\cf4 \\quotedblleft\cf3  \cf4 \\quotedblright\cf3  \cf4 \\quoteleft\cf3  \cf4 \\quoteright\cf3  \cf4 \\K\cf3  \cf4 \\k\cf3  \cf4 \\X\cf3  \cf4 \\Z\cf3  \cf4 \\z\cf3  \cf4 \\exclam\cf3  \
+	\cf4 \\exclamdown\cf3  \cf4 \\quotedbl\cf3  \cf4 \\quotesingle\cf3  \cf4 \\colon\cf3  \cf4 \\semicolon\cf3  \cf4 \\dieresis\cf3  \cf4 \\adieresis\cf3  \
+	\cf4 \\odieresis\cf3  \cf4 \\udieresis\cf3  \cf4 \\dotlessi\cf3  \cf4 \\two\cf3  \cf4 \\five\cf3  \cf4 \\four\cf3  \cf4 \\seven\cf3  \cf4 \\six\cf3  \cf4 \\nine\cf3  \cf4 \\zero\cf3  \cf4 \\three\cf3  \
+	\cf4 \\eight\cf3  \cf4 \\question\cf3  \cf4 \\grave\cf3  \cf4 \\acute\cf3  \cf4 \\asciicircum\cf3  \cf4 \\circumflex\cf3  \cf4 \\hyphen\cf3  \cf4 \\numbersign\cf3  \
+	\cf4 \\slash\cf3  \cf4 \\backslash\cf3  \cf4 \\dollar\cf3  \cf4 \\equal\cf3  \cf4 \\plus\cf3  \cf4 \\less\cf3  \cf4 \\greater\cf3  \cf4 \\underscore\cf3  \cf4 \\endash\cf3  \cf4 \\emdash\cf3  \
+	\cf4 \\bar\cf3  \cf4 \\brokenbar\cf3  \cf4 \\parenleft\cf3  \cf4 \\parenright\cf3  \cf4 \\asciitilde\cf3  \cf4 \\cedilla\cf3  \cf4 \\periodcentered\cf3  \
+	\cf4 \\Idotaccent\cf3  \cf4 \\macron\cf3  \cf4 \\guillemotright\cf3  \cf4 \\guillemotleft\cf3  \cf4 \\guilsinglright\cf3  \
+	\cf4 \\guilsinglleft\cf3  \cf4 \\uni00AD\cf3  \cf4 \\Agrave\cf3  \cf4 \\Aacute\cf3  \cf4 \\Acircumflex\cf3  \cf4 \\Atilde\cf3  \cf4 \\Adieresis\cf3  \cf4 \\Aring\cf3  \
+	\cf4 \\Ccedilla\cf3  \cf4 \\Egrave\cf3  \cf4 \\Eacute\cf3  \cf4 \\Ecircumflex\cf3  \cf4 \\Edieresis\cf3  \cf4 \\Igrave\cf3  \cf4 \\Iacute\cf3  \cf4 \\Icircumflex\cf3  \
+	\cf4 \\Idieresis\cf3  \cf4 \\Ntilde\cf3  \cf4 \\Ograve\cf3  \cf4 \\Oacute\cf3  \cf4 \\Ocircumflex\cf3  \cf4 \\Otilde\cf3  \cf4 \\Odieresis\cf3  \cf4 \\Ugrave\cf3  \
+	\cf4 \\Uacute\cf3  \cf4 \\Ucircumflex\cf3  \cf4 \\Udieresis\cf3  \cf4 \\Yacute\cf3  \cf4 \\agrave\cf3  \cf4 \\aacute\cf3  \cf4 \\atilde\cf3  \cf4 \\aring\cf3  \cf4 \\ccedilla\cf3  \
+	\cf4 \\egrave\cf3  \cf4 \\eacute\cf3  \cf4 \\ecircumflex\cf3  \cf4 \\edieresis\cf3  \cf4 \\igrave\cf3  \cf4 \\iacute\cf3  \cf4 \\icircumflex\cf3  \cf4 \\idieresis\cf3  \
+	\cf4 \\ntilde\cf3  \cf4 \\ograve\cf3  \cf4 \\oacute\cf3  \cf4 \\ocircumflex\cf3  \cf4 \\otilde\cf3  \cf4 \\ugrave\cf3  \cf4 \\uacute\cf3  \cf4 \\ucircumflex\cf3  \
+	\cf4 \\yacute\cf3  \cf4 \\ydieresis\cf3  \cf4 \\Amacron\cf3  \cf4 \\amacron\cf3  \cf4 \\Abreve\cf3  \cf4 \\abreve\cf3  \cf4 \\Aogonek\cf3  \cf4 \\aogonek\cf3  \cf4 \\Cacute\cf3  \
+	\cf4 \\cacute\cf3  \cf4 \\Ccircumflex\cf3  \cf4 \\ccircumflex\cf3  \cf4 \\Cdotaccent\cf3  \cf4 \\cdotaccent\cf3  \cf4 \\Ccaron\cf3  \cf4 \\ccaron\cf3  \
+	\cf4 \\Dcaron\cf3  \cf4 \\dcaron\cf3  \cf4 \\Emacron\cf3  \cf4 \\emacron\cf3  \cf4 \\Ebreve\cf3  \cf4 \\ebreve\cf3  \cf4 \\Edotaccent\cf3  \cf4 \\edotaccent\cf3  \
+	\cf4 \\Eogonek\cf3  \cf4 \\eogonek\cf3  \cf4 \\Ecaron\cf3  \cf4 \\ecaron\cf3  \cf4 \\Gcircumflex\cf3  \cf4 \\gcircumflex\cf3  \cf4 \\Gbreve\cf3  \cf4 \\gbreve\cf3  \
+	\cf4 \\Gdotaccent\cf3  \cf4 \\gdotaccent\cf3  \cf4 \\uni0122\cf3  \cf4 \\uni0123\cf3  \cf4 \\Hcircumflex\cf3  \cf4 \\hcircumflex\cf3  \cf4 \\Itilde\cf3  \
+	\cf4 \\itilde\cf3  \cf4 \\Imacron\cf3  \cf4 \\imacron\cf3  \cf4 \\Ibreve\cf3  \cf4 \\ibreve\cf3  \cf4 \\Iogonek\cf3  \cf4 \\iogonek\cf3  \cf4 \\Jcircumflex\cf3  \
+	\cf4 \\jcircumflex\cf3  \cf4 \\uni0136\cf3  \cf4 \\uni0137\cf3  \cf4 \\Lacute\cf3  \cf4 \\lacute\cf3  \cf4 \\uni013B\cf3  \cf4 \\uni013C\cf3  \cf4 \\Lcaron\cf3  \cf4 \\lcaron\cf3  \
+	\cf4 \\Ldot\cf3  \cf4 \\ldot\cf3  \cf4 \\Nacute\cf3  \cf4 \\nacute\cf3  \cf4 \\uni0145\cf3  \cf4 \\uni0146\cf3  \cf4 \\Ncaron\cf3  \cf4 \\ncaron\cf3  \cf4 \\Omacron\cf3  \cf4 \\omacron\cf3  \
+	\cf4 \\Obreve\cf3  \cf4 \\obreve\cf3  \cf4 \\Ohungarumlaut\cf3  \cf4 \\ohungarumlaut\cf3  \cf4 \\Racute\cf3  \cf4 \\racute\cf3  \cf4 \\uni0156\cf3  \cf4 \\uni0157\cf3  \
+	\cf4 \\Rcaron\cf3  \cf4 \\rcaron\cf3  \cf4 \\Sacute\cf3  \cf4 \\sacute\cf3  \cf4 \\Scircumflex\cf3  \cf4 \\scircumflex\cf3  \cf4 \\Scedilla\cf3  \cf4 \\scedilla\cf3  \
+	\cf4 \\Scaron\cf3  \cf4 \\scaron\cf3  \cf4 \\uni0162\cf3  \cf4 \\uni0163\cf3  \cf4 \\Tcaron\cf3  \cf4 \\tcaron\cf3  \cf4 \\Utilde\cf3  \cf4 \\utilde\cf3  \cf4 \\Umacron\cf3  \
+	\cf4 \\umacron\cf3  \cf4 \\Ubreve\cf3  \cf4 \\ubreve\cf3  \cf4 \\Uring\cf3  \cf4 \\uring\cf3  \cf4 \\Uhungarumlaut\cf3  \cf4 \\uhungarumlaut\cf3  \cf4 \\Uogonek\cf3  \
+	\cf4 \\uogonek\cf3  \cf4 \\Wcircumflex\cf3  \cf4 \\wcircumflex\cf3  \cf4 \\Ycircumflex\cf3  \cf4 \\ycircumflex\cf3  \cf4 \\Ydieresis\cf3  \
+	\cf4 \\Zacute\cf3  \cf4 \\zacute\cf3  \cf4 \\Zdotaccent\cf3  \cf4 \\zdotaccent\cf3  \cf4 \\Zcaron\cf3  \cf4 \\zcaron\cf3  \cf4 \\Ohorn\cf3  \cf4 \\ohorn\cf3  \cf4 \\Uhorn\cf3  \
+	\cf4 \\uhorn\cf3  \cf4 \\uni01CD\cf3  \cf4 \\uni01CE\cf3  \cf4 \\uni01CF\cf3  \cf4 \\uni01D0\cf3  \cf4 \\uni01D1\cf3  \cf4 \\uni01D2\cf3  \cf4 \\uni01D3\cf3  \cf4 \\uni01D4\cf3  \
+	\cf4 \\uni01D5\cf3  \cf4 \\uni01D6\cf3  \cf4 \\uni01D7\cf3  \cf4 \\uni01D8\cf3  \cf4 \\uni01D9\cf3  \cf4 \\uni01DA\cf3  \cf4 \\uni01DB\cf3  \cf4 \\uni01DC\cf3  \cf4 \\uni01DE\cf3  \
+	\cf4 \\uni01DF\cf3  \cf4 \\Gcaron\cf3  \cf4 \\gcaron\cf3  \cf4 \\uni01E8\cf3  \cf4 \\uni01E9\cf3  \cf4 \\uni01EA\cf3  \cf4 \\uni01EB\cf3  \cf4 \\uni01EC\cf3  \cf4 \\uni01ED\cf3  \
+	\cf4 \\uni01F0\cf3  \cf4 \\uni01F4\cf3  \cf4 \\uni01F5\cf3  \cf4 \\uni01F8\cf3  \cf4 \\uni01F9\cf3  \cf4 \\Aringacute\cf3  \cf4 \\aringacute\cf3  \cf4 \\uni0218\cf3  \
+	\cf4 \\uni0219\cf3  \cf4 \\uni021A\cf3  \cf4 \\uni021B\cf3  \cf4 \\uni021E\cf3  \cf4 \\uni021F\cf3  \cf4 \\uni0226\cf3  \cf4 \\uni0227\cf3  \cf4 \\uni0228\cf3  \cf4 \\uni0229\cf3  \
+	\cf4 \\uni022A\cf3  \cf4 \\uni022B\cf3  \cf4 \\uni022C\cf3  \cf4 \\uni022D\cf3  \cf4 \\uni022E\cf3  \cf4 \\uni022F\cf3  \cf4 \\uni0230\cf3  \cf4 \\uni0231\cf3  \cf4 \\uni0232\cf3  \
+	\cf4 \\uni0233\cf3  \cf4 \\uni0237\cf3  \cf4 \\breve\cf3  \cf4 \\dotaccent\cf3  \cf4 \\ring\cf3  \cf4 \\ogonek\cf3  \cf4 \\tilde\cf3  \cf4 \\hungarumlaut\cf3  \cf4 \\uni1E00\cf3  \
+	\cf4 \\uni1E01\cf3  \cf4 \\uni1E02\cf3  \cf4 \\uni1E03\cf3  \cf4 \\uni1E04\cf3  \cf4 \\uni1E05\cf3  \cf4 \\uni1E06\cf3  \cf4 \\uni1E07\cf3  \cf4 \\uni1E08\cf3  \cf4 \\uni1E09\cf3  \
+	\cf4 \\uni1E0A\cf3  \cf4 \\uni1E0B\cf3  \cf4 \\uni1E0C\cf3  \cf4 \\uni1E0D\cf3  \cf4 \\uni1E0E\cf3  \cf4 \\uni1E0F\cf3  \cf4 \\uni1E10\cf3  \cf4 \\uni1E11\cf3  \cf4 \\uni1E12\cf3  \
+	\cf4 \\uni1E13\cf3  \cf4 \\uni1E14\cf3  \cf4 \\uni1E15\cf3  \cf4 \\uni1E16\cf3  \cf4 \\uni1E17\cf3  \cf4 \\uni1E18\cf3  \cf4 \\uni1E19\cf3  \cf4 \\uni1E1A\cf3  \cf4 \\uni1E1B\cf3  \
+	\cf4 \\uni1E1C\cf3  \cf4 \\uni1E1D\cf3  \cf4 \\uni1E1E\cf3  \cf4 \\uni1E1F\cf3  \cf4 \\uni1E20\cf3  \cf4 \\uni1E21\cf3  \cf4 \\uni1E22\cf3  \cf4 \\uni1E23\cf3  \cf4 \\uni1E24\cf3  \
+	\cf4 \\uni1E25\cf3  \cf4 \\uni1E26\cf3  \cf4 \\uni1E27\cf3  \cf4 \\uni1E28\cf3  \cf4 \\uni1E29\cf3  \cf4 \\uni1E2A\cf3  \cf4 \\uni1E2B\cf3  \cf4 \\uni1E2C\cf3  \cf4 \\uni1E2D\cf3  \
+	\cf4 \\uni1E2E\cf3  \cf4 \\uni1E2F\cf3  \cf4 \\uni1E30\cf3  \cf4 \\uni1E31\cf3  \cf4 \\uni1E32\cf3  \cf4 \\uni1E33\cf3  \cf4 \\uni1E34\cf3  \cf4 \\uni1E35\cf3  \cf4 \\uni1E36\cf3  \
+	\cf4 \\uni1E37\cf3  \cf4 \\uni1E38\cf3  \cf4 \\uni1E39\cf3  \cf4 \\uni1E3A\cf3  \cf4 \\uni1E3B\cf3  \cf4 \\uni1E3C\cf3  \cf4 \\uni1E3D\cf3  \cf4 \\uni1E3E\cf3  \cf4 \\uni1E3F\cf3  \
+	\cf4 \\uni1E40\cf3  \cf4 \\uni1E41\cf3  \cf4 \\uni1E42\cf3  \cf4 \\uni1E43\cf3  \cf4 \\uni1E44\cf3  \cf4 \\uni1E45\cf3  \cf4 \\uni1E46\cf3  \cf4 \\uni1E47\cf3  \cf4 \\uni1E48\cf3  \
+	\cf4 \\uni1E49\cf3  \cf4 \\uni1E4A\cf3  \cf4 \\uni1E4B\cf3  \cf4 \\uni1E4C\cf3  \cf4 \\uni1E4D\cf3  \cf4 \\uni1E4E\cf3  \cf4 \\uni1E4F\cf3  \cf4 \\uni1E50\cf3  \cf4 \\uni1E51\cf3  \
+	\cf4 \\uni1E52\cf3  \cf4 \\uni1E53\cf3  \cf4 \\uni1E54\cf3  \cf4 \\uni1E55\cf3  \cf4 \\uni1E56\cf3  \cf4 \\uni1E57\cf3  \cf4 \\uni1E58\cf3  \cf4 \\uni1E59\cf3  \cf4 \\uni1E5A\cf3  \
+	\cf4 \\uni1E5B\cf3  \cf4 \\uni1E5C\cf3  \cf4 \\uni1E5D\cf3  \cf4 \\uni1E5E\cf3  \cf4 \\uni1E5F\cf3  \cf4 \\uni1E60\cf3  \cf4 \\uni1E61\cf3  \cf4 \\uni1E62\cf3  \cf4 \\uni1E63\cf3  \
+	\cf4 \\uni1E64\cf3  \cf4 \\uni1E65\cf3  \cf4 \\uni1E66\cf3  \cf4 \\uni1E67\cf3  \cf4 \\uni1E68\cf3  \cf4 \\uni1E69\cf3  \cf4 \\uni1E6A\cf3  \cf4 \\uni1E6B\cf3  \cf4 \\uni1E6C\cf3  \
+	\cf4 \\uni1E6D\cf3  \cf4 \\uni1E6E\cf3  \cf4 \\uni1E6F\cf3  \cf4 \\uni1E70\cf3  \cf4 \\uni1E71\cf3  \cf4 \\uni1E72\cf3  \cf4 \\uni1E73\cf3  \cf4 \\uni1E74\cf3  \cf4 \\uni1E75\cf3  \
+	\cf4 \\uni1E76\cf3  \cf4 \\uni1E77\cf3  \cf4 \\uni1E78\cf3  \cf4 \\uni1E79\cf3  \cf4 \\uni1E7A\cf3  \cf4 \\uni1E7B\cf3  \cf4 \\uni1E7C\cf3  \cf4 \\uni1E7D\cf3  \cf4 \\uni1E7E\cf3  \
+	\cf4 \\uni1E7F\cf3  \cf4 \\Wgrave\cf3  \cf4 \\wgrave\cf3  \cf4 \\Wacute\cf3  \cf4 \\wacute\cf3  \cf4 \\Wdieresis\cf3  \cf4 \\wdieresis\cf3  \cf4 \\uni1E86\cf3  \cf4 \\uni1E87\cf3  \
+	\cf4 \\uni1E88\cf3  \cf4 \\uni1E89\cf3  \cf4 \\uni1E8A\cf3  \cf4 \\uni1E8B\cf3  \cf4 \\uni1E8C\cf3  \cf4 \\uni1E8D\cf3  \cf4 \\uni1E8E\cf3  \cf4 \\uni1E8F\cf3  \cf4 \\uni1E90\cf3  \
+	\cf4 \\uni1E91\cf3  \cf4 \\uni1E92\cf3  \cf4 \\uni1E93\cf3  \cf4 \\uni1E94\cf3  \cf4 \\uni1E95\cf3  \cf4 \\uni1E96\cf3  \cf4 \\uni1E97\cf3  \cf4 \\uni1E98\cf3  \cf4 \\uni1E99\cf3  \
+	\cf4 \\uni1E9B\cf3  \cf4 \\uni1EA0\cf3  \cf4 \\uni1EA1\cf3  \cf4 \\uni1EA4\cf3  \cf4 \\uni1EA6\cf3  \cf4 \\uni1EA7\cf3  \cf4 \\uni1EAA\cf3  \cf4 \\uni1EAB\cf3  \cf4 \\uni1EAC\cf3  \
+	\cf4 \\uni1EAD\cf3  \cf4 \\uni1EAE\cf3  \cf4 \\uni1EAF\cf3  \cf4 \\uni1EB0\cf3  \cf4 \\uni1EB1\cf3  \cf4 \\uni1EB4\cf3  \cf4 \\uni1EB5\cf3  \cf4 \\uni1EB6\cf3  \cf4 \\uni1EB7\cf3  \
+	\cf4 \\uni1EB8\cf3  \cf4 \\uni1EB9\cf3  \cf4 \\uni1EBC\cf3  \cf4 \\uni1EBD\cf3  \cf4 \\uni1EBE\cf3  \cf4 \\uni1EBF\cf3  \cf4 \\uni1EC0\cf3  \cf4 \\uni1EC1\cf3  \cf4 \\uni1EC4\cf3  \
+	\cf4 \\uni1EC5\cf3  \cf4 \\uni1EC6\cf3  \cf4 \\uni1EC7\cf3  \cf4 \\uni1ECA\cf3  \cf4 \\uni1ECB\cf3  \cf4 \\uni1ECC\cf3  \cf4 \\uni1ECD\cf3  \cf4 \\uni1ED0\cf3  \cf4 \\uni1ED1\cf3  \
+	\cf4 \\uni1ED2\cf3  \cf4 \\uni1ED3\cf3  \cf4 \\uni1ED6\cf3  \cf4 \\uni1ED7\cf3  \cf4 \\uni1ED8\cf3  \cf4 \\uni1ED9\cf3  \cf4 \\uni1EDA\cf3  \cf4 \\uni1EDB\cf3  \cf4 \\uni1EDC\cf3  \
+	\cf4 \\uni1EDD\cf3  \cf4 \\uni1EE0\cf3  \cf4 \\uni1EE1\cf3  \cf4 \\uni1EE2\cf3  \cf4 \\uni1EE3\cf3  \cf4 \\uni1EE4\cf3  \cf4 \\uni1EE5\cf3  \cf4 \\Ygrave\cf3  \cf4 \\ygrave\cf3  \
+	\cf4 \\uni1EF4\cf3  \cf4 \\uni1EF5\cf3  \cf4 \\uni1EF8\cf3  \cf4 \\uni1EF9\cf3  \cf4 \\uni1FC0\cf3  \cf4 \\uni1FC1\cf3  \cf4 \\uni1FED\cf3  \cf4 \\uni203E\cf3  \
+	\cf4 \\notequal\cf3  \cf4 \\uni226E\cf3  \cf4 \\uni226F\cf3  \cf4 \\uniF6BE\cf3  \cf4 \\ordfeminine\cf3  \cf4 \\uni00B2\cf3  \cf4 \\uni00B3\cf3  \cf4 \\uni00B9\cf3  \
+	\cf4 \\ordmasculine\cf3  \cf4 \\IJ\cf3  \cf4 \\ij\cf3  \cf4 \\OE\cf3  \cf4 \\uni01C0\cf3  \cf4 \\uni01C1\cf3  \cf4 \\uni01C4\cf3  \cf4 \\uni01C5\cf3  \cf4 \\uni01C6\cf3  \cf4 \\uni01C7\cf3  \
+	\cf4 \\uni01C8\cf3  \cf4 \\uni01C9\cf3  \cf4 \\uni01CA\cf3  \cf4 \\uni01CB\cf3  \cf4 \\uni01CC\cf3  \cf4 \\uni01E0\cf3  \cf4 \\uni01E1\cf3  \cf4 \\uni01F1\cf3  \cf4 \\uni01F2\cf3  \
+	\cf4 \\uni01F3\cf3  \cf4 \\uni0202\cf3  \cf4 \\uni0203\cf3  \cf4 \\uni0206\cf3  \cf4 \\uni0207\cf3  \cf4 \\uni020A\cf3  \cf4 \\uni020B\cf3  \cf4 \\uni020E\cf3  \cf4 \\uni020F\cf3  \
+	\cf4 \\uni0212\cf3  \cf4 \\uni0213\cf3  \cf4 \\uni0216\cf3  \cf4 \\uni0217\cf3  \cf4 \\uni02B0\cf3  \cf4 \\uni02B2\cf3  \cf4 \\uni02B3\cf3  \cf4 \\uni02B7\cf3  \cf4 \\uni02B8\cf3  \
+	\cf4 \\uni02B9\cf3  \cf4 \\uni02BA\cf3  \cf4 \\uni02BC\cf3  \cf4 \\uni02C4\cf3  \cf4 \\uni02E1\cf3  \cf4 \\uni02E2\cf3  \cf4 \\uni02E3\cf3  \cf4 \\uni0344\cf3  \cf4 \\uni0374\cf3  \
+	\cf4 \\uni037E\cf3  \cf4 \\anoteleia\cf3  \cf4 \\Alpha\cf3  \cf4 \\Beta\cf3  \cf4 \\Epsilon\cf3  \cf4 \\Zeta\cf3  \cf4 \\Eta\cf3  \cf4 \\Iota\cf3  \cf4 \\Kappa\cf3  \cf4 \\Mu\cf3  \cf4 \\Nu\cf3  \cf4 \\Omicron\cf3  \
+	\cf4 \\Rho\cf3  \cf4 \\Tau\cf3  \cf4 \\Upsilon\cf3  \cf4 \\Chi\cf3  \cf4 \\Iotadieresis\cf3  \cf4 \\Upsilondieresis\cf3  \cf4 \\Upsilon1\cf3  \cf4 \\uni03D4\cf3  \
+	\cf4 \\uni0405\cf3  \cf4 \\uni0406\cf3  \cf4 \\uni0407\cf3  \cf4 \\uni0408\cf3  \cf4 \\uni0410\cf3  \cf4 \\uni0412\cf3  \cf4 \\uni0415\cf3  \cf4 \\uni041A\cf3  \cf4 \\uni041C\cf3  \
+	\cf4 \\uni041D\cf3  \cf4 \\uni041E\cf3  \cf4 \\uni0420\cf3  \cf4 \\uni0421\cf3  \cf4 \\uni0422\cf3  \cf4 \\uni0425\cf3  \cf4 \\uni0430\cf3  \cf4 \\uni0435\cf3  \cf4 \\uni043E\cf3  \
+	\cf4 \\uni0440\cf3  \cf4 \\uni0441\cf3  \cf4 \\uni0443\cf3  \cf4 \\uni0445\cf3  \cf4 \\uni0450\cf3  \cf4 \\uni0451\cf3  \cf4 \\uni0455\cf3  \cf4 \\uni0456\cf3  \cf4 \\uni0457\cf3  \
+	\cf4 \\uni0458\cf3  \cf4 \\uni045E\cf3  \cf4 \\uni04AE\cf3  \cf4 \\uni04C0\cf3  \cf4 \\uni04D0\cf3  \cf4 \\uni04D1\cf3  \cf4 \\uni04D2\cf3  \cf4 \\uni04D3\cf3  \cf4 \\uni04D6\cf3  \
+	\cf4 \\uni04D7\cf3  \cf4 \\uni04E6\cf3  \cf4 \\uni04E7\cf3  \cf4 \\uni04EF\cf3  \cf4 \\uni04F1\cf3  \cf4 \\uni04F3\cf3  \cf4 \\uni1D2C\cf3  \cf4 \\uni1D2E\cf3  \cf4 \\uni1D30\cf3  \
+	\cf4 \\uni1D31\cf3  \cf4 \\uni1D33\cf3  \cf4 \\uni1D34\cf3  \cf4 \\uni1D35\cf3  \cf4 \\uni1D36\cf3  \cf4 \\uni1D37\cf3  \cf4 \\uni1D38\cf3  \cf4 \\uni1D39\cf3  \cf4 \\uni1D3A\cf3  \
+	\cf4 \\uni1D3C\cf3  \cf4 \\uni1D3E\cf3  \cf4 \\uni1D3F\cf3  \cf4 \\uni1D40\cf3  \cf4 \\uni1D41\cf3  \cf4 \\uni1D42\cf3  \cf4 \\uni1D43\cf3  \cf4 \\uni1D47\cf3  \cf4 \\uni1D48\cf3  \
+	\cf4 \\uni1D49\cf3  \cf4 \\uni1D4D\cf3  \cf4 \\uni1D4F\cf3  \cf4 \\uni1D50\cf3  \cf4 \\uni1D52\cf3  \cf4 \\uni1D56\cf3  \cf4 \\uni1D57\cf3  \cf4 \\uni1D58\cf3  \cf4 \\uni1D5B\cf3  \
+	\cf4 \\uni1D62\cf3  \cf4 \\uni1D63\cf3  \cf4 \\uni1D64\cf3  \cf4 \\uni1D65\cf3  \cf4 \\uni1D9C\cf3  \cf4 \\uni1DA0\cf3  \cf4 \\uni1DBB\cf3  \cf4 \\uni1FB8\cf3  \cf4 \\uni1FB9\cf3  \
+	\cf4 \\uni1FBA\cf3  \cf4 \\uni1FBD\cf3  \cf4 \\uni1FBF\cf3  \cf4 \\uni1FC8\cf3  \cf4 \\uni1FCA\cf3  \cf4 \\uni1FCD\cf3  \cf4 \\uni1FCE\cf3  \cf4 \\uni1FCF\cf3  \cf4 \\uni1FD8\cf3  \
+	\cf4 \\uni1FD9\cf3  \cf4 \\uni1FDA\cf3  \cf4 \\uni1FE8\cf3  \cf4 \\uni1FE9\cf3  \cf4 \\uni1FEA\cf3  \cf4 \\uni1FEC\cf3  \cf4 \\uni1FEF\cf3  \cf4 \\uni1FF8\cf3  \cf4 \\uni1FFD\cf3  \
+	\cf4 \\uni1FFE\cf3  \cf4 \\uni2000\cf3  \cf4 \\uni2001\cf3  \cf4 \\uni2002\cf3  \cf4 \\uni2003\cf3  \cf4 \\uni2004\cf3  \cf4 \\uni2005\cf3  \cf4 \\uni2006\cf3  \cf4 \\uni2007\cf3  \
+	\cf4 \\uni2008\cf3  \cf4 \\uni2009\cf3  \cf4 \\uni200A\cf3  \cf4 \\uni200B\cf3  \cf4 \\uni200C\cf3  \cf4 \\uni200D\cf3  \cf4 \\uni200E\cf3  \cf4 \\uni200F\cf3  \cf4 \\uni2010\cf3  \
+	\cf4 \\uni2011\cf3  \cf4 \\figuredash\cf3  \cf4 \\uni2015\cf3  \cf4 \\uni2016\cf3  \cf4 \\onedotenleader\cf3  \cf4 \\twodotenleader\cf3  \
+	\cf4 \\ellipsis\cf3  \cf4 \\uni202A\cf3  \cf4 \\minute\cf3  \cf4 \\second\cf3  \cf4 \\uni2034\cf3  \cf4 \\uni2035\cf3  \cf4 \\uni2036\cf3  \cf4 \\uni2037\cf3  \
+	\cf4 \\exclamdbl\cf3  \cf4 \\uni2047\cf3  \cf4 \\uni2048\cf3  \cf4 \\uni2049\cf3  \cf4 \\uni2057\cf3  \cf4 \\uni2060\cf3  \cf4 \\uni2070\cf3  \cf4 \\uni2071\cf3  \
+	\cf4 \\uni2074\cf3  \cf4 \\uni2075\cf3  \cf4 \\uni2076\cf3  \cf4 \\uni2077\cf3  \cf4 \\uni2078\cf3  \cf4 \\uni2079\cf3  \cf4 \\uni207A\cf3  \cf4 \\uni207C\cf3  \cf4 \\uni207D\cf3  \
+	\cf4 \\uni207E\cf3  \cf4 \\uni207F\cf3  \cf4 \\uni2080\cf3  \cf4 \\uni2081\cf3  \cf4 \\uni2082\cf3  \cf4 \\uni2083\cf3  \cf4 \\uni2084\cf3  \cf4 \\uni2085\cf3  \cf4 \\uni2086\cf3  \
+	\cf4 \\uni2087\cf3  \cf4 \\uni2088\cf3  \cf4 \\uni2089\cf3  \cf4 \\uni208A\cf3  \cf4 \\uni208C\cf3  \cf4 \\uni208D\cf3  \cf4 \\uni208E\cf3  \cf4 \\uni2090\cf3  \cf4 \\uni2091\cf3  \
+	\cf4 \\uni2092\cf3  \cf4 \\uni2093\cf3  \cf4 \\uni20A8\cf3  \cf4 \\uni2100\cf3  \cf4 \\uni2101\cf3  \cf4 \\uni2105\cf3  \cf4 \\uni2106\cf3  \cf4 \\uni2112\cf3  \cf4 \\uni2113\cf3  \
+	\cf4 \\uni2116\cf3  \cf4 \\uni2120\cf3  \cf4 \\trademark\cf3  \cf4 \\uni212A\cf3  \cf4 \\uni212B\cf3  \cf4 \\uni2160\cf3  \cf4 \\uni2161\cf3  \cf4 \\uni2162\cf3  \
+	\cf4 \\uni2163\cf3  \cf4 \\uni2164\cf3  \cf4 \\uni2165\cf3  \cf4 \\uni2166\cf3  \cf4 \\uni2167\cf3  \cf4 \\uni2168\cf3  \cf4 \\uni2169\cf3  \cf4 \\uni216A\cf3  \cf4 \\uni216B\cf3  \
+	\cf4 \\uni216C\cf3  \cf4 \\uni216D\cf3  \cf4 \\uni216E\cf3  \cf4 \\uni216F\cf3  \cf4 \\uni2170\cf3  \cf4 \\uni2171\cf3  \cf4 \\uni2172\cf3  \cf4 \\uni2173\cf3  \cf4 \\uni2174\cf3  \
+	\cf4 \\uni2175\cf3  \cf4 \\uni2176\cf3  \cf4 \\uni2177\cf3  \cf4 \\uni2178\cf3  \cf4 \\uni2179\cf3  \cf4 \\uni217A\cf3  \cf4 \\uni217B\cf3  \cf4 \\uni217C\cf3  \cf4 \\uni217D\cf3  \
+	\cf4 \\uni217E\cf3  \cf4 \\uni217F\cf3  \cf4 \\minus\cf3  \cf4 \\uni2215\cf3  \cf4 \\uni2216\cf3  \cf4 \\uni2219\cf3  \cf4 \\uni2223\cf3  \cf4 \\uni2224\cf3  \cf4 \\uni2225\cf3  \
+	\cf4 \\uni2226\cf3  \cf4 \\uni2236\cf3  \cf4 \\similar\cf3  \cf4 \\uni2241\cf3  \cf4 \\uni226A\cf3  \cf4 \\uni226B\cf3  \cf4 \\dotmath\cf3  \cf4 \\uni22EF\cf3  \cf4 \\uni2303\cf3  \
+	\cf4 \\uni2474\cf3  \cf4 \\uni2475\cf3  \cf4 \\uni2476\cf3  \cf4 \\uni2477\cf3  \cf4 \\uni2478\cf3  \cf4 \\uni2479\cf3  \cf4 \\uni247A\cf3  \cf4 \\uni247B\cf3  \cf4 \\uni247C\cf3  \
+	\cf4 \\uni247D\cf3  \cf4 \\uni247E\cf3  \cf4 \\uni247F\cf3  \cf4 \\uni2480\cf3  \cf4 \\uni2481\cf3  \cf4 \\uni2482\cf3  \cf4 \\uni2483\cf3  \cf4 \\uni2484\cf3  \cf4 \\uni2485\cf3  \
+	\cf4 \\uni2486\cf3  \cf4 \\uni2487\cf3  \cf4 \\uni2488\cf3  \cf4 \\uni2489\cf3  \cf4 \\uni248A\cf3  \cf4 \\uni248B\cf3  \cf4 \\uni248C\cf3  \cf4 \\uni248D\cf3  \cf4 \\uni248E\cf3  \
+	\cf4 \\uni248F\cf3  \cf4 \\uni2490\cf3  \cf4 \\uni2491\cf3  \cf4 \\uni2492\cf3  \cf4 \\uni2493\cf3  \cf4 \\uni2494\cf3  \cf4 \\uni2495\cf3  \cf4 \\uni2496\cf3  \cf4 \\uni2497\cf3  \
+	\cf4 \\uni2498\cf3  \cf4 \\uni2499\cf3  \cf4 \\uni249A\cf3  \cf4 \\uni249B\cf3  \cf4 \\uni249C\cf3  \cf4 \\uni249D\cf3  \cf4 \\uni249E\cf3  \cf4 \\uni249F\cf3  \cf4 \\uni24A0\cf3  \
+	\cf4 \\uni24A1\cf3  \cf4 \\uni24A2\cf3  \cf4 \\uni24A3\cf3  \cf4 \\uni24A4\cf3  \cf4 \\uni24A5\cf3  \cf4 \\uni24A6\cf3  \cf4 \\uni24A7\cf3  \cf4 \\uni24A8\cf3  \cf4 \\uni24A9\cf3  \
+	\cf4 \\uni24AA\cf3  \cf4 \\uni24AB\cf3  \cf4 \\uni24AC\cf3  \cf4 \\uni24AD\cf3  \cf4 \\uni24AE\cf3  \cf4 \\uni24AF\cf3  \cf4 \\uni24B0\cf3  \cf4 \\uni24B1\cf3  \cf4 \\uni24B2\cf3  \
+	\cf4 \\uni24B3\cf3  \cf4 \\uni24B4\cf3  \cf4 \\uni24B5\cf3  \cf4 \\uni2A74\cf3  \cf4 \\uni2A75\cf3  \cf4 \\uni2A76\cf3  \cf4 \\uni2C7C\cf3  \cf4 \\uni2C7D\cf3  \cf4 \\uniFB00\cf3  \
+	\cf4 \\uniFB01\cf3  \cf4 \\uniFB02\cf3  \cf4 \\uniFB03\cf3  \cf4 \\uniFB04\cf3  \cf4 \\uniFB05\cf3  \cf4 \\uniFB06\cf3  \cf4 \\napostrophe\cf3  \cf4 \\uni0400\cf3  \
+	\cf4 \\uni0401\cf3  \cf4 \\uni040C\cf3  \cf4 \\uni1FBB\cf3  \cf4 \\uni1FC9\cf3  \cf4 \\uni1FCB\cf3  \cf4 \\uni1FDB\cf3  \cf4 \\uni1FDD\cf3  \cf4 \\uni1FDE\cf3  \cf4 \\uni1FDF\cf3  \
+	\cf4 \\uni1FEB\cf3  \cf4 \\uni1FF9\cf3  \cf4 \\uni02BB\cf3  \cf4 \\uni02C9\cf3  \cf4 \\degree\cf3  \cf4 \\caron\cf3  \cf4 \\uni0315\cf3  \cf4 \\uni0340\cf3  \
+	\cf4 \\Adieresis.deu\cf3  \cf4 \\Odieresis.deu\cf3  \cf4 \\Udieresis.deu\cf3  \cf4 \\quotesingle.alt\cf3  \cf4 \\Hbar\cf3  \cf4 \\Dcroat\cf3  \
+	\cf4 \\hbar\cf3  \cf4 \\dcroat\cf3  \cf4 \\Eth\cf3  \cf4 \\Tbar\cf3  \cf4 \\tbar\cf3  \cf4 \\AE\cf3  \cf4 \\uni01E2\cf3  \cf4 \\AEacute\cf3  \cf4 \\thorn\cf3  \cf4 \\Thorn\cf3  \cf4 \\lslash\cf3  \cf4 \\Lslash\cf3  \
+	\cf4 \\oslash\cf3  \cf4 \\Oslash\cf3  \cf4 \\uni01E3\cf3  \cf4 \\uni1E9E\cf3  \cf4 \\percent\cf3  \cf4 \\ampersand\cf3  \cf4 \\asterisk\cf3  \cf4 \\braceleft\cf3  \
+	\cf4 \\braceright\cf3  \cf4 \\at\cf3  \cf4 \\cent\cf3  \cf4 \\yen\cf3  \cf4 \\Euro\cf3  \cf4 \\paragraph\cf3  \cf4 \\divide\cf3  \cf4 \\multiply\cf3  \cf4 \\plusminus\cf3  \
+	\cf4 \\questiondown\cf3  \cf4 \\kgreenlandic\cf3  \cf4 \\eth\cf3  \cf4 \\eng\cf3  \cf4 \\Eng\cf3  \cf4 \\uni0292\cf3  \cf4 \\copyright\cf3  \cf4 \\aeacute\cf3  \
+	\cf4 \\oslashacute\cf3  \cf4 \\uni01EF\cf3  \cf4 \\Oslashacute\cf3  \cf4 \\uni043A\cf3  \cf4 \\uni045C\cf3  \cf4 \\uni04D4\cf3  \cf4 \\uni04D5\cf3  \cf4 \\uni04E1\cf3  \
+	\cf4 \\uni1D2D\cf3  \cf4 \\uni1D51\cf3  \cf4 \\longs_longs_l\cf3  \cf4 \\longs_longs_i\cf3  \cf4 \\longs_i\cf3  \cf4 \\longs_longs.long\cf3  \
+	\cf4 \\longs_l\cf3  \cf4 \\c_h\cf3  \cf4 \\c_k\cf3  \cf4 \\one.lnum\cf3  \cf4 \\two.lnum\cf3  \cf4 \\three.lnum\cf3  \cf4 \\four.lnum\cf3  \cf4 \\five.lnum\cf3  \
+	\cf4 \\six.lnum\cf3  \cf4 \\seven.lnum\cf3  \cf4 \\eight.lnum\cf3  \cf4 \\nine.lnum\cf3  \cf4 \\zero.lnum\cf3  \cf4 \\longs_s\cf3  \
+	\cf4 \\germandbls.alt\cf3  \cf4 \\logicalnot\cf3  \cf4 \\registered\cf3  \cf4 \\uni00A0\cf3  \cf4 \\onequarter\cf3  \cf4 \\threequarters\cf3  \
+	\cf4 \\onehalf\cf3  \cf4 \\mu\cf3  \cf4 \\currency\cf3  \cf4 \\f_f.long\cf3  \cf4 \\Gamma\cf3  \cf4 \\Lambda\cf3  \cf4 \\uni0394\cf3  \cf4 \\Pi\cf3  \cf4 \\uni041F\cf3  \cf4 \\uni042F\cf3  \
+	\cf4 \\uni0413\cf3  \cf4 \\t_t\cf3  \cf4 \\t_z.alt\cf3  \cf4 \\sterling\cf3  \cf4 \\L.
+\f1\b \cf2 script
+\f2\b0 \cf3  \cf4 \\section\cf3  \cf4 \\Q.long\cf3  \cf4 \\i.TRKsc\cf3  \cf4 \\uni2213\cf3  \
+	\cf4 \\uni203D\cf3  \cf4 \\f.long\cf3  \cf4 \\zero.taboldstyle\cf3  \cf4 \\one.taboldstyle\cf3  \cf4 \\two.taboldstyle\cf3  \
+	\cf4 \\three.taboldstyle\cf3  \cf4 \\four.taboldstyle\cf3  \cf4 \\five.taboldstyle\cf3  \cf4 \\six.taboldstyle\cf3  \
+	\cf4 \\seven.taboldstyle\cf3  \cf4 \\eight.taboldstyle\cf3  \cf4 \\nine.taboldstyle\cf3  \cf4 \\one.tablining\cf3  \
+	\cf4 \\two.tablining\cf3  \cf4 \\three.tablining\cf3  \cf4 \\four.tablining\cf3  \cf4 \\five.tablining\cf3  \
+	\cf4 \\six.tablining\cf3  \cf4 \\seven.tablining\cf3  \cf4 \\eight.tablining\cf3  \cf4 \\nine.tablining\cf3  \
+	\cf4 \\zero.tablining\cf3  \cf4 \\uni02F7\cf3  \cf4 \\Euro.tablining\cf3  \cf4 \\f_h\cf3  \cf4 \\f_k\cf3  \cf4 \\f_b\cf3  \cf4 \\f_t\cf3  \cf4 \\f_j\cf3  \cf4 \\longs_j\cf3  \
+	\cf4 \\longs_b\cf3  \cf4 \\longs_h\cf3  \cf4 \\longs_k\cf3  \cf4 \\longs.long\cf3  \cf4 \\longs_longs\cf3  \cf4 \\Theta\cf3  \cf4 \\Xi\cf3  \cf4 \\Phi\cf3  \cf4 \\uni0424\cf3  \
+	\cf4 \\Sigma\cf3  \cf4 \\uni03A9\cf3  \cf4 \\uni1FFA\cf3  \cf4 \\uni1FFB\cf3  \cf4 \\uni0411\cf3  \cf4 \\uni0418\cf3  \cf4 \\uni0419\cf3  \cf4 \\uni0403\cf3  \cf4 \\uni040D\cf3  \
+	\cf4 \\uni040F\cf3  \cf4 \\uni0426\cf3  \cf4 \\uni0428\cf3  \cf4 \\uni0429\cf3  \cf4 \\uni042E\cf3  \cf4 \\uni041B\cf3  \cf4 \\uni0414\cf3  \cf4 \\uni040A\cf3  \cf4 \\uni0409\cf3  \
+	\cf4 \\uni0417\cf3  \cf4 \\uni042D\cf3  \cf4 \\uni0404\cf3  \cf4 \\uni040B\cf3  \cf4 \\uni0402\cf3  \cf4 \\uni0427\cf3  \cf4 \\uni0423\cf3  \cf4 \\uni040E\cf3  \cf4 \\uni042A\cf3  \
+	\cf4 \\uni042C\cf3  \cf4 \\uni042B\cf3  \cf4 \\uni03BC\cf3  \cf4 \\Psi\cf3  \cf4 \\uni207B\cf3  \cf4 \\uni208B\cf3  \cf4 \\fraction\cf3  \cf4 \\uni0416\cf3  \cf4 \\Omega\cf3  \
+	\cf4 \\uni2127\cf3  \cf4 \\uni0432\cf3  \cf4 \\uni1EB2\cf3  \cf4 \\uni1EA9\cf3  \cf4 \\uni1EA3\cf3  \cf4 \\uni1EB3\cf3  \cf4 \\uni1EBB\cf3  \cf4 \\uni1EC3\cf3  \cf4 \\uni1EC9\cf3  \
+	\cf4 \\uni1ECF\cf3  \cf4 \\uni1ED5\cf3  \cf4 \\uni1EDF\cf3  \cf4 \\uni1EE7\cf3  \cf4 \\uni1EE9\cf3  \cf4 \\uni1EEB\cf3  \cf4 \\uni1EED\cf3  \cf4 \\uni1EEF\cf3  \cf4 \\uni1EF1\cf3  \
+	\cf4 \\uni1EF7\cf3  \cf4 \\u.LATmedi\cf3  \cf4 \\i.TRK\cf3  \cf4 \\U.LAT\cf3  \cf4 \\bullet.\cf2 01\cf3  \cf4 \\bullet.\cf2 03\cf3  \cf4 \\dagger\cf3  \cf4 \\daggerdbl\cf3  \
+	\cf4 \\bullet.\cf2 02\cf3  \cf4 \\uni261E\cf3  \cf4 \\uni261C\cf3  \cf4 \\f.DEU\cf3  \cf4 \\exclam.subs\cf3  \cf4 \\quotedbl.subs\cf3  \
+	\cf4 \\numbersign.subs\cf3  \cf4 \\dollar.subs\cf3  \cf4 \\percent.subs\cf3  \cf4 \\ampersand.subs\cf3  \
+	\cf4 \\quotesingle.subs\cf3  \cf4 \\parenleft.subs\cf3  \cf4 \\parenright.subs\cf3  \cf4 \\asterisk.subs\cf3  \cf4 \\plus.subs\cf3  \
+	\cf4 \\comma.subs\cf3  \cf4 \\hyphen.subs\cf3  \cf4 \\period.subs\cf3  \cf4 \\slash.subs\cf3  \cf4 \\zero.subs\cf3  \cf4 \\one.subs\cf3  \
+	\cf4 \\two.subs\cf3  \cf4 \\three.subs\cf3  \cf4 \\four.subs\cf3  \cf4 \\five.subs\cf3  \cf4 \\six.subs\cf3  \cf4 \\seven.subs\cf3  \cf4 \\eight.subs\cf3  \
+	\cf4 \\nine.subs\cf3  \cf4 \\colon.subs\cf3  \cf4 \\semicolon.subs\cf3  \cf4 \\less.subs\cf3  \cf4 \\equal.subs\cf3  \cf4 \\greater.subs\cf3  \
+	\cf4 \\question.subs\cf3  \cf4 \\at.subs\cf3  \cf4 \\A.subs\cf3  \cf4 \\B.subs\cf3  \cf4 \\C.subs\cf3  \cf4 \\D.subs\cf3  \cf4 \\E.subs\cf3  \cf4 \\F.subs\cf3  \cf4 \\G.subs\cf3  \
+	\cf4 \\H.subs\cf3  \cf4 \\I.subs\cf3  \cf4 \\J.subs\cf3  \cf4 \\K.subs\cf3  \cf4 \\L.subs\cf3  \cf4 \\M.subs\cf3  \cf4 \\N.subs\cf3  \cf4 \\O.subs\cf3  \cf4 \\P.subs\cf3  \cf4 \\Q.subs\cf3  \
+	\cf4 \\R.subs\cf3  \cf4 \\S.subs\cf3  \cf4 \\T.subs\cf3  \cf4 \\U.subs\cf3  \cf4 \\V.subs\cf3  \cf4 \\W.subs\cf3  \cf4 \\X.subs\cf3  \cf4 \\Y.subs\cf3  \cf4 \\Z.subs\cf3  \
+	\cf4 \\bracketleft.subs\cf3  \cf4 \\backslash.subs\cf3  \cf4 \\bracketright.subs\cf3  \cf4 \\asciicircum.subs\cf3  \
+	\cf4 \\underscore.subs\cf3  \cf4 \\grave.subs\cf3  \cf4 \\a.subs\cf3  \cf4 \\b.subs\cf3  \cf4 \\c.subs\cf3  \cf4 \\d.subs\cf3  \cf4 \\e.subs\cf3  \cf4 \\f.subs\cf3  \
+	\cf4 \\g.subs\cf3  \cf4 \\h.subs\cf3  \cf4 \\i.subs\cf3  \cf4 \\j.subs\cf3  \cf4 \\k.subs\cf3  \cf4 \\l.subs\cf3  \cf4 \\m.subs\cf3  \cf4 \\n.subs\cf3  \cf4 \\o.subs\cf3  \cf4 \\p.subs\cf3  \
+	\cf4 \\q.subs\cf3  \cf4 \\r.subs\cf3  \cf4 \\s.subs\cf3  \cf4 \\t.subs\cf3  \cf4 \\u.subs\cf3  \cf4 \\v.subs\cf3  \cf4 \\w.subs\cf3  \cf4 \\x.subs\cf3  \cf4 \\y.subs\cf3  \cf4 \\z.subs\cf3  \
+	\cf4 \\braceleft.subs\cf3  \cf4 \\bar.subs\cf3  \cf4 \\braceright.subs\cf3  \cf4 \\asciitilde.subs\cf3  \cf4 \\brokenbar.subs\cf3  \
+	\cf4 \\section.subs\cf3  \cf4 \\paragraph.subs\cf3  \cf4 \\egrave.subs\cf3  \cf4 \\uni2016.subs\cf3  \cf4 \\dagger.subs\cf3  \
+	\cf4 \\daggerdbl.subs\cf3  \cf4 \\exclam.sinf\cf3  \cf4 \\quotedbl.sinf\cf3  \cf4 \\numbersign.sinf\cf3  \cf4 \\dollar.sinf\cf3  \
+	\cf4 \\percent.sinf\cf3  \cf4 \\ampersand.sinf\cf3  \cf4 \\quotesingle.sinf\cf3  \cf4 \\parenleft.sinf\cf3  \
+	\cf4 \\parenright.sinf\cf3  \cf4 \\asterisk.sinf\cf3  \cf4 \\plus.sinf\cf3  \cf4 \\comma.sinf\cf3  \cf4 \\hyphen.sinf\cf3  \
+	\cf4 \\period.sinf\cf3  \cf4 \\slash.sinf\cf3  \cf4 \\zero.sinf\cf3  \cf4 \\one.sinf\cf3  \cf4 \\two.sinf\cf3  \cf4 \\three.sinf\cf3  \cf4 \\four.sinf\cf3  \
+	\cf4 \\five.sinf\cf3  \cf4 \\six.sinf\cf3  \cf4 \\seven.sinf\cf3  \cf4 \\eight.sinf\cf3  \cf4 \\nine.sinf\cf3  \cf4 \\colon.sinf\cf3  \
+	\cf4 \\semicolon.sinf\cf3  \cf4 \\less.sinf\cf3  \cf4 \\equal.sinf\cf3  \cf4 \\greater.sinf\cf3  \cf4 \\question.sinf\cf3  \cf4 \\at.sinf\cf3  \
+	\cf4 \\A.sinf\cf3  \cf4 \\B.sinf\cf3  \cf4 \\C.sinf\cf3  \cf4 \\D.sinf\cf3  \cf4 \\E.sinf\cf3  \cf4 \\F.sinf\cf3  \cf4 \\G.sinf\cf3  \cf4 \\H.sinf\cf3  \cf4 \\I.sinf\cf3  \cf4 \\J.sinf\cf3  \
+	\cf4 \\K.sinf\cf3  \cf4 \\L.sinf\cf3  \cf4 \\M.sinf\cf3  \cf4 \\N.sinf\cf3  \cf4 \\O.sinf\cf3  \cf4 \\P.sinf\cf3  \cf4 \\Q.sinf\cf3  \cf4 \\R.sinf\cf3  \cf4 \\S.sinf\cf3  \cf4 \\T.sinf\cf3  \
+	\cf4 \\U.sinf\cf3  \cf4 \\V.sinf\cf3  \cf4 \\W.sinf\cf3  \cf4 \\X.sinf\cf3  \cf4 \\Y.sinf\cf3  \cf4 \\Z.sinf\cf3  \cf4 \\bracketleft.sinf\cf3  \
+	\cf4 \\backslash.sinf\cf3  \cf4 \\bracketright.sinf\cf3  \cf4 \\asciicircum.sinf\cf3  \cf4 \\underscore.sinf\cf3  \
+	\cf4 \\grave.sinf\cf3  \cf4 \\a.sinf\cf3  \cf4 \\b.sinf\cf3  \cf4 \\c.sinf\cf3  \cf4 \\d.sinf\cf3  \cf4 \\e.sinf\cf3  \cf4 \\f.sinf\cf3  \cf4 \\g.sinf\cf3  \cf4 \\h.sinf\cf3  \
+	\cf4 \\i.sinf\cf3  \cf4 \\j.sinf\cf3  \cf4 \\k.sinf\cf3  \cf4 \\l.sinf\cf3  \cf4 \\m.sinf\cf3  \cf4 \\n.sinf\cf3  \cf4 \\o.sinf\cf3  \cf4 \\p.sinf\cf3  \cf4 \\q.sinf\cf3  \cf4 \\r.sinf\cf3  \
+	\cf4 \\s.sinf\cf3  \cf4 \\t.sinf\cf3  \cf4 \\u.sinf\cf3  \cf4 \\v.sinf\cf3  \cf4 \\w.sinf\cf3  \cf4 \\x.sinf\cf3  \cf4 \\y.sinf\cf3  \cf4 \\z.sinf\cf3  \cf4 \\braceleft.sinf\cf3  \
+	\cf4 \\bar.sinf\cf3  \cf4 \\braceright.sinf\cf3  \cf4 \\asciitilde.sinf\cf3  \cf4 \\brokenbar.sinf\cf3  \cf4 \\section.sinf\cf3  \
+	\cf4 \\paragraph.sinf\cf3  \cf4 \\egrave.sinf\cf3  \cf4 \\uni2016.sinf\cf3  \cf4 \\dagger.sinf\cf3  \cf4 \\daggerdbl.sinf\cf3  \
+	\cf4 \\exclam.ordn\cf3  \cf4 \\quotedbl.ordn\cf3  \cf4 \\numbersign.ordn\cf3  \cf4 \\dollar.ordn\cf3  \cf4 \\percent.ordn\cf3  \
+	\cf4 \\ampersand.ordn\cf3  \cf4 \\quotesingle.ordn\cf3  \cf4 \\parenleft.ordn\cf3  \cf4 \\parenright.ordn\cf3  \
+	\cf4 \\asterisk.ordn\cf3  \cf4 \\plus.ordn\cf3  \cf4 \\comma.ordn\cf3  \cf4 \\hyphen.ordn\cf3  \cf4 \\period.ordn\cf3  \cf4 \\slash.ordn\cf3  \
+	\cf4 \\zero.ordn\cf3  \cf4 \\one.ordn\cf3  \cf4 \\two.ordn\cf3  \cf4 \\three.ordn\cf3  \cf4 \\four.ordn\cf3  \cf4 \\five.ordn\cf3  \cf4 \\six.ordn\cf3  \
+	\cf4 \\seven.ordn\cf3  \cf4 \\eight.ordn\cf3  \cf4 \\nine.ordn\cf3  \cf4 \\colon.ordn\cf3  \cf4 \\semicolon.ordn\cf3  \cf4 \\less.ordn\cf3  \
+	\cf4 \\equal.ordn\cf3  \cf4 \\greater.ordn\cf3  \cf4 \\question.ordn\cf3  \cf4 \\at.ordn\cf3  \cf4 \\A.ordn\cf3  \cf4 \\B.ordn\cf3  \cf4 \\C.ordn\cf3  \
+	\cf4 \\D.ordn\cf3  \cf4 \\E.ordn\cf3  \cf4 \\F.ordn\cf3  \cf4 \\G.ordn\cf3  \cf4 \\H.ordn\cf3  \cf4 \\I.ordn\cf3  \cf4 \\J.ordn\cf3  \cf4 \\K.ordn\cf3  \cf4 \\L.ordn\cf3  \cf4 \\M.ordn\cf3  \
+	\cf4 \\N.ordn\cf3  \cf4 \\O.ordn\cf3  \cf4 \\P.ordn\cf3  \cf4 \\Q.ordn\cf3  \cf4 \\R.ordn\cf3  \cf4 \\S.ordn\cf3  \cf4 \\T.ordn\cf3  \cf4 \\U.ordn\cf3  \cf4 \\V.ordn\cf3  \cf4 \\W.ordn\cf3  \
+	\cf4 \\X.ordn\cf3  \cf4 \\Y.ordn\cf3  \cf4 \\Z.ordn\cf3  \cf4 \\bracketleft.ordn\cf3  \cf4 \\backslash.ordn\cf3  \cf4 \\bracketright.ordn\cf3  \
+	\cf4 \\asciicircum.ordn\cf3  \cf4 \\underscore.ordn\cf3  \cf4 \\grave.ordn\cf3  \cf4 \\a.ordn\cf3  \cf4 \\b.ordn\cf3  \cf4 \\c.ordn\cf3  \cf4 \\d.ordn\cf3  \
+	\cf4 \\e.ordn\cf3  \cf4 \\f.ordn\cf3  \cf4 \\g.ordn\cf3  \cf4 \\h.ordn\cf3  \cf4 \\i.ordn\cf3  \cf4 \\j.ordn\cf3  \cf4 \\k.ordn\cf3  \cf4 \\l.ordn\cf3  \cf4 \\m.ordn\cf3  \cf4 \\n.ordn\cf3  \
+	\cf4 \\o.ordn\cf3  \cf4 \\p.ordn\cf3  \cf4 \\q.ordn\cf3  \cf4 \\r.ordn\cf3  \cf4 \\s.ordn\cf3  \cf4 \\t.ordn\cf3  \cf4 \\u.ordn\cf3  \cf4 \\v.ordn\cf3  \cf4 \\w.ordn\cf3  \cf4 \\x.ordn\cf3  \
+	\cf4 \\y.ordn\cf3  \cf4 \\z.ordn\cf3  \cf4 \\braceleft.ordn\cf3  \cf4 \\bar.ordn\cf3  \cf4 \\braceright.ordn\cf3  \cf4 \\asciitilde.ordn\cf3  \
+	\cf4 \\brokenbar.ordn\cf3  \cf4 \\section.ordn\cf3  \cf4 \\paragraph.ordn\cf3  \cf4 \\egrave.ordn\cf3  \cf4 \\uni2016.ordn\cf3  \
+	\cf4 \\dagger.ordn\cf3  \cf4 \\daggerdbl.ordn\cf3  \cf4 \\exclam.sups\cf3  \cf4 \\quotedbl.sups\cf3  \cf4 \\numbersign.sups\cf3  \
+	\cf4 \\dollar.sups\cf3  \cf4 \\percent.sups\cf3  \cf4 \\ampersand.sups\cf3  \cf4 \\quotesingle.sups\cf3  \cf4 \\parenleft.sups\cf3  \
+	\cf4 \\parenright.sups\cf3  \cf4 \\asterisk.sups\cf3  \cf4 \\plus.sups\cf3  \cf4 \\comma.sups\cf3  \cf4 \\hyphen.sups\cf3  \
+	\cf4 \\period.sups\cf3  \cf4 \\slash.sups\cf3  \cf4 \\zero.sups\cf3  \cf4 \\one.sups\cf3  \cf4 \\two.sups\cf3  \cf4 \\three.sups\cf3  \cf4 \\four.sups\cf3  \
+	\cf4 \\five.sups\cf3  \cf4 \\six.sups\cf3  \cf4 \\seven.sups\cf3  \cf4 \\eight.sups\cf3  \cf4 \\nine.sups\cf3  \cf4 \\colon.sups\cf3  \
+	\cf4 \\semicolon.sups\cf3  \cf4 \\less.sups\cf3  \cf4 \\equal.sups\cf3  \cf4 \\greater.sups\cf3  \cf4 \\question.sups\cf3  \cf4 \\at.sups\cf3  \
+	\cf4 \\A.sups\cf3  \cf4 \\B.sups\cf3  \cf4 \\C.sups\cf3  \cf4 \\D.sups\cf3  \cf4 \\E.sups\cf3  \cf4 \\F.sups\cf3  \cf4 \\G.sups\cf3  \cf4 \\H.sups\cf3  \cf4 \\I.sups\cf3  \cf4 \\J.sups\cf3  \
+	\cf4 \\K.sups\cf3  \cf4 \\L.sups\cf3  \cf4 \\M.sups\cf3  \cf4 \\N.sups\cf3  \cf4 \\O.sups\cf3  \cf4 \\P.sups\cf3  \cf4 \\Q.sups\cf3  \cf4 \\R.sups\cf3  \cf4 \\S.sups\cf3  \cf4 \\T.sups\cf3  \
+	\cf4 \\U.sups\cf3  \cf4 \\V.sups\cf3  \cf4 \\W.sups\cf3  \cf4 \\X.sups\cf3  \cf4 \\Y.sups\cf3  \cf4 \\Z.sups\cf3  \cf4 \\bracketleft.sups\cf3  \
+	\cf4 \\backslash.sups\cf3  \cf4 \\bracketright.sups\cf3  \cf4 \\asciicircum.sups\cf3  \cf4 \\underscore.sups\cf3  \
+	\cf4 \\grave.sups\cf3  \cf4 \\a.sups\cf3  \cf4 \\b.sups\cf3  \cf4 \\c.sups\cf3  \cf4 \\d.sups\cf3  \cf4 \\e.sups\cf3  \cf4 \\f.sups\cf3  \cf4 \\g.sups\cf3  \cf4 \\h.sups\cf3  \
+	\cf4 \\i.sups\cf3  \cf4 \\j.sups\cf3  \cf4 \\k.sups\cf3  \cf4 \\l.sups\cf3  \cf4 \\m.sups\cf3  \cf4 \\n.sups\cf3  \cf4 \\o.sups\cf3  \cf4 \\p.sups\cf3  \cf4 \\q.sups\cf3  \cf4 \\r.sups\cf3  \
+	\cf4 \\s.sups\cf3  \cf4 \\t.sups\cf3  \cf4 \\u.sups\cf3  \cf4 \\v.sups\cf3  \cf4 \\w.sups\cf3  \cf4 \\x.sups\cf3  \cf4 \\y.sups\cf3  \cf4 \\z.sups\cf3  \cf4 \\braceleft.sups\cf3  \
+	\cf4 \\bar.sups\cf3  \cf4 \\braceright.sups\cf3  \cf4 \\asciitilde.sups\cf3  \cf4 \\brokenbar.sups\cf3  \cf4 \\section.sups\cf3  \
+	\cf4 \\paragraph.sups\cf3  \cf4 \\egrave.sups\cf3  \cf4 \\uni2016.sups\cf3  \cf4 \\dagger.sups\cf3  \cf4 \\daggerdbl.sups\cf3  \
+	\cf4 \\exclam.sc\cf3  \cf4 \\quotedbl.sc\cf3  \cf4 \\numbersign.sc\cf3  \cf4 \\dollar.sc\cf3  \cf4 \\percent.sc\cf3  \cf4 \\ampersand.sc\cf3  \
+	\cf4 \\quotesingle.sc\cf3  \cf4 \\parenleft.sc\cf3  \cf4 \\parenright.sc\cf3  \cf4 \\asterisk.sc\cf3  \cf4 \\plus.sc\cf3  \cf4 \\comma.sc\cf3  \
+	\cf4 \\hyphen.sc\cf3  \cf4 \\period.sc\cf3  \cf4 \\slash.sc\cf3  \cf4 \\zero.sc\cf3  \cf4 \\one.sc\cf3  \cf4 \\two.sc\cf3  \cf4 \\three.sc\cf3  \cf4 \\four.sc\cf3  \
+	\cf4 \\five.sc\cf3  \cf4 \\six.sc\cf3  \cf4 \\seven.sc\cf3  \cf4 \\eight.sc\cf3  \cf4 \\nine.sc\cf3  \cf4 \\colon.sc\cf3  \cf4 \\semicolon.sc\cf3  \cf4 \\less.sc\cf3  \
+	\cf4 \\equal.sc\cf3  \cf4 \\greater.sc\cf3  \cf4 \\question.sc\cf3  \cf4 \\at.sc\cf3  \cf4 \\A.sc\cf3  \cf4 \\B.sc\cf3  \cf4 \\C.sc\cf3  \cf4 \\D.sc\cf3  \cf4 \\E.sc\cf3  \cf4 \\F.sc\cf3  \
+	\cf4 \\G.sc\cf3  \cf4 \\H.sc\cf3  \cf4 \\I.sc\cf3  \cf4 \\J.sc\cf3  \cf4 \\K.sc\cf3  \cf4 \\L.sc\cf3  \cf4 \\M.sc\cf3  \cf4 \\N.sc\cf3  \cf4 \\O.sc\cf3  \cf4 \\P.sc\cf3  \cf4 \\Q.sc\cf3  \cf4 \\R.sc\cf3  \cf4 \\S.sc\cf3  \cf4 \\T.sc\cf3  \
+	\cf4 \\U.sc\cf3  \cf4 \\V.sc\cf3  \cf4 \\W.sc\cf3  \cf4 \\X.sc\cf3  \cf4 \\Y.sc\cf3  \cf4 \\Z.sc\cf3  \cf4 \\bracketleft.sc\cf3  \cf4 \\backslash.sc\cf3  \
+	\cf4 \\bracketright.sc\cf3  \cf4 \\asciicircum.sc\cf3  \cf4 \\underscore.sc\cf3  \cf4 \\grave.sc\cf3  \cf4 \\a.sc\cf3  \cf4 \\b.sc\cf3  \cf4 \\c.sc\cf3  \
+	\cf4 \\d.sc\cf3  \cf4 \\e.sc\cf3  \cf4 \\f.sc\cf3  \cf4 \\g.sc\cf3  \cf4 \\h.sc\cf3  \cf4 \\i.sc\cf3  \cf4 \\j.sc\cf3  \cf4 \\k.sc\cf3  \cf4 \\l.sc\cf3  \cf4 \\m.sc\cf3  \cf4 \\n.sc\cf3  \cf4 \\o.sc\cf3  \cf4 \\p.sc\cf3  \cf4 \\q.sc\cf3  \
+	\cf4 \\r.sc\cf3  \cf4 \\s.sc\cf3  \cf4 \\t.sc\cf3  \cf4 \\u.sc\cf3  \cf4 \\v.sc\cf3  \cf4 \\w.sc\cf3  \cf4 \\x.sc\cf3  \cf4 \\y.sc\cf3  \cf4 \\z.sc\cf3  \cf4 \\braceleft.sc\cf3  \cf4 \\bar.sc\cf3  \
+	\cf4 \\braceright.sc\cf3  \cf4 \\asciitilde.sc\cf3  \cf4 \\exclamdown.sc\cf3  \cf4 \\cent.sc\cf3  \cf4 \\sterling.sc\cf3  \
+	\cf4 \\currency.sc\cf3  \cf4 \\yen.sc\cf3  \cf4 \\brokenbar.sc\cf3  \cf4 \\section.sc\cf3  \cf4 \\dieresis.sc\cf3  \cf4 \\copyright.sc\cf3  \
+	\cf4 \\ordfeminine.sc\cf3  \cf4 \\guillemotleft.sc\cf3  \cf4 \\logicalnot.sc\cf3  \cf4 \\uni00AD.sc\cf3  \cf4 \\registered.sc\cf3  \
+	\cf4 \\macron.sc\cf3  \cf4 \\degree.sc\cf3  \cf4 \\plusminus.sc\cf3  \cf4 \\acute.sc\cf3  \cf4 \\paragraph.sc\cf3  \
+	\cf4 \\periodcentered.sc\cf3  \cf4 \\ordmasculine.sc\cf3  \cf4 \\guillemotright.sc\cf3  \cf4 \\questiondown.sc\cf3  \
+	\cf4 \\Agrave.sc\cf3  \cf4 \\Aacute.sc\cf3  \cf4 \\Acircumflex.sc\cf3  \cf4 \\Atilde.sc\cf3  \cf4 \\Adieresis.sc\cf3  \cf4 \\Aring.sc\cf3  \
+	\cf4 \\AE.sc\cf3  \cf4 \\Ccedilla.sc\cf3  \cf4 \\Egrave.sc\cf3  \cf4 \\Eacute.sc\cf3  \cf4 \\Ecircumflex.sc\cf3  \cf4 \\Edieresis.sc\cf3  \
+	\cf4 \\Igrave.sc\cf3  \cf4 \\Iacute.sc\cf3  \cf4 \\Icircumflex.sc\cf3  \cf4 \\Idieresis.sc\cf3  \cf4 \\Eth.sc\cf3  \cf4 \\Ntilde.sc\cf3  \
+	\cf4 \\Ograve.sc\cf3  \cf4 \\Oacute.sc\cf3  \cf4 \\Ocircumflex.sc\cf3  \cf4 \\Otilde.sc\cf3  \cf4 \\Odieresis.sc\cf3  \cf4 \\multiply.sc\cf3  \
+	\cf4 \\Oslash.sc\cf3  \cf4 \\Ugrave.sc\cf3  \cf4 \\Uacute.sc\cf3  \cf4 \\Ucircumflex.sc\cf3  \cf4 \\Udieresis.sc\cf3  \cf4 \\Yacute.sc\cf3  \
+	\cf4 \\Thorn.sc\cf3  \cf4 \\germandbls.sc\cf3  \cf4 \\agrave.sc\cf3  \cf4 \\aacute.sc\cf3  \cf4 \\acircumflex.sc\cf3  \cf4 \\atilde.sc\cf3  \
+	\cf4 \\adieresis.sc\cf3  \cf4 \\aring.sc\cf3  \cf4 \\ae.sc\cf3  \cf4 \\ccedilla.sc\cf3  \cf4 \\egrave.sc\cf3  \cf4 \\eacute.sc\cf3  \
+	\cf4 \\ecircumflex.sc\cf3  \cf4 \\edieresis.sc\cf3  \cf4 \\igrave.sc\cf3  \cf4 \\iacute.sc\cf3  \cf4 \\icircumflex.sc\cf3  \
+	\cf4 \\idieresis.sc\cf3  \cf4 \\eth.sc\cf3  \cf4 \\ntilde.sc\cf3  \cf4 \\ograve.sc\cf3  \cf4 \\oacute.sc\cf3  \cf4 \\ocircumflex.sc\cf3  \
+	\cf4 \\otilde.sc\cf3  \cf4 \\odieresis.sc\cf3  \cf4 \\divide.sc\cf3  \cf4 \\oslash.sc\cf3  \cf4 \\ugrave.sc\cf3  \cf4 \\uacute.sc\cf3  \
+	\cf4 \\ucircumflex.sc\cf3  \cf4 \\udieresis.sc\cf3  \cf4 \\yacute.sc\cf3  \cf4 \\thorn.sc\cf3  \cf4 \\ydieresis.sc\cf3  \cf4 \\Amacron.sc\cf3  \
+	\cf4 \\amacron.sc\cf3  \cf4 \\Abreve.sc\cf3  \cf4 \\abreve.sc\cf3  \cf4 \\Aogonek.sc\cf3  \cf4 \\aogonek.sc\cf3  \cf4 \\Cacute.sc\cf3  \
+	\cf4 \\cacute.sc\cf3  \cf4 \\Ccircumflex.sc\cf3  \cf4 \\ccircumflex.sc\cf3  \cf4 \\Cdotaccent.sc\cf3  \cf4 \\cdotaccent.sc\cf3  \
+	\cf4 \\Ccaron.sc\cf3  \cf4 \\ccaron.sc\cf3  \cf4 \\Dcaron.sc\cf3  \cf4 \\dcaron.sc\cf3  \cf4 \\Dcroat.sc\cf3  \cf4 \\dcroat.sc\cf3  \cf4 \\Emacron.sc\cf3  \
+	\cf4 \\emacron.sc\cf3  \cf4 \\Ebreve.sc\cf3  \cf4 \\ebreve.sc\cf3  \cf4 \\Edotaccent.sc\cf3  \cf4 \\edotaccent.sc\cf3  \cf4 \\Eogonek.sc\cf3  \
+	\cf4 \\eogonek.sc\cf3  \cf4 \\Ecaron.sc\cf3  \cf4 \\ecaron.sc\cf3  \cf4 \\Gcircumflex.sc\cf3  \cf4 \\gcircumflex.sc\cf3  \cf4 \\Gbreve.sc\cf3  \
+	\cf4 \\gbreve.sc\cf3  \cf4 \\Gdotaccent.sc\cf3  \cf4 \\gdotaccent.sc\cf3  \cf4 \\uni0122.sc\cf3  \cf4 \\uni0123.sc\cf3  \
+	\cf4 \\Hcircumflex.sc\cf3  \cf4 \\hcircumflex.sc\cf3  \cf4 \\Hbar.sc\cf3  \cf4 \\hbar.sc\cf3  \cf4 \\Itilde.sc\cf3  \cf4 \\itilde.sc\cf3  \
+	\cf4 \\Imacron.sc\cf3  \cf4 \\imacron.sc\cf3  \cf4 \\Ibreve.sc\cf3  \cf4 \\ibreve.sc\cf3  \cf4 \\Iogonek.sc\cf3  \cf4 \\iogonek.sc\cf3  \
+	\cf4 \\Idotaccent.sc\cf3  \cf4 \\dotlessi.sc\cf3  \cf4 \\IJ.sc\cf3  \cf4 \\ij.sc\cf3  \cf4 \\Jcircumflex.sc\cf3  \cf4 \\jcircumflex.sc\cf3  \
+	\cf4 \\uni0136.sc\cf3  \cf4 \\uni0137.sc\cf3  \cf4 \\kgreenlandic.sc\cf3  \cf4 \\Lacute.sc\cf3  \cf4 \\lacute.sc\cf3  \cf4 \\uni013B.sc\cf3  \
+	\cf4 \\uni013C.sc\cf3  \cf4 \\Lcaron.sc\cf3  \cf4 \\lcaron.sc\cf3  \cf4 \\Ldot.sc\cf3  \cf4 \\ldot.sc\cf3  \cf4 \\Lslash.sc\cf3  \cf4 \\lslash.sc\cf3  \
+	\cf4 \\Nacute.sc\cf3  \cf4 \\nacute.sc\cf3  \cf4 \\uni0145.sc\cf3  \cf4 \\uni0146.sc\cf3  \cf4 \\Ncaron.sc\cf3  \cf4 \\ncaron.sc\cf3  \
+	\cf4 \\napostrophe.sc\cf3  \cf4 \\Eng.sc\cf3  \cf4 \\eng.sc\cf3  \cf4 \\Omacron.sc\cf3  \cf4 \\omacron.sc\cf3  \cf4 \\Obreve.sc\cf3  \cf4 \\obreve.sc\cf3  \
+	\cf4 \\Ohungarumlaut.sc\cf3  \cf4 \\ohungarumlaut.sc\cf3  \cf4 \\OE.sc\cf3  \cf4 \\oe.sc\cf3  \cf4 \\Racute.sc\cf3  \cf4 \\racute.sc\cf3  \
+	\cf4 \\uni0156.sc\cf3  \cf4 \\uni0157.sc\cf3  \cf4 \\Rcaron.sc\cf3  \cf4 \\rcaron.sc\cf3  \cf4 \\Sacute.sc\cf3  \cf4 \\sacute.sc\cf3  \
+	\cf4 \\Scircumflex.sc\cf3  \cf4 \\scircumflex.sc\cf3  \cf4 \\Scedilla.sc\cf3  \cf4 \\scedilla.sc\cf3  \cf4 \\Scaron.sc\cf3  \
+	\cf4 \\scaron.sc\cf3  \cf4 \\uni0162.sc\cf3  \cf4 \\uni0163.sc\cf3  \cf4 \\Tcaron.sc\cf3  \cf4 \\tcaron.sc\cf3  \cf4 \\Tbar.sc\cf3  \cf4 \\tbar.sc\cf3  \
+	\cf4 \\Utilde.sc\cf3  \cf4 \\utilde.sc\cf3  \cf4 \\Umacron.sc\cf3  \cf4 \\umacron.sc\cf3  \cf4 \\Ubreve.sc\cf3  \cf4 \\ubreve.sc\cf3  \cf4 \\Uring.sc\cf3  \
+	\cf4 \\uring.sc\cf3  \cf4 \\Uhungarumlaut.sc\cf3  \cf4 \\uhungarumlaut.sc\cf3  \cf4 \\Uogonek.sc\cf3  \cf4 \\uogonek.sc\cf3  \
+	\cf4 \\Wcircumflex.sc\cf3  \cf4 \\wcircumflex.sc\cf3  \cf4 \\Ycircumflex.sc\cf3  \cf4 \\ycircumflex.sc\cf3  \
+	\cf4 \\Ydieresis.sc\cf3  \cf4 \\Zacute.sc\cf3  \cf4 \\zacute.sc\cf3  \cf4 \\Zdotaccent.sc\cf3  \cf4 \\zdotaccent.sc\cf3  \cf4 \\Zcaron.sc\cf3  \
+	\cf4 \\zcaron.sc\cf3  \cf4 \\longs.sc\cf3  \cf4 \\f_f_b\cf3  \cf4 \\f_f_h\cf3  \cf4 \\f_f_j\cf3  \cf4 \\f_f_k\cf3  \cf4 \\f_f_t\cf3  \cf4 \\longs_longs_b\cf3  \
+	\cf4 \\longs_longs_h\cf3  \cf4 \\longs_longs_j\cf3  \cf4 \\longs_longs_k\cf3  \cf4 \\uniE001\cf3  \cf4 \\uniE002\cf3  \cf4 \\uni043C\cf3  \
+	\cf4 \\uni043D\cf3  \cf4 \\uni0442\cf3  \cf4 \\bullet\cf3  \cf4 \\openbullet\cf3  \cf4 \\v.LAT\cf3  \cf4 \\u.LAT\cf3  \cf4 \\v.LATmedi\cf3  \cf4 \\uni0433\cf3  \cf4 \\uni043F\cf3  \
+	\cf4 \\uni0438\cf3  \cf4 \\uni0439\cf3  \cf4 \\uni0431\cf3  \cf4 \\uni0446\cf3  \cf4 \\uni0448\cf3  \cf4 \\uni0449\cf3  \cf4 \\uni0444\cf3  \cf4 \\uni0436\cf3  \cf4 \\uni0453\cf3  \
+	\cf4 \\uni043B\cf3  \cf4 \\uni0434\cf3  \cf4 \\uni0437\cf3  \cf4 \\uni044F\cf3  \cf4 \\uni045F\cf3  \cf4 \\uni0447\cf3  \cf4 \\uni044C\cf3  \cf4 \\uni044B\cf3  \cf4 \\uni044A\cf3  \
+	\cf4 \\uni0452\cf3  \cf4 \\uni045B\cf3  \cf4 \\uni045A\cf3  \cf4 \\uni0459\cf3  \cf4 \\uni045D\cf3  \cf4 \\uni0454\cf3  \cf4 \\uni044D\cf3  \cf4 \\uni044E\cf3  \cf4 \\uni0470\cf3  \
+	\cf4 \\uni04C1\cf3  \cf4 \\uni04C2\cf3  \cf4 \\uni04DC\cf3  \cf4 \\uni04DD\cf3  \cf4 \\uni04DE\cf3  \cf4 \\uni04DF\cf3  \cf4 \\uni04E2\cf3  \cf4 \\uni04E3\cf3  \cf4 \\uni04E4\cf3  \
+	\cf4 \\uni04E5\cf3  \cf4 \\uni04E8\cf3  \cf4 \\uni04EA\cf3  \cf4 \\uni04EC\cf3  \cf4 \\uni04ED\cf3  \cf4 \\uni04EE\cf3  \cf4 \\uni04F0\cf3  \cf4 \\uni04F2\cf3  \cf4 \\uni04F4\cf3  \
+	\cf4 \\uni04F5\cf3  \cf4 \\uni04F8\cf3  \cf4 \\uni04F9\cf3  \cf4 \\uni04E9\cf3  \cf4 \\uni04EB\cf3  \cf4 \\uni0250\cf3  \cf4 \\uni0254\cf3  \cf4 \\uni0258\cf3  \cf4 \\uni0259\cf3  \
+	\cf4 \\uni025C\cf3  \cf4 \\uni025B\cf3  \cf4 \\uni0275\cf3  \cf4 \\uni1EA2\cf3  \cf4 \\uni1EA8\cf3  \cf4 \\uni1EBA\cf3  \cf4 \\uni1EC2\cf3  \cf4 \\uni1EC8\cf3  \cf4 \\uni1ECE\cf3  \
+	\cf4 \\uni1ED4\cf3  \cf4 \\uni1EDE\cf3  \cf4 \\uni1EE6\cf3  \cf4 \\uni1EE8\cf3  \cf4 \\uni1EEA\cf3  \cf4 \\uni1EEC\cf3  \cf4 \\uni1EEE\cf3  \cf4 \\uni1EF0\cf3  \cf4 \\uni1EF6\cf3  \
+	\cf4 \\uni1F08\cf3  \cf4 \\uniFEFF\cf3  \cf4 \\uni0431.SRB\cf3  \cf4 \\uni0434.alt\cf3  \cf4 \\uni043B.alt\cf3  \cf4 \\uni0459.alt\cf3  \
+	\cf4 \\uni0414.alt\cf3  \cf4 \\uni041B.alt\cf3  \cf4 \\uni0409.alt\cf3  \cf4 \\arrowleft\cf3  \cf4 \\arrowright\cf3  \cf4 \\arrowup\cf3  \
+	\cf4 \\arrowdown\cf3  \cf4 \\arrowboth\cf3  \cf4 \\arrowupdn\cf3  \cf4 \\uni2196\cf3  \cf4 \\uni2197\cf3  \cf4 \\uni2198\cf3  \cf4 \\uni2199\cf3  \cf4 \\uni0490\cf3  \
+	\cf4 \\uni0491\cf3  \cf4 \\uni04AF\cf3  \cf4 \\uni04B0\cf3  \cf4 \\uni04B1\cf3  \cf4 \\dong\cf3  \cf4 \\uni20B9\cf3  \cf4 \\uni01DD\cf3  \cf4 \\uni04D9\cf3  \cf4 \\uni04DB\cf3  \
+	\cf4 \\uni026F\cf3  \cf4 \\uni028C\cf3  \cf4 \\uni028D\cf3  \cf4 \\uni028E\cf3  \cf4 \\uni028F\cf3  \cf4 \\uni0182\cf3  \cf4 \\uni0262\cf3  \cf4 \\uni026A\cf3  \cf4 \\uni0274\cf3  \
+	\cf4 \\uni0280\cf3  \cf4 \\uni0299\cf3  \cf4 \\uni029C\cf3  \cf4 \\uni029F\cf3  \cf4 \\uni0265\cf3  \cf4 \\uni0251\cf3  \cf4 \\uni0252\cf3  \cf4 \\uni0261\cf3  \cf4 \\uni0279\cf3  \
+	\cf4 \\uni0281\cf3  \cf4 \\uni0270\cf3  \cf4 \\uni0271\cf3  \cf4 \\uni0272\cf3  \cf4 \\uni027A\cf3  \cf4 \\uni027C\cf3  \cf4 \\uni027E\cf3  \cf4 \\uni027F\cf3  \cf4 \\uni0475\cf3  \
+	\cf4 \\uni0474\cf3  \cf4 \\uni0472\cf3  \cf4 \\uni0473\cf3  \cf4 \\uni0477\cf3  \cf4 \\uni0463\cf3  \cf4 \\uni0462\cf3  \cf4 \\uni0278\cf3  \cf4 \\uni02A3\cf3  \cf4 \\uni02A6\cf3  \
+	\cf4 \\uni02A9\cf3  \cf4 \\uni02AA\cf3  \cf4 \\uni02AB\cf3  \cf4 \\uni029E\cf3  \cf4 \\uni0239\cf3  \cf4 \\uni019E\cf3  \cf4 \\uni01A9\cf3  \cf4 \\uni0238\cf3  \cf4 \\uni0283\cf3  \
+	\cf4 \\uni02A4\cf3  \cf4 \\uni02A7\cf3  \cf4 \\florin\cf3  \cf4 \\uni0191\cf3  \cf4 \\uni018E\cf3  \cf4 \\uni018B\cf3  \cf4 \\uni0199\cf3  \cf4 \\uni019D\cf3  \cf4 \\uni01A5\cf3  \
+	\cf4 \\uni01A6\cf3  \cf4 \\uni01AD\cf3  \cf4 \\uni01B9\cf3  \cf4 \\uni01C3\cf3  \cf4 \\uni01C2\cf3  \cf4 \\uni0253\cf3  \cf4 \\uni0257\cf3  \cf4 \\uni0260\cf3  \cf4 \\uni0266\cf3  \
+	\cf4 \\uni0267\cf3  \cf4 \\uni026E\cf3  \cf4 \\uni029B\cf3  \cf4 \\uni02A0\cf3  \cf4 \\uni02CD\cf3  \cf4 \\epsilon\cf3  \cf4 \\uni0334\cf3  \cf4 \\uni019F\cf3  \cf4 \\uni0336\cf3  \
+	\cf4 \\uni0335\cf3  \cf4 \\uni0338\cf3  \cf4 \\uni0337\cf3  \cf4 \\uni0211\cf3  \cf4 \\uni0210\cf3  \cf4 \\uni0214\cf3  \cf4 \\uni0215\cf3  \cf4 \\uni020D\cf3  \cf4 \\uni020C\cf3  \
+	\cf4 \\uni0209\cf3  \cf4 \\uni0208\cf3  \cf4 \\uni0205\cf3  \cf4 \\uni0204\cf3  \cf4 \\uni0201\cf3  \cf4 \\uni0200\cf3  \cf4 \\uni025E\cf3  \cf4 \\uni025F\cf3  \cf4 \\uni0268\cf3  \
+	\cf4 \\uni0287\cf3  \cf4 \\uni0285\cf3  \cf4 \\uni029A\cf3  \cf4 \\uni0187\cf3  \cf4 \\uni0193\cf3  \cf4 \\uni018F\cf3  \cf4 \\uni0249\cf3  \cf4 \\uni0189\cf3  \cf4 \\uni04D8\cf3  \
+	\cf4 \\uni04DA\cf3  \cf4 \\uni0476\cf3  \cf4 \\uni1EFA\cf3  \cf4 \\uni0180\cf3  \cf4 \\uni0181\cf3  \cf4 \\uni018A\cf3  \cf4 \\uni018C\cf3  \cf4 \\uni0183\cf3  \cf4 \\uni0195\cf3  \
+	\cf4 \\uni0197\cf3  \cf4 \\uni0198\cf3  \cf4 \\uni019A\cf3  \cf4 \\uni0186\cf3  \cf4 \\uni01A4\cf3  \cf4 \\uni01A8\cf3  \cf4 \\uni01AB\cf3  \cf4 \\uni01AC\cf3  \cf4 \\uni01AE\cf3  \
+	\cf4 \\uni01B3\cf3  \cf4 \\uni01B5\cf3  \cf4 \\uni01B4\cf3  \cf4 \\uni01B6\cf3  \cf4 \\uni01E4\cf3  \cf4 \\uni01E5\cf3  \cf4 \\uni01F6\cf3  \cf4 \\uni0221\cf3  \cf4 \\uni0234\cf3  \
+	\cf4 \\uni0235\cf3  \cf4 \\uni0224\cf3  \cf4 \\uni0240\cf3  \cf4 \\uni023B\cf3  \cf4 \\uni0243\cf3  \cf4 \\uni023A\cf3  \cf4 \\uni023F\cf3  \cf4 \\uni023C\cf3  \cf4 \\uni023D\cf3  \
+	\cf4 \\uni023E\cf3  \cf4 \\uni0244\cf3  \cf4 \\uni0246\cf3  \cf4 \\uni0247\cf3  \cf4 \\uni0248\cf3  \cf4 \\uni024B\cf3  \cf4 \\uni0255\cf3  \cf4 \\uni0256\cf3  \cf4 \\uni025A\cf3  \
+	\cf4 \\uni025D\cf3  \cf4 \\uni026C\cf3  \cf4 \\uni026D\cf3  \cf4 \\uni026B\cf3  \cf4 \\uni0273\cf3  \cf4 \\uni027B\cf3  \cf4 \\uni027D\cf3  \cf4 \\uni0282\cf3  \cf4 \\uni0284\cf3  \
+	\cf4 \\uni0286\cf3  \cf4 \\uni0288\cf3  \cf4 \\uni0289\cf3  \cf4 \\uni0290\cf3  \cf4 \\uni0291\cf3  \cf4 \\uni0293\cf3  \cf4 \\uni029D\cf3  \cf4 \\uni018D\cf3  \cf4 \\uni01B8\cf3  \
+	\cf4 \\uni028B\cf3  \cf4 \\uni01B7\cf3  \cf4 \\uni01EE\cf3  \cf4 \\uni0220\cf3  \cf4 \\uni0297\cf3  \cf4 \\uni02AE\cf3  \cf4 \\uni02AF\cf3  \cf4 \\uni02A8\cf3  \cf4 \\uni02A5\cf3  \
+	\cf4 \\uni0263\cf3  \cf4 \\uni02AC\cf3  \cf4 \\uni0294\cf3  \cf4 \\uni0295\cf3  \cf4 \\uni0296\cf3  \cf4 \\uni02A1\cf3  \cf4 \\uni02A2\cf3  \cf4 \\uni0298\cf3  \cf4 \\uni0276\cf3  \
+	\cf4 \\uni1E9C\cf3  \cf4 \\uni1E9D\cf3  \cf4 \\uni1E9F\cf3  \cf4 \\uni1EFB\cf3  \cf4 \\uni1EFD\cf3  \cf4 \\uni1EFC\cf3  \cf4 \\uni1EFE\cf3  \cf4 \\uni1EFF\cf3  \cf4 \\uni02BE\cf3  \
+	\cf4 \\uni1E9A\cf3  \cf4 \\uni1D00\cf3  \cf4 \\uni1D02\cf3  \cf4 \\uni1D04\cf3  \cf4 \\uni1D05\cf3  \cf4 \\uni1D07\cf3  \cf4 \\uni02BF\cf3  \cf4 \\uni02C8\cf3  \cf4 \\uni02CC\cf3  \
+	\cf4 \\uni02BD\cf3  \cf4 \\uni02D0\cf3  \cf4 \\uni02D1\cf3  \cf4 \\uni02DE\cf3  \cf4 \\uni0361\cf3  \cf4 \\acircumflex\cf3  \cf4 \\uni1EA5\cf3  \cf4 \\uniA726\cf3  \
+	\cf4 \\uniA727\cf3  \cf4 \\uniA729\cf3  \cf4 \\uniA730\cf3  \cf4 \\uniA731\cf3  \cf4 \\uni02AD\cf3  \cf4 \\uni031B\cf3  \cf4 \\uni0321\cf3  \cf4 \\uni0322\cf3  \cf4 \\uni01B1\cf3  \
+	\cf4 \\uni1D4A\cf3  \cf4 \\at.\cf2 01\cf3  \cf4 \\uni204B\cf3  \cf4 \\lessequal\cf3  \cf4 \\greaterequal\cf3  \cf4 \\uni2C65\cf3  \cf4 \\uni2C66\cf3  \cf4 \\uni2C64\cf3  \
+	\cf4 \\uni2C6E\cf3  \cf4 \\uni2C6F\cf3  \cf4 \\uni2C71\cf3  \cf4 \\uni2C72\cf3  \cf4 \\uni2C73\cf3  \cf4 \\uni2C67\cf3  \cf4 \\uni2C68\cf3  \cf4 \\uni2C63\cf3  \cf4 \\uni2C74\cf3  \
+	\cf4 \\uni2C69\cf3  \cf4 \\uni2C6A\cf3  \cf4 \\uni2C6B\cf3  \cf4 \\uni2C6C\cf3  \cf4 \\uni2C75\cf3  \cf4 \\uni0264\cf3  \cf4 \\uni0269\cf3  \cf4 \\uni2C79\cf3  \cf4 \\uni0194\cf3  \
+	\cf4 \\uni01A2\cf3  \cf4 \\uni01A3\cf3  \cf4 \\uni01BF\cf3  \cf4 \\uni024A\cf3  \cf4 \\uni2C6D\cf3  \cf4 \\uni2C70\cf3  \cf4 \\uni0241\cf3  \cf4 \\uni01BE\cf3  \cf4 \\uni028A\cf3  \
+	\cf4 \\uni01BA\cf3  \cf4 \\uni01BB\cf3  \cf4 \\uni01A7\cf3  \cf4 \\uni019C\cf3  \cf4 \\uni0196\cf3  \cf4 \\uni01F7\cf3  \cf4 \\uni0184\cf3  \cf4 \\uni01B2\cf3  \cf4 \\uni021C\cf3  \
+	\cf4 \\uni021D\cf3  \cf4 \\uni019B\cf3  \cf4 \\uni0185\cf3  \cf4 \\uni04E0\cf3  \cf4 \\uni0510\cf3  \cf4 \\uni0511\cf3  \cf4 \\uni051A\cf3  \cf4 \\uni051B\cf3  \cf4 \\uni051C\cf3  \
+	\cf4 \\uni051D\cf3  \cf4 \\uni01BC\cf3  \cf4 \\uni01BD\cf3  \cf4 \\uni0223\cf3  \cf4 \\uni0222\cf3  \cf4 \\uni035D\cf3  \cf4 \\uni2E22\cf3  \cf4 \\uni2E24\cf3  \cf4 \\uni2E23\cf3  \
+	\cf4 \\uni2E25\cf3  \cf4 \\uni2150\cf3  \cf4 \\uniA749\cf3  \cf4 \\J.hist\cf3  \cf4 \\j.hist\cf3  \cf4 \\quoteright.\cf2 01\cf3  \cf4 \\U.LATsc\cf3  \cf4 \\u.LATsc\cf3  \
+	\cf4 \\uni2766\cf3  \cf4 \\uni2767\cf3  \cf4 \\uni2619\cf3  \cf4 \\one.\cf2 01\cf3  \cf4 \\one.taboldstyle01\cf3  \cf4 \\Q.short\cf3  \cf4 \\Q.low\cf3  \cf4 \\uniA742\cf3  \
+	\cf4 \\uniA743\cf3  \cf4 \\uni2103\cf3  \cf4 \\uni2109\cf3  \cf4 \\prescription\cf3  \cf4 \\uni211F\cf3  \cf4 \\uni2123\cf3  \cf4 \\q.longsc\cf3  \cf4 \\alpha\cf3  \
+	\cf4 \\beta\cf3  \cf4 \\gamma\cf3  \cf4 \\delta\cf3  \cf4 \\zeta\cf3  \cf4 \\eta\cf3  \cf4 \\theta\cf3  \cf4 \\iota\cf3  \cf4 \\kappa\cf3  \cf4 \\lambda\cf3  \cf4 \\nu\cf3  \cf4 \\xi\cf3  \cf4 \\omicron\cf3  \cf4 \\pi\cf3  \cf4 \\rho\cf3  \
+	\cf4 \\sigma1\cf3  \cf4 \\sigma\cf3  \cf4 \\tau\cf3  \cf4 \\upsilon\cf3  \cf4 \\phi\cf3  \cf4 \\chi\cf3  \cf4 \\psi\cf3  \cf4 \\omega\cf3  \cf4 \\iotadieresis\cf3  \cf4 \\upsilondieresis\cf3  \
+	\cf4 \\upsilontonos\cf3  \cf4 \\alphatonos\cf3  \cf4 \\epsilontonos\cf3  \cf4 \\etatonos\cf3  \cf4 \\iotatonos\cf3  \
+	\cf4 \\upsilondieresistonos\cf3  \cf4 \\iotadieresistonos\cf3  \cf4 \\Upsilontonos\cf3  \cf4 \\Omegatonos\cf3  \cf4 \\Etatonos\cf3  \
+	\cf4 \\Epsilontonos\cf3  \cf4 \\Alphatonos\cf3  \cf4 \\dieresistonos\cf3  \cf4 \\Iotatonos\cf3  \cf4 \\uni03F0\cf3  \cf4 \\uni03F1\cf3  \cf4 \\uni03F2\cf3  \
+	\cf4 \\uni03F9\cf3  \cf4 \\uni03DB\cf3  \cf4 \\omicrontonos\cf3  \cf4 \\omegatonos\cf3  \cf4 \\uni037A\cf3  \cf4 \\uni1FB3\cf3  \cf4 \\uni1FC3\cf3  \cf4 \\uni1FF3\cf3  \
+	\cf4 \\omega1\cf3  \cf4 \\phi1\cf3  \cf4 \\uni1F00\cf3  \cf4 \\uni1F01\cf3  \cf4 \\uni1F02\cf3  \cf4 \\uni1F03\cf3  \cf4 \\uni1F04\cf3  \cf4 \\uni1F05\cf3  \cf4 \\uni1F06\cf3  \
+	\cf4 \\uni1F07\cf3  \cf4 \\uni1F09\cf3  \cf4 \\uni1F0A\cf3  \cf4 \\uni1F0B\cf3  \cf4 \\uni1F0C\cf3  \cf4 \\uni1F0D\cf3  \cf4 \\uni1F0E\cf3  \cf4 \\uni1F0F\cf3  \cf4 \\uni1F10\cf3  \
+	\cf4 \\uni1F11\cf3  \cf4 \\uni1F12\cf3  \cf4 \\uni1F13\cf3  \cf4 \\uni1F14\cf3  \cf4 \\uni1F15\cf3  \cf4 \\uni1F18\cf3  \cf4 \\uni1F19\cf3  \cf4 \\uni1F1A\cf3  \cf4 \\uni1F1B\cf3  \
+	\cf4 \\uni1F1C\cf3  \cf4 \\uni1F1D\cf3  \cf4 \\uni1F20\cf3  \cf4 \\uni1F21\cf3  \cf4 \\uni1F22\cf3  \cf4 \\uni1F23\cf3  \cf4 \\uni1F24\cf3  \cf4 \\uni1F25\cf3  \cf4 \\uni1F26\cf3  \
+	\cf4 \\uni1F27\cf3  \cf4 \\uni1F28\cf3  \cf4 \\uni1F29\cf3  \cf4 \\uni1F2A\cf3  \cf4 \\uni1F2B\cf3  \cf4 \\uni1F2C\cf3  \cf4 \\uni1F2D\cf3  \cf4 \\uni1F2E\cf3  \cf4 \\uni1F2F\cf3  \
+	\cf4 \\uni1F30\cf3  \cf4 \\uni1F31\cf3  \cf4 \\uni1F32\cf3  \cf4 \\uni1F33\cf3  \cf4 \\uni1F34\cf3  \cf4 \\uni1F35\cf3  \cf4 \\uni1F36\cf3  \cf4 \\uni1F37\cf3  \cf4 \\uni1F38\cf3  \
+	\cf4 \\uni1F39\cf3  \cf4 \\uni1F3A\cf3  \cf4 \\uni1F3B\cf3  \cf4 \\uni1F3C\cf3  \cf4 \\uni1F3D\cf3  \cf4 \\uni1F3E\cf3  \cf4 \\uni1F3F\cf3  \cf4 \\uni1F40\cf3  \cf4 \\uni1F41\cf3  \
+	\cf4 \\uni1F42\cf3  \cf4 \\uni1F43\cf3  \cf4 \\uni1F44\cf3  \cf4 \\uni1F45\cf3  \cf4 \\uni1F48\cf3  \cf4 \\uni1F49\cf3  \cf4 \\uni1F4A\cf3  \cf4 \\uni1F4B\cf3  \cf4 \\uni1F4C\cf3  \
+	\cf4 \\uni1F4D\cf3  \cf4 \\uni1F50\cf3  \cf4 \\uni1F51\cf3  \cf4 \\uni1F52\cf3  \cf4 \\uni1F53\cf3  \cf4 \\uni1F54\cf3  \cf4 \\uni1F55\cf3  \cf4 \\uni1F56\cf3  \cf4 \\uni1F57\cf3  \
+	\cf4 \\uni1F59\cf3  \cf4 \\uni1F5B\cf3  \cf4 \\uni1F5D\cf3  \cf4 \\uni1F5F\cf3  \cf4 \\uni1F60\cf3  \cf4 \\uni1F61\cf3  \cf4 \\uni1F62\cf3  \cf4 \\uni1F63\cf3  \cf4 \\uni1F64\cf3  \
+	\cf4 \\uni1F65\cf3  \cf4 \\uni1F66\cf3  \cf4 \\uni1F67\cf3  \cf4 \\uni1F68\cf3  \cf4 \\uni1F69\cf3  \cf4 \\uni1F6A\cf3  \cf4 \\uni1F6B\cf3  \cf4 \\uni1F6C\cf3  \cf4 \\uni1F6D\cf3  \
+	\cf4 \\uni1F6E\cf3  \cf4 \\uni1F6F\cf3  \cf4 \\uni1F70\cf3  \cf4 \\uni1F71\cf3  \cf4 \\uni1F72\cf3  \cf4 \\uni1F73\cf3  \cf4 \\uni1F74\cf3  \cf4 \\uni1F75\cf3  \cf4 \\uni1F76\cf3  \
+	\cf4 \\uni1F77\cf3  \cf4 \\uni1F78\cf3  \cf4 \\uni1F79\cf3  \cf4 \\uni1F7A\cf3  \cf4 \\uni1F7B\cf3  \cf4 \\uni1F7C\cf3  \cf4 \\uni1F7D\cf3  \cf4 \\uni1F80\cf3  \cf4 \\uni1F81\cf3  \
+	\cf4 \\uni1F82\cf3  \cf4 \\uni1F83\cf3  \cf4 \\uni1F84\cf3  \cf4 \\uni1F85\cf3  \cf4 \\uni1F86\cf3  \cf4 \\uni1F87\cf3  \cf4 \\uni1F88\cf3  \cf4 \\uni1F89\cf3  \cf4 \\uni1F8A\cf3  \
+	\cf4 \\uni1F8B\cf3  \cf4 \\uni1F8C\cf3  \cf4 \\uni1F8D\cf3  \cf4 \\uni1F8E\cf3  \cf4 \\uni1F8F\cf3  \cf4 \\uni1F90\cf3  \cf4 \\uni1F91\cf3  \cf4 \\uni1F92\cf3  \cf4 \\uni1F93\cf3  \
+	\cf4 \\uni1F94\cf3  \cf4 \\uni1F95\cf3  \cf4 \\uni1F96\cf3  \cf4 \\uni1F97\cf3  \cf4 \\uni1F98\cf3  \cf4 \\uni1F99\cf3  \cf4 \\uni1F9A\cf3  \cf4 \\uni1F9B\cf3  \cf4 \\uni1F9C\cf3  \
+	\cf4 \\uni1F9D\cf3  \cf4 \\uni1F9E\cf3  \cf4 \\uni1F9F\cf3  \cf4 \\uni1FA0\cf3  \cf4 \\uni1FA1\cf3  \cf4 \\uni1FA2\cf3  \cf4 \\uni1FA3\cf3  \cf4 \\uni1FA4\cf3  \cf4 \\uni1FA5\cf3  \
+	\cf4 \\uni1FA6\cf3  \cf4 \\uni1FA7\cf3  \cf4 \\uni1FA8\cf3  \cf4 \\uni1FA9\cf3  \cf4 \\uni1FAA\cf3  \cf4 \\uni1FAB\cf3  \cf4 \\uni1FAC\cf3  \cf4 \\uni1FAD\cf3  \cf4 \\uni1FAE\cf3  \
+	\cf4 \\uni1FAF\cf3  \cf4 \\uni1FB0\cf3  \cf4 \\uni1FB1\cf3  \cf4 \\uni1FB2\cf3  \cf4 \\uni1FB4\cf3  \cf4 \\uni1FB6\cf3  \cf4 \\uni1FB7\cf3  \cf4 \\uni1FBC\cf3  \cf4 \\uni1FC4\cf3  \
+	\cf4 \\uni1FC6\cf3  \cf4 \\uni1FC7\cf3  \cf4 \\uni1FCC\cf3  \cf4 \\uni1FD0\cf3  \cf4 \\uni1FD1\cf3  \cf4 \\uni1FD2\cf3  \cf4 \\uni1FD6\cf3  \cf4 \\uni1FD7\cf3  \cf4 \\uni1FE0\cf3  \
+	\cf4 \\uni1FE1\cf3  \cf4 \\uni1FE2\cf3  \cf4 \\uni1FE4\cf3  \cf4 \\uni1FE5\cf3  \cf4 \\uni1FE6\cf3  \cf4 \\uni1FE7\cf3  \cf4 \\uni1FEE\cf3  \cf4 \\uni1FE3\cf3  \cf4 \\uni1FF2\cf3  \
+	\cf4 \\uni1FF4\cf3  \cf4 \\uni1FF6\cf3  \cf4 \\uni1FF7\cf3  \cf4 \\uni1FFC\cf3  \cf4 \\uni1FD3\cf3  \cf4 \\uni2619.\cf2 01\cf3  \cf4 \\uni2767.\cf2 01\cf3  \cf4 \\uni2094\cf3  \
+	\cf4 \\uni02B1\cf3  \cf4 \\uni02B4\cf3  \cf4 \\uni02B5\cf3  \cf4 \\uni02B6\cf3  \cf4 \\uni02E0\cf3  \cf4 \\theta1\cf3  \cf4 \\Omicrontonos\cf3  \cf4 \\uni03DD\cf3  \
+	\cf4 \\uni03D9\cf3  \cf4 \\uni03E1\cf3  \cf4 \\uni03FB\cf3  \cf4 \\paragraph.\cf2 01\cf3  \cf4 \\uni2E3A\cf3  \cf4 \\f_f.short\cf3  \cf4 \\uni2E18\cf3  \cf4 \\uni20A5\cf3  \
+	\cf4 \\uni1E1F.short\cf3  \cf4 \\uni204E\cf3  \cf4 \\uni2027\cf3  \cf4 \\uni1E9D.short\cf3  \cf4 \\longs.short\cf3  \cf4 \\uni02CA\cf3  \
+	\cf4 \\uni1E9B.short\cf3  \cf4 \\uni2E2E\cf3  \cf4 \\uni02CE\cf3  \cf4 \\uni261D\cf3  \cf4 \\uni2E3B\cf3  \cf4 \\uni2139\cf3  \cf4 \\longs_longs.short\cf3  \
+	\cf4 \\uni1E9C.short\cf3  \cf4 \\uni02CB\cf3  \cf4 \\f.short\cf3  \cf4 \\uni02CF\cf3  \cf4 \\infinity\cf3  \cf4 \\guilsinglleft.alt\cf3  \
+	\cf4 \\guilsinglright.alt\cf3  \cf4 \\guillemotleft.alt\cf3  \cf4 \\guillemotright.alt\cf3  \cf4 \\uni27E8\cf3  \cf4 \\uni27E9\cf3  \
+	\cf4 \\uni27EB\cf3  \cf4 \\uni27EA\cf3  \cf4 \\angleleft\cf3  \cf4 \\angleright\cf3  \cf4 \\beta.ipa\cf3  \cf4 \\uni2E28\cf3  \cf4 \\uni2E29\cf3  \cf4 \\uni03D3\cf3  \
+	\cf4 \\uni1FC2\cf3  \cf4 \\space.stack\cf3  \cf4 \\uni1FBE\cf3  \cf4 \\alpha.sc\cf3  \cf4 \\beta.sc\cf3  \cf4 \\gamma.sc\cf3  \cf4 \\delta.sc\cf3  \
+	\cf4 \\epsilon.sc\cf3  \cf4 \\zeta.sc\cf3  \cf4 \\eta.sc\cf3  \cf4 \\theta.sc\cf3  \cf4 \\iota.sc\cf3  \cf4 \\kappa.sc\cf3  \cf4 \\lambda.sc\cf3  \
+	\cf4 \\uni03BC.sc\cf3  \cf4 \\nu.sc\cf3  \cf4 \\xi.sc\cf3  \cf4 \\omicron.sc\cf3  \cf4 \\pi.sc\cf3  \cf4 \\rho.sc\cf3  \cf4 \\sigma.sc\cf3  \cf4 \\tau.sc\cf3  \
+	\cf4 \\upsilon.sc\cf3  \cf4 \\phi.sc\cf3  \cf4 \\chi.sc\cf3  \cf4 \\psi.sc\cf3  \cf4 \\omega.sc\cf3  \cf4 \\Alpha.sc\cf3  \cf4 \\Beta.sc\cf3  \cf4 \\Gamma.sc\cf3  \
+	\cf4 \\uni0394.sc\cf3  \cf4 \\Epsilon.sc\cf3  \cf4 \\Zeta.sc\cf3  \cf4 \\Eta.sc\cf3  \cf4 \\Theta.sc\cf3  \cf4 \\Iota.sc\cf3  \cf4 \\Kappa.sc\cf3  \
+	\cf4 \\Lambda.sc\cf3  \cf4 \\Mu.sc\cf3  \cf4 \\Nu.sc\cf3  \cf4 \\Xi.sc\cf3  \cf4 \\Omicron.sc\cf3  \cf4 \\Pi.sc\cf3  \cf4 \\Rho.sc\cf3  \cf4 \\Sigma.sc\cf3  \cf4 \\Tau.sc\cf3  \
+	\cf4 \\Upsilon.sc\cf3  \cf4 \\Phi.sc\cf3  \cf4 \\Chi.sc\cf3  \cf4 \\Psi.sc\cf3  \cf4 \\uni03A9.sc\cf3  \cf4 \\f_f\cf3  \cf4 \\f_i\cf3  \cf4 \\f_l\cf3  \cf4 \\f_f_i\cf3  \cf4 \\f_f_l\cf3  \
+	\cf4 \\germandbls.sc1\cf3  \cf4 \\sigma1.sc\cf3  \cf4 \\uni0315.sc\cf3  \cf4 \\alphatonos.sc\cf3  \cf4 \\epsilontonos.sc\cf3  \
+	\cf4 \\etatonos.sc\cf3  \cf4 \\iotatonos.sc\cf3  \cf4 \\omicrontonos.sc\cf3  \cf4 \\upsilontonos.sc\cf3  \cf4 \\omegatonos.sc\cf3  \
+	\cf4 \\iotadieresistonos.sc\cf3  \cf4 \\iotadieresis.sc\cf3  \cf4 \\upsilondieresis.sc\cf3  \
+	\cf4 \\upsilondieresistonos.sc\cf3  \cf4 \\Alphatonos.sc\cf3  \cf4 \\Epsilontonos.sc\cf3  \cf4 \\Etatonos.sc\cf3  \
+	\cf4 \\Iotatonos.sc\cf3  \cf4 \\Omicrontonos.sc\cf3  \cf4 \\Upsilontonos.sc\cf3  \cf4 \\Omegatonos.sc\cf3  \
+	\cf4 \\Iotadieresis.sc\cf3  \cf4 \\Upsilondieresis.sc\cf3  \cf4 \\uni2010.cap\cf3  \cf4 \\uni2011.cap\cf3  \
+	\cf4 \\figuredash.cap\cf3  \cf4 \\endash.cap\cf3  \cf4 \\emdash.cap\cf3  \cf4 \\hyphen.cap\cf3  \cf4 \\germandbls.alt1\cf3  \
+	\cf4 \\germandbls.alt2\cf3  \cf4 \\germandbls.sc2\cf3  \cf4 \\uniA751\cf3  \cf4 \\uniA753\cf3  \cf4 \\uniA757\cf3  \cf4 \\uniA759\cf3  \cf4 \\uniA76B\cf3  \
+	\cf4 \\uniE8BF\cf3  \cf4 \\Delta\cf3  \cf4 \\registered.sups\cf3  \cf4 \\a.\cf2 01\cf3  \cf4 \\g.\cf2 01\cf3  \cf4 \\periodcentered.CAT\cf3  \
+	\cf4 \\periodcentered.CATuc\cf3  \cf4 \\periodcentered.CATsc\cf3  \cf4 \\uni1D01\cf3  \cf4 \\uni1D06\cf3  \cf4 \\uni1D0A\cf3  \
+	\cf4 \\uni1D0B\cf3  \cf4 \\uni1D0D\cf3  \cf4 \\uni1D0F\cf3  \cf4 \\uni1D18\cf3  \cf4 \\uni1D1B\cf3  \cf4 \\uni1D1C\cf3  \cf4 \\uni1D20\cf3  \cf4 \\uni1D21\cf3  \cf4 \\uni1D22\cf3  \
+	\cf4 \\uni1D26\cf3  \cf4 \\uni1D27\cf3  \cf4 \\uni1D28\cf3  \cf4 \\uni1D29\cf3  \cf4 \\uni1D2A\cf3  \cf4 \\uni1D0C\cf3  \cf4 \\uni20B2\cf3  \cf4 \\uni2095\cf3  \cf4 \\uni2096\cf3  \
+	\cf4 \\uni2097\cf3  \cf4 \\uni2098\cf3  \cf4 \\uni2099\cf3  \cf4 \\uni209A\cf3  \cf4 \\uni209B\cf3  \cf4 \\uni209C\cf3  \cf4 \\j.dotless\cf3  \cf4 \\i.dotless\cf3  \
+	\cf4 \\h.\cf2 01\cf3  \cf4 \\k.\cf2 01\cf3  \cf4 \\hcircumflex.\cf2 01\cf3  \cf4 \\uni01E9.\cf2 01\cf3  \cf4 \\uni021F.\cf2 01\cf3  \cf4 \\uni1E23.\cf2 01\cf3  \cf4 \\uni1E27.\cf2 01\cf3  \
+	\cf4 \\uni1E31.\cf2 01\cf3  \cf4 \\uni0277\cf3  \cf4 \\uni0245\cf3  \cf4 \\uni0188\cf3  \cf4 \\uni0225\cf3  \cf4 \\uni0236\cf3  \cf4 \\uni0190\cf3  \cf4 \\uni01AA\cf3  \
+	\cf4 \\uni024F\cf3  \cf4 \\uni024D\cf3  \cf4 \\uni024E\cf3  \cf4 \\uni024C\cf3  \cf4 \\uni0242\cf3  \cf4 \\uni03DC\cf3  \cf4 \\uni019F.alt\cf3  \cf4 \\uni0275.alt\cf3  \
+	\cf4 \\f._f\cf3  \cf4 \\f._i\cf3  \cf4 \\f._asc\cf3  \cf4 \\b.f_\cf3  \cf4 \\h.f_\cf3  \cf4 \\k.f_\cf3  \cf4 \\l.f_\cf3  \cf4 \\t.f_\cf3  \cf4 \\thorn.f_\cf3  \cf4 \\longs._longs\cf3  \
+	\cf4 \\longs._asc\cf3  \cf4 \\longs._i\cf3  \cf4 \\theta.ipa\cf3  \cf4 \\lambda.ipa\cf3  \cf4 \\chi.ipa\cf3  \cf4 \\uni210E\cf3  \cf4 \\uni214B\cf3  \
+	\cf4 \\product\cf3  \cf4 \\gradient\cf3  \cf4 \\uni2210\cf3  \cf4 \\uni21A0\cf3  \cf4 \\uni21A1\cf3  \cf4 \\uni219E\cf3  \cf4 \\uni219F\cf3  \cf4 \\arrowdblleft\cf3  \
+	\cf4 \\uni21DA\cf3  \cf4 \\uni2B45\cf3  \cf4 \\uni2B46\cf3  \cf4 \\uni21DB\cf3  \cf4 \\arrowdblup\cf3  \cf4 \\arrowdblright\cf3  \cf4 \\arrowdbldown\cf3  \
+	\cf4 \\uniFFFD\cf3  \cf4 \\A.pc\cf3  \cf4 \\B.pc\cf3  \cf4 \\C.pc\cf3  \cf4 \\D.pc\cf3  \cf4 \\E.pc\cf3  \cf4 \\F.pc\cf3  \cf4 \\G.pc\cf3  \cf4 \\H.pc\cf3  \cf4 \\I.pc\cf3  \cf4 \\J.pc\cf3  \cf4 \\K.pc\cf3  \cf4 \\L.pc\cf3  \
+	\cf4 \\M.pc\cf3  \cf4 \\N.pc\cf3  \cf4 \\O.pc\cf3  \cf4 \\P.pc\cf3  \cf4 \\Q.pc\cf3  \cf4 \\R.pc\cf3  \cf4 \\S.pc\cf3  \cf4 \\T.pc\cf3  \cf4 \\U.pc\cf3  \cf4 \\V.pc\cf3  \cf4 \\W.pc\cf3  \cf4 \\X.pc\cf3  \cf4 \\Y.pc\cf3  \cf4 \\Z.pc\cf3  \
+	\cf4 \\a.pc\cf3  \cf4 \\b.pc\cf3  \cf4 \\c.pc\cf3  \cf4 \\d.pc\cf3  \cf4 \\e.pc\cf3  \cf4 \\f.pc\cf3  \cf4 \\g.pc\cf3  \cf4 \\h.pc\cf3  \cf4 \\i.pc\cf3  \cf4 \\j.pc\cf3  \cf4 \\k.pc\cf3  \cf4 \\l.pc\cf3  \cf4 \\m.pc\cf3  \cf4 \\n.pc\cf3  \
+	\cf4 \\o.pc\cf3  \cf4 \\p.pc\cf3  \cf4 \\q.pc\cf3  \cf4 \\r.pc\cf3  \cf4 \\s.pc\cf3  \cf4 \\t.pc\cf3  \cf4 \\u.pc\cf3  \cf4 \\v.pc\cf3  \cf4 \\w.pc\cf3  \cf4 \\x.pc\cf3  \cf4 \\y.pc\cf3  \cf4 \\z.pc\cf3  \cf4 \\e.xtex1\cf3  \
+	\cf4 \\e.xtex2\cf3  \cf4 \\e.xtex3\cf3  \cf4 \\uni2C60\cf3  \cf4 \\uni2C61\cf3  \cf4 \\uni2C62\cf3  \cf4 \\uni2C76\cf3  \cf4 \\uni2C77\cf3  \cf4 \\uni2C78\cf3  \cf4 \\uni2C7A\cf3  \
+	\cf4 \\uni2C7B\cf3  \cf4 \\uni2C7E\cf3  \cf4 \\uni2C7F\cf3  \cf4 \\uniA728\cf3  \cf4 \\uniA72A\cf3  \cf4 \\uniA72C\cf3  \cf4 \\uniA72D\cf3  \cf4 \\uniA72E\cf3  \cf4 \\uniA72F\cf3  \
+	\cf4 \\uniA72B\cf3  \cf4 \\uniA78E\cf3  \cf4 \\uniA7AA\cf3  \cf4 \\uniA7FB\cf3  \cf4 \\uniA7FC\cf3  \cf4 \\uniA7FD\cf3  \cf4 \\uniA7FE\cf3  \cf4 \\uniA7FF\cf3  \
+	\cf4 \\uni0434.BGR\cf3  \cf4 \\uni0436.BGR\cf3  \cf4 \\uni0438.BGR\cf3  \cf4 \\uni043F.BGR\cf3  \cf4 \\uni0446.BGR\cf3  \cf4 \\uni0448.BGR\cf3  \
+	\cf4 \\uni0449.BGR\cf3  \cf4 \\uni044E.BGR\cf3  \cf4 \\uni0430.alt\cf3  \cf4 \\uniA7B0\cf3  \cf4 \\uniA7B1\cf3  \cf4 \\uni215F\cf3  \cf4 \\uni2132\cf3  \
+	\cf4 \\uni213A\cf3  \cf4 \\uni2129\cf3  \cf4 \\uni2E38\cf3  \cf4 \\uni2121\cf3  \cf4 \\uni213B\cf3  \cf4 \\universal\cf3  \cf4 \\existential\cf3  \cf4 \\uni1D79\cf3  \
+	\cf4 \\uni275F\cf3  \cf4 \\uni2141\cf3  \cf4 \\uni2142\cf3  \cf4 \\uni22C7\cf3  \cf4 \\uni20D3\cf3  \cf4 \\uniAB65\cf3  \cf4 \\uni275C\cf3  \cf4 \\uni275B\cf3  \cf4 \\uni275D\cf3  \
+	\cf4 \\uni275E\cf3  \cf4 \\uni043D.BGR\cf3  \cf4 \\uni043A.BGR\cf3  \cf4 \\uni2144\cf3  \cf4 \\arrowdblboth\cf3  \cf4 \\uni21C5\cf3  \
+	\cf4 \\uni0416.BGR\cf3  \cf4 \\uniAB53\cf3  \cf4 \\uniA780\cf3  \cf4 \\uniA78D\cf3  \cf4 \\uni0447.BGR\cf3  \cf4 \\uni21F5\cf3  \cf4 \\uniAB55\cf3  \cf4 \\uni290A\cf3  \
+	\cf4 \\uni0439.BGR\cf3  \cf4 \\uni0442.BGR\cf3  \cf4 \\uni1D14\cf3  \cf4 \\uniA7FA\cf3  \cf4 \\uni041A.BGR\cf3  \cf4 \\uni0433.BGR\cf3  \
+	\cf4 \\uni0432.BGR\cf3  \cf4 \\uni202F\cf3  \cf4 ];\
+\cf3 \
+\cf4 @GDEF_Ligature\cf3  \cf4 =\cf3  \cf4 [\\oe\cf3  \cf4 \\ae\cf3  \cf4 \\T_h\cf3  \cf4 \\c_t\cf3  \cf4 \\longs_longs_t\cf3  \cf4 \\Q_y\cf3  \cf4 \\longs_t\cf3  \cf4 \\s_t\cf3  \cf4 \\q_uniA76B\cf3  \cf4 ];\cf3 \
+\cf4 @GDEF_Mark\cf3  \cf4 =\cf3  \cf4 [\\uni0302\cf3  \cf4 \\uni030C\cf3  \cf4 \\tildecomb\cf3  \cf4 \\uni0306\cf3  \cf4 \\uni0307\cf3  \cf4 \\uni030A\cf3  \cf4 \\uni030B\cf3  \
+	\cf4 \\uni0312\cf3  \cf4 \\uni0313\cf3  \cf4 \\uni0314\cf3  \cf4 \\uni0328\cf3  \cf4 \\uni0326\cf3  \cf4 \\uni0343\cf3  \cf4 \\uni0308\cf3  \cf4 \\uni030E\cf3  \cf4 \\uni0327\cf3  \
+	\cf4 \\uni0341\cf3  \cf4 \\uni0304\cf3  \cf4 \\gravecomb\cf3  \cf4 \\uni0305\cf3  \cf4 \\uni030D\cf3  \cf4 \\uni0311\cf3  \cf4 \\uni030C.cap\cf3  \
+	\cf4 \\uni0302.cap\cf3  \cf4 \\uni0302.flat\cf3  \cf4 \\uni030C.flat\cf3  \cf4 \\acutecomb.cap\cf3  \cf4 \\gravecomb.cap\cf3  \
+	\cf4 \\uni030C.alt1\cf3  \cf4 \\tildecomb.cap\cf3  \cf4 \\uni0306.cap\cf3  \cf4 \\uni0308.cap\cf3  \cf4 \\uni030B.cap\cf3  \
+	\cf4 \\uni0304.cap\cf3  \cf4 \\uni0311.cap\cf3  \cf4 \\uni030A.cap\cf3  \cf4 \\uni0307.cap\cf3  \cf4 \\uni0327.cap\cf3  \cf4 \\uni0328.cap\cf3  \
+	\cf4 \\hookabovecomb\cf3  \cf4 \\uni0327.sc\cf3  \cf4 \\uni0306.cyr\cf3  \cf4 \\uni0306.cyrcap\cf3  \cf4 \\uni030F\cf3  \
+	\cf4 \\dotbelowcomb\cf3  \cf4 \\uni0331\cf3  \cf4 \\uni032C\cf3  \cf4 \\uni032D\cf3  \cf4 \\uni032E\cf3  \cf4 \\uni032F\cf3  \cf4 \\uni0330\cf3  \cf4 \\uni0324\cf3  \
+	\cf4 \\uni0325\cf3  \cf4 \\uni0316\cf3  \cf4 \\uni0317\cf3  \cf4 \\gravecomb.stack\cf3  \cf4 \\acutecomb.stack\cf3  \cf4 \\uni0302.stack\cf3  \
+	\cf4 \\tildecomb.stack\cf3  \cf4 \\uni0304.stack\cf3  \cf4 \\uni0306.stack\cf3  \cf4 \\uni0307.stack\cf3  \
+	\cf4 \\hookabovecomb.stack\cf3  \cf4 \\uni030A.stack\cf3  \cf4 \\uni0310\cf3  \cf4 \\uni0351\cf3  \cf4 \\uni0357\cf3  \cf4 \\uni0342\cf3  \
+	\cf4 \\uni030C.stack\cf3  \cf4 \\uni0339\cf3  \cf4 \\uni031C\cf3  \cf4 \\uni031F\cf3  \cf4 \\uni031E\cf3  \cf4 \\uni031D\cf3  \cf4 \\uni0319\cf3  \cf4 \\uni0318\cf3  \
+	\cf4 \\uni0320\cf3  \cf4 \\uni0329\cf3  \cf4 \\uni032A\cf3  \cf4 \\uni031A\cf3  \cf4 \\uni0332\cf3  \cf4 \\uni0333\cf3  \cf4 \\uni033A\cf3  \cf4 \\uni033B\cf3  \cf4 \\uni033C\cf3  \
+	\cf4 \\uni032B\cf3  \cf4 \\gravecomb.flat\cf3  \cf4 \\acutecomb.flat\cf3  \cf4 \\uni0316.cap\cf3  \cf4 \\uni0317.cap\cf3  \
+	\cf4 \\dotbelowcomb.cap\cf3  \cf4 \\uni0324.cap\cf3  \cf4 \\uni0325.cap\cf3  \cf4 \\uni032C.cap\cf3  \cf4 \\uni032D.cap\cf3  \
+	\cf4 \\uni032E.cap\cf3  \cf4 \\uni032F.cap\cf3  \cf4 \\uni0330.cap\cf3  \cf4 \\uni0331.cap\cf3  \cf4 \\uni030F.cap\cf3  \cf4 \\uni033E\cf3  \
+	\cf4 \\uni033D\cf3  \cf4 \\uni0353\cf3  \cf4 \\uni0364\cf3  \cf4 \\tonos\cf3  \cf4 \\gravecomb.grk\cf3  \cf4 \\uni0313.grk\cf3  \cf4 \\uni0314.grk\cf3  \
+	\cf4 \\uni0342.alt\cf3  \cf4 \\gravecomb.grkstack\cf3  \cf4 \\uni0308.grkstack\cf3  \cf4 \\uni0313.grkstack\cf3  \
+	\cf4 \\uni0314.grkstack\cf3  \cf4 \\uni0345\cf3  \cf4 \\acutecomb.grk\cf3  \cf4 \\acutecomb\cf3  \cf4 \\acutecomb.capstack\cf3  \
+	\cf4 \\gravecomb.capstack\cf3  \cf4 \\tildecomb.capstack\cf3  \cf4 \\hookabovecomb.cap\cf3  \
+	\cf4 \\acutecomb.grkstack\cf3  \cf4 \\uni0345.cap1\cf3  \cf4 \\uni0345.cap2\cf3  \cf4 \\uni0345.sc1\cf3  \cf4 \\uni0345.cap\cf3  \
+	\cf4 \\gravecomb.sc\cf3  \cf4 \\acutecomb.sc\cf3  \cf4 \\uni0302.sc\cf3  \cf4 \\tildecomb.sc\cf3  \cf4 \\uni0304.sc\cf3  \cf4 \\uni0306.sc\cf3  \
+	\cf4 \\uni0307.sc\cf3  \cf4 \\uni0308.sc\cf3  \cf4 \\hookabovecomb.sc\cf3  \cf4 \\uni030A.sc\cf3  \cf4 \\uni030B.sc\cf3  \cf4 \\uni030C.sc\cf3  \
+	\cf4 \\uni0311.sc\cf3  \cf4 \\uni0312.sc\cf3  \cf4 \\uni0313.sc\cf3  \cf4 \\uni0314.sc\cf3  \cf4 \\uni0342.sc\cf3  \cf4 \\uni0345.sc\cf3  \
+	\cf4 \\gravecomb.stacksc\cf3  \cf4 \\acutecomb.stacksc\cf3  \cf4 \\uni0302.stacksc\cf3  \cf4 \\tildecomb.stacksc\cf3  \
+	\cf4 \\uni0304.stacksc\cf3  \cf4 \\uni0306.stacksc\cf3  \cf4 \\uni0307.stacksc\cf3  \cf4 \\hookabovecomb.stacksc\cf3  \
+	\cf4 \\uni030A.stacksc\cf3  \cf4 \\uni030C.stacksc\cf3  \cf4 \\gravecomb.grksc\cf3  \cf4 \\uni0313.grksc\cf3  \
+	\cf4 \\uni0314.grksc\cf3  \cf4 \\uni0342.altsc\cf3  \cf4 \\gravecomb.grkstacksc\cf3  \cf4 \\uni0308.grkstacksc\cf3  \
+	\cf4 \\uni0313.grkstacksc\cf3  \cf4 \\uni0314.grkstacksc\cf3  \cf4 \\acutecomb.grksc\cf3  \
+	\cf4 \\acutecomb.grkstacksc\cf3  \cf4 \\uni1DD3\cf3  \cf4 \\uni030C.alt\cf3  \cf4 \\uni030C.altcap1\cf3  \cf4 \\uni030C.altcap\cf3  \
+	\cf4 \\uni1DC4\cf3  \cf4 ];\
+\cf3 \
+\cf4 table\cf3  \cf4 GDEF\cf3  \cf4 \{\cf3 \
+  \cf4 GlyphClassDef\cf3  \cf4 @GDEF_Simple,\cf3  \cf4 @GDEF_Ligature,\cf3  \cf4 @GDEF_Mark,\cf3  \cf4 ;\cf3 \
+\
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB01\cf3  \cf2 274\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB02\cf3  \cf2 256\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB03\cf3  \cf2 254\cf3  \cf2 504\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB04\cf3  \cf2 254\cf3  \cf2 510\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB05\cf3  \cf2 279\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\uniFB06\cf3  \cf2 318\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_longs_l\cf3  \cf2 244\cf3  \cf2 507\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_longs_i\cf3  \cf2 255\cf3  \cf2 511\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_i\cf3  \cf2 262\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_l\cf3  \cf2 261\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\T_h\cf3  \cf2 500\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\c_h\cf3  \cf2 390\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\c_k\cf3  \cf2 390\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_s\cf3  \cf2 238\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\c_t\cf3  \cf2 377\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\t_t\cf3  \cf2 308\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\t_z.alt\cf3  \cf2 222\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_h\cf3  \cf2 261\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_k\cf3  \cf2 252\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_b\cf3  \cf2 300\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_t\cf3  \cf2 276\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_j\cf3  \cf2 288\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_j\cf3  \cf2 284\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_b\cf3  \cf2 275\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_h\cf3  \cf2 269\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_k\cf3  \cf2 272\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\Q_y\cf3  \cf2 792\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_f\cf3  \cf2 277\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_i\cf3  \cf2 276\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_l\cf3  \cf2 282\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_f_i\cf3  \cf2 270\cf3  \cf2 532\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\f_f_l\cf3  \cf2 275\cf3  \cf2 528\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\longs_t\cf3  \cf2 294\cf4 ;\cf3 \
+  \cf4 LigatureCaretByPos\cf3  \cf4 \\s_t\cf3  \cf2 333\cf4 ;\cf3 \
+\cf4 \}\cf3  \cf4 GDEF;}

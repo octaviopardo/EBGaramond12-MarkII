@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2766" format="1">
+  <advance width="831"/>
+  <unicode hex="2766"/>
+  <note>
+    uni2766
+  </note>
+  <outline>
+    <component base="uni2619" xScale="0" xyScale="1" yScale="0" yxScale="-1" xOffset="671" yOffset="-199"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-12-19 17:29:49 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

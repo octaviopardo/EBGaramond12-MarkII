@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered.CATuc" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="periodcentered" xOffset="-251" yOffset="159"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-16 06:51:03 +0000</string>
+    </dict>
+  </lib>
+</glyph>
